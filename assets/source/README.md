@@ -1,5 +1,22 @@
 # Original generated artwork source
 
+## The Atelier PNG collection
+
+The eleven `atelier-*.png` masters are original, individually generated 1024 × 1536
+line drawings. Each adjacent Markdown file records the exact generation prompt,
+visual review and any image-generation refinements. Separately generated
+`*-color-guide.png` edits supply palette hints; they are retained unchanged but
+do not define the interactive geometry or final published references.
+
+`new-collection.json` is the expandable manifest. Its lock file protects published
+source and region geometry. The app preserves the fine original PNG ink while
+closed masks underneath support fills, gradients and clipped brushes. Published
+lineart and aligned reference PNGs live in `public/art/`; source masters and
+guides are not bundled in the APK. See [the PNG pipeline](../../docs/PNG_COLLECTION.md)
+for commands, quality checks, boundary repairs and stable save compatibility.
+
+## The original Lunar Botanist collectible
+
 `moon-botanist.png` was generated for Hoshii with the image-generation tool, then
 converted into an editable vector composition. It is not a supplied reference
 image or an existing anime character. The source PNG is retained unchanged for

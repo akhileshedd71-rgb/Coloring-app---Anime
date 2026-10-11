@@ -16,6 +16,57 @@ export interface RenderOptions {
 type PagePaths = { regions: Path2D[]; lines: Path2D[]; shades: Path2D[]; ink:Path2D[]; inverse: Path2D[] };
 const pathCache = new WeakMap<ArtPage, PagePaths>();
 const layers = new WeakMap<HTMLCanvasElement | OffscreenCanvas, { paint: HTMLCanvasElement; lines: HTMLCanvasElement; page?: ArtPage; lineTransform?: string }>();
+// Pages retain their prepared image while in use. This small LRU only keeps spare
+// images warm; evicting it cannot invalidate an open canvas or an export.
+const pageInk = new WeakMap<ArtPage, HTMLImageElement>();
+const inkCache = new Map<string, HTMLImageElement>();
+const pendingInk = new Map<string, Promise<HTMLImageElement>>();
+const MAX_INK_BYTES = 32 * 1024 * 1024;
+
+/** Decode immutable PNG line art before a page becomes editable. Failures are retryable. */
+export async function prepareArtwork(page: ArtPage): Promise<void> {
+  if (!page.rasterInk || pageInk.has(page)) return;
+  const source = page.rasterInk;
+  let image = inkCache.get(source);
+  if (!image) {
+    let pending = pendingInk.get(source);
+    if (!pending) {
+      pending = new Promise<HTMLImageElement>((resolve, reject) => {
+        const element = new Image();
+        const timer = window.setTimeout(() => {
+          element.onload = null; element.onerror = null; element.src = '';
+          reject(new Error('The drawing took too long to load. Please try again.'));
+        }, 30_000);
+        element.onload = () => {
+          window.clearTimeout(timer); element.onload = null; element.onerror = null;
+          if (!element.naturalWidth || !element.naturalHeight) reject(new Error('The drawing image is empty. Please try again.'));
+          else if (typeof element.decode === 'function') element.decode().then(() => resolve(element), () => reject(new Error('The drawing image could not be decoded. Please try again.')));
+          else resolve(element);
+        };
+        element.onerror = () => {
+          window.clearTimeout(timer); element.onload = null; element.onerror = null;
+          reject(new Error('The drawing line art could not load. Please try again.'));
+        };
+        element.decoding = 'async'; element.src = source;
+      });
+      pendingInk.set(source, pending);
+    }
+    try { image = await pending; }
+    finally { if (pendingInk.get(source) === pending) pendingInk.delete(source); }
+  }
+  if (image.naturalWidth !== page.width || image.naturalHeight !== page.height) {
+    inkCache.delete(source);
+    throw new Error('The drawing image and coloring regions do not align. Please update the artwork library.');
+  }
+  // Touch the LRU and budget decoded RGBA size, rather than compressed PNG size.
+  inkCache.delete(source); inkCache.set(source, image); pageInk.set(page, image);
+  let bytes = [...inkCache.values()].reduce((total, item) => total + item.naturalWidth * item.naturalHeight * 4, 0);
+  while (inkCache.size > 3 || bytes > MAX_INK_BYTES) {
+    const oldest = inkCache.keys().next().value!;
+    const removed = inkCache.get(oldest)!;
+    bytes -= removed.naturalWidth * removed.naturalHeight * 4; inkCache.delete(oldest);
+  }
+}
 
 export function fitTransform(width: number, height: number, artWidth: number, artHeight: number, margin = 18): ViewTransform {
   const scale = Math.max(0.01, Math.min(Math.max(1, width - margin * 2) / artWidth, Math.max(1, height - margin * 2) / artHeight));
@@ -44,7 +95,7 @@ function pathsFor(page: ArtPage): PagePaths {
       lines: page.lines.map(line => new Path2D(line.d)),
       shades: page.shades.map(shade => new Path2D(shade.d)),
       ink: (page.ink ?? []).map(shape => new Path2D(shape.d)),
-      inverse: regions.map(path => {
+      inverse: page.rasterInk ? [] : regions.map(path => {
         const inverse = new Path2D();
         inverse.rect(-1, -1, page.width + 2, page.height + 2);
         inverse.addPath(path);
@@ -64,7 +115,7 @@ export function hitTestRegion(ctx: CanvasRenderingContext2D, page: ArtPage, x: n
   ctx.setTransform(1, 0, 0, 1, 0, 0);
   let hit: ArtRegion | null = null;
   for (let index = page.regions.length - 1; index >= 0; index--) {
-    if (ctx.isPointInPath(paths.regions[index], x, y)) { hit = page.regions[index]; break; }
+    if (ctx.isPointInPath(paths.regions[index], x, y, page.regions[index].fillRule ?? 'nonzero')) { hit = page.regions[index]; break; }
   }
   ctx.restore();
   return hit;
@@ -109,8 +160,11 @@ function fillStyle(ctx: CanvasRenderingContext2D, page: ArtPage, region: ArtRegi
 }
 
 /** Clip to the visible area, excluding every shape painted above this one. */
-function clipRegion(ctx: CanvasRenderingContext2D, index: number, paths: PagePaths) {
-  ctx.clip(paths.regions[index]);
+function clipRegion(ctx: CanvasRenderingContext2D, page: ArtPage, index: number, paths: PagePaths) {
+  ctx.clip(paths.regions[index], page.regions[index].fillRule ?? 'nonzero');
+  // Raster-derived masks partition the page, including holes. They never
+  // overlap, so one clip is sufficient even for very detailed drawings.
+  if (page.rasterInk) return;
   for (let above = index + 1; above < paths.regions.length; above++) ctx.clip(paths.inverse[above], 'evenodd');
 }
 
@@ -210,6 +264,8 @@ function drawStroke(ctx: CanvasRenderingContext2D, stroke: BrushStroke) {
 
 /** Draw with the caller's transform. Buffers are viewport-sized, even at deep zoom. */
 export function renderArtwork(ctx: CanvasRenderingContext2D, page: ArtPage, state: ColoringState, options: RenderOptions = {}): void {
+  const rasterInk = page.rasterInk ? pageInk.get(page) : undefined;
+  if (page.rasterInk && !rasterInk) throw new Error('Prepare the drawing image before rendering.');
   const paths = pathsFor(page);
   const { paint, lineCanvas, strokeContext, lineContext, buildLines } = getLayers(ctx, page);
   ctx.save();
@@ -222,16 +278,16 @@ export function renderArtwork(ctx: CanvasRenderingContext2D, page: ArtPage, stat
     const fill = options.lineart ? undefined : reference ? { color: region.color } : state.fills[region.id];
     const reveal = options.revealFill?.regionId === region.id ? options.revealFill : undefined;
     ctx.fillStyle = fillStyle(ctx, page, region, reveal ? reveal.previous : fill);
-    ctx.fill(paths.regions[index]);
+    ctx.fill(paths.regions[index], region.fillRule ?? 'nonzero');
     if (reveal) {
-      ctx.save(); ctx.clip(paths.regions[index]);
+      ctx.save(); ctx.clip(paths.regions[index], region.fillRule ?? 'nonzero');
       ctx.beginPath(); ctx.arc(reveal.x, reveal.y, Math.hypot(page.width, page.height) * Math.max(0, Math.min(1, reveal.progress)), 0, Math.PI * 2); ctx.clip();
-      ctx.fillStyle = fillStyle(ctx, page, region, fill); ctx.fill(paths.regions[index]); ctx.restore();
+      ctx.fillStyle = fillStyle(ctx, page, region, fill); ctx.fill(paths.regions[index], region.fillRule ?? 'nonzero'); ctx.restore();
     }
-    if (buildLines) {
+    if (buildLines && !rasterInk) {
       // Erase earlier outlines underneath a later shape, then add this outline.
       // The finished line layer is reused while filling or painting at this view.
-      lineContext.globalCompositeOperation = 'destination-out'; lineContext.fill(paths.regions[index]);
+      lineContext.globalCompositeOperation = 'destination-out'; lineContext.fill(paths.regions[index], region.fillRule ?? 'nonzero');
       lineContext.globalCompositeOperation = 'source-over';
       lineContext.strokeStyle = '#293044'; lineContext.lineWidth = region.strokeWidth ?? 2.2;
       lineContext.lineJoin = 'round'; lineContext.lineCap = 'round'; if(region.strokeWidth !== 0) lineContext.stroke(paths.regions[index]);
@@ -244,7 +300,7 @@ export function renderArtwork(ctx: CanvasRenderingContext2D, page: ArtPage, stat
       if (stroke.regionId) {
         const index = page.regions.findIndex(region => region.id === stroke.regionId);
         if (index < 0) { strokeContext.restore(); continue; }
-        clipRegion(strokeContext, index, paths);
+        clipRegion(strokeContext, page, index, paths);
       }
       drawStroke(strokeContext, stroke); strokeContext.restore();
     }
@@ -268,13 +324,20 @@ export function renderArtwork(ctx: CanvasRenderingContext2D, page: ArtPage, stat
       lineContext.fillStyle = page.ink![index].color;
       lineContext.fill(paths.ink[index]);
     }
+    if (rasterInk) {
+      lineContext.imageSmoothingEnabled = true; lineContext.imageSmoothingQuality = 'high';
+      lineContext.drawImage(rasterInk, 0, 0, page.width, page.height);
+    }
   }
   ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.drawImage(lineCanvas, 0, 0); ctx.restore();
   if (options.numbers && !options.reference && !options.lineart) {
     ctx.save(); ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
     const transform = ctx.getTransform();
     const pixelRatio = ctx.canvas.width / (ctx.canvas.clientWidth || ctx.canvas.width);
-    const labelSize = Math.min(24, Math.max(11, 10 / (Math.hypot(transform.a, transform.b) / pixelRatio)));
+    // Keep numbers readable without letting their badges grow over neighboring
+    // tiny regions at deep zoom. Cap artwork units only when zoomed out.
+    const cssScale = Math.hypot(transform.a, transform.b) / pixelRatio;
+    const labelSize = Math.min(24, 12 / Math.max(0.01, cssScale));
     ctx.font = `600 ${labelSize}px sans-serif`;
     for (const region of page.regions) {
       if (state.fills[region.id]) continue;
@@ -295,6 +358,7 @@ export function renderArtwork(ctx: CanvasRenderingContext2D, page: ArtPage, stat
 }
 
 export async function exportArtwork(page: ArtPage, state: ColoringState, options: { format: 'png' | 'jpeg'; transparent?: boolean; scale?: number }): Promise<Blob> {
+  await prepareArtwork(page);
   const canvas = document.createElement('canvas');
   const requestedScale = options.scale ?? 3;
   // Approximately 47 MB per RGBA buffer at the default 3000×3900 size.

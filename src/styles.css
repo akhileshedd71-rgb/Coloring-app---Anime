@@ -10,3 +10,6 @@
 
 .studio-header .mobile-settings{display:none}
 @media(max-width:640px){.topbar{flex-wrap:nowrap}.topbar-right{min-width:0}.topbar .search-input{width:0;min-width:0;flex:1;max-width:none}.studio-header .mobile-settings{display:inline-flex}.tool-rail>.icon-button[aria-label="Advanced tool settings"],.tool-rail>.rail-divider{display:none}}
+
+/* Keep tall PNG illustrations fully visible in collection previews. */
+.art-image.atelier-art{aspect-ratio:2/3}.art-image.atelier-art img{object-fit:contain;background:#fff}.hero-print img{object-fit:contain;background:#fff}

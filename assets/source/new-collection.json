@@ -1,0 +1,1538 @@
+{
+  "version": 1,
+  "collection": {
+    "id": "atelier",
+    "title": "The Atelier Collection",
+    "description": "Eleven individually generated original PNG coloring illustrations."
+  },
+  "pages": [
+    {
+      "id": "atelier-cloud-ribbon",
+      "title": "Cloud Ribbon",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "Flowing cloud-blue locks, tiny flowers and a soft knit sweater frame a gentle anime portrait.",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "female",
+        "portrait",
+        "blue hair",
+        "flowers",
+        "clouds"
+      ],
+      "source": "assets/source/atelier-cloud-ribbon.png",
+      "colorGuide": "assets/source/atelier-cloud-ribbon-color-guide.png",
+      "palette": [
+        "#EEF3FC",
+        "#C5D7EF",
+        "#9EBCE0",
+        "#7C94BB",
+        "#E3DCEC",
+        "#B8ABC9",
+        "#B5C7BA",
+        "#75BEC9",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#F5D5BE",
+        "#E9B6A4",
+        "#F4AEC1",
+        "#D1879E",
+        "#D4C9E9",
+        "#A799C2",
+        "#A9C6DD",
+        "#669EA7",
+        "#A9C9AD",
+        "#D8C88E",
+        "#B48262",
+        "#78573F",
+        "#403646"
+      ],
+      "seeds": [
+        {
+          "x": 0.44,
+          "y": 0.39,
+          "color": "#F5D5BE",
+          "name": "Peach face"
+        },
+        {
+          "x": 0.59,
+          "y": 0.52,
+          "color": "#F5D5BE",
+          "name": "Peach neck"
+        },
+        {
+          "x": 0.36,
+          "y": 0.2,
+          "color": "#C5D7EF",
+          "name": "Cloud blue hair"
+        },
+        {
+          "x": 0.7,
+          "y": 0.86,
+          "color": "#E3DCEC",
+          "name": "Lavender sweater"
+        },
+        {
+          "x": 0.03,
+          "y": 0.05,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        },
+        {
+          "x": 0.43,
+          "y": 0.234,
+          "color": "#F5D5BE",
+          "name": "Peach forehead"
+        },
+        {
+          "x": 0.269,
+          "y": 0.524,
+          "color": "#F5D5BE",
+          "name": "Peach left shoulder"
+        },
+        {
+          "x": 0.85,
+          "y": 0.645,
+          "color": "#F5D5BE",
+          "name": "Peach right shoulder"
+        },
+        {
+          "x": 0.539,
+          "y": 0.311,
+          "color": "#75BEC9",
+          "name": "Turquoise iris"
+        },
+        {
+          "x": 0.391,
+          "y": 0.355,
+          "color": "#75BEC9",
+          "name": "Turquoise left iris"
+        },
+        {
+          "x": 0.47,
+          "y": 0.275,
+          "color": "#F5D5BE",
+          "name": "Forehead skin strip"
+        },
+        {
+          "x": 0.302,
+          "y": 0.584,
+          "color": "#F5D5BE",
+          "name": "Exposed shoulder"
+        },
+        {
+          "x": 0.633,
+          "y": 0.35,
+          "color": "#F5D5BE",
+          "name": "Ear"
+        },
+        {
+          "x": 0.352,
+          "y": 0.349,
+          "color": "#FFFFFF",
+          "name": "White sclera separate from skin"
+        },
+        {
+          "x": 0.508,
+          "y": 0.306,
+          "color": "#FFFFFF",
+          "name": "Right white sclera separate from skin"
+        }
+      ],
+      "repairs": [
+        {
+          "name": "Close faded lower iris highlight boundary",
+          "points": [
+            [
+              0.369501,
+              0.349186
+            ],
+            [
+              0.372434,
+              0.347883
+            ],
+            [
+              0.376344,
+              0.347883
+            ],
+            [
+              0.379277,
+              0.349837
+            ],
+            [
+              0.380254,
+              0.351792
+            ],
+            [
+              0.378299,
+              0.353746
+            ],
+            [
+              0.374389,
+              0.355049
+            ]
+          ],
+          "width": 1
+        },
+        {
+          "name": "Close faint lower eyelid to preserve white sclera",
+          "points": [
+            [
+              0.344086,
+              0.355049
+            ],
+            [
+              0.349951,
+              0.358306
+            ],
+            [
+              0.355816,
+              0.360912
+            ],
+            [
+              0.360704,
+              0.362866
+            ],
+            [
+              0.368524,
+              0.363518
+            ]
+          ],
+          "width": 1
+        },
+        {
+          "name": "Close faint right lower eyelid for white sclera",
+          "points": [
+            [
+              0.480938,
+              0.309446
+            ],
+            [
+              0.485826,
+              0.314658
+            ],
+            [
+              0.492669,
+              0.319218
+            ],
+            [
+              0.501466,
+              0.323127
+            ],
+            [
+              0.509286,
+              0.325081
+            ],
+            [
+              0.519062,
+              0.323779
+            ]
+          ],
+          "width": 1
+        }
+      ]
+    },
+    {
+      "id": "atelier-starlight-reader",
+      "title": "The Starlight Reader",
+      "category": "Anime portraits",
+      "difficulty": "Hard",
+      "description": "Round glasses, a carefully braided bun and botanical book details make a quiet portrait for patient colorists.",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "female",
+        "glasses",
+        "braided bun",
+        "books",
+        "cozy"
+      ],
+      "source": "assets/source/atelier-starlight-reader.png",
+      "colorGuide": "assets/source/atelier-starlight-reader-color-guide.png",
+      "palette": [
+        "#DAB48A",
+        "#B4845D",
+        "#80533D",
+        "#543B36",
+        "#E8D7BA",
+        "#B4BEA0",
+        "#AE839A",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#F5D5BE",
+        "#E9B6A4",
+        "#F4AEC1",
+        "#D1879E",
+        "#D4C9E9",
+        "#A799C2",
+        "#A9C6DD",
+        "#669EA7",
+        "#A9C9AD",
+        "#D8C88E",
+        "#B48262",
+        "#78573F",
+        "#403646",
+        "#263D60",
+        "#7E8D62",
+        "#B6706C"
+      ],
+      "seeds": [
+        {
+          "x": 0.51,
+          "y": 0.44,
+          "color": "#F5D5BE",
+          "name": "Peach face"
+        },
+        {
+          "x": 0.4,
+          "y": 0.5,
+          "color": "#F5D5BE",
+          "name": "Supporting hand"
+        },
+        {
+          "x": 0.4,
+          "y": 0.12,
+          "color": "#80533D",
+          "name": "Chestnut bun"
+        },
+        {
+          "x": 0.38,
+          "y": 0.6,
+          "color": "#FFF7E9",
+          "name": "Cream cuff"
+        },
+        {
+          "x": 0.83,
+          "y": 0.23,
+          "color": "#263D60",
+          "name": "Night window"
+        },
+        {
+          "x": 0.479,
+          "y": 0.29,
+          "color": "#F5D5BE",
+          "name": "Peach forehead \u2014 repaired boundary probe"
+        },
+        {
+          "x": 0.527,
+          "y": 0.209,
+          "color": "#80533D",
+          "name": "Chestnut hair \u2014 repaired boundary probe"
+        }
+      ],
+      "repairs": [
+        {
+          "name": "Close faded root tips at forehead hairline",
+          "points": [
+            [
+              0.414467,
+              0.242997
+            ],
+            [
+              0.422287,
+              0.240391
+            ],
+            [
+              0.431085,
+              0.238436
+            ],
+            [
+              0.439883,
+              0.236482
+            ],
+            [
+              0.446725,
+              0.239088
+            ],
+            [
+              0.453568,
+              0.236482
+            ],
+            [
+              0.462366,
+              0.235179
+            ],
+            [
+              0.471163,
+              0.235831
+            ],
+            [
+              0.480938,
+              0.237785
+            ]
+          ],
+          "width": 2
+        }
+      ]
+    },
+    {
+      "id": "atelier-city-dreamer",
+      "title": "City Daydream",
+      "category": "Streetwear",
+      "difficulty": "Medium",
+      "description": "A tousled-haired anime dreamer in headphones and a bomber jacket beneath a city full of stars.",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "male",
+        "headphones",
+        "city",
+        "jacket",
+        "stars"
+      ],
+      "source": "assets/source/atelier-city-dreamer.png",
+      "colorGuide": "assets/source/atelier-city-dreamer-color-guide.png",
+      "palette": [
+        "#3C434F",
+        "#737D8E",
+        "#A5AFBE",
+        "#558F96",
+        "#305E68",
+        "#DDA866",
+        "#C89B7C",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#F5D5BE",
+        "#E9B6A4",
+        "#F4AEC1",
+        "#D1879E",
+        "#D4C9E9",
+        "#A799C2",
+        "#A9C6DD",
+        "#669EA7",
+        "#A9C9AD",
+        "#D8C88E",
+        "#B48262",
+        "#78573F",
+        "#403646",
+        "#365C93"
+      ],
+      "seeds": [
+        {
+          "x": 0.455,
+          "y": 0.245,
+          "color": "#C89B7C",
+          "name": "Tan cheek"
+        },
+        {
+          "x": 0.405,
+          "y": 0.109,
+          "color": "#3C434F",
+          "name": "Graphite hair"
+        },
+        {
+          "x": 0.8,
+          "y": 0.69,
+          "color": "#305E68",
+          "name": "Teal sleeve"
+        },
+        {
+          "x": 0.45,
+          "y": 0.63,
+          "color": "#FFF7E9",
+          "name": "Ivory shirt"
+        },
+        {
+          "x": 0.93,
+          "y": 0.034,
+          "color": "#365C93",
+          "name": "Blue sky"
+        },
+        {
+          "x": 0.44,
+          "y": 0.149,
+          "color": "#C89B7C",
+          "name": "Tan forehead"
+        },
+        {
+          "x": 0.549,
+          "y": 0.321,
+          "color": "#C89B7C",
+          "name": "Tan neck"
+        },
+        {
+          "x": 0.49,
+          "y": 0.18,
+          "color": "#DDA866",
+          "name": "Amber right iris"
+        },
+        {
+          "x": 0.468,
+          "y": 0.182,
+          "color": "#FFFFFF",
+          "name": "White right sclera"
+        },
+        {
+          "x": 0.403,
+          "y": 0.204,
+          "color": "#FFFFFF",
+          "name": "White outer left sclera"
+        },
+        {
+          "x": 0.376,
+          "y": 0.212,
+          "color": "#FFFFFF",
+          "name": "White inner left sclera"
+        },
+        {
+          "x": 0.385,
+          "y": 0.211,
+          "color": "#DDA866",
+          "name": "Amber left iris"
+        }
+      ],
+      "repairs": [
+        {
+          "name": "Close faint right iris highlight arc",
+          "points": [
+            [
+              0.473118,
+              0.180456
+            ],
+            [
+              0.475073,
+              0.179153
+            ],
+            [
+              0.477028,
+              0.179805
+            ],
+            [
+              0.478983,
+              0.181759
+            ],
+            [
+              0.478006,
+              0.183062
+            ],
+            [
+              0.476051,
+              0.183713
+            ]
+          ],
+          "width": 1
+        },
+        {
+          "name": "Close inner lower eyelid for white sclera",
+          "points": [
+            [
+              0.454545,
+              0.186971
+            ],
+            [
+              0.459433,
+              0.188274
+            ],
+            [
+              0.466276,
+              0.186971
+            ]
+          ],
+          "width": 1
+        },
+        {
+          "name": "Close tiny outer left sclera gap",
+          "points": [
+            [
+              0.407625,
+              0.202606
+            ],
+            [
+              0.408602,
+              0.203909
+            ],
+            [
+              0.407625,
+              0.205212
+            ],
+            [
+              0.404692,
+              0.206515
+            ]
+          ],
+          "width": 1
+        }
+      ]
+    },
+    {
+      "id": "atelier-boba-bunny",
+      "title": "Strawberry Boba Bunny",
+      "category": "Kawaii",
+      "difficulty": "Easy",
+      "description": "A round-eared little friend hugs strawberry bubble tea beneath two clouds. Bold, generous shapes for a gentle start.",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "bunny",
+        "boba",
+        "strawberry",
+        "beginner",
+        "large shapes"
+      ],
+      "source": "assets/source/atelier-boba-bunny.png",
+      "colorGuide": "assets/source/atelier-boba-bunny-color-guide.png",
+      "palette": [
+        "#FFF2DB",
+        "#F1AEC5",
+        "#F27089",
+        "#A9D6BC",
+        "#C2B2E4",
+        "#B98362",
+        "#D4EEF4",
+        "#FFFDF8",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#F5D5BE",
+        "#E9B6A4",
+        "#F4AEC1",
+        "#D1879E",
+        "#D4C9E9",
+        "#A799C2",
+        "#A9C6DD",
+        "#669EA7",
+        "#A9C9AD",
+        "#D8C88E",
+        "#B48262",
+        "#78573F",
+        "#403646"
+      ],
+      "seeds": [
+        {
+          "x": 0.5,
+          "y": 0.4,
+          "color": "#FFF2DB",
+          "name": "Cream bunny"
+        },
+        {
+          "x": 0.39,
+          "y": 0.8,
+          "color": "#F1AEC5",
+          "name": "Strawberry milk tea"
+        },
+        {
+          "x": 0.61,
+          "y": 0.54,
+          "color": "#C2B2E4",
+          "name": "Lavender straw"
+        },
+        {
+          "x": 0.03,
+          "y": 0.05,
+          "color": "#FFFDF8",
+          "name": "Paper background"
+        }
+      ]
+    },
+    {
+      "id": "atelier-moon-cat",
+      "title": "Moonlight Catnap",
+      "category": "Kawaii",
+      "difficulty": "Easy",
+      "description": "A sleepy cat curls into a crescent moon, surrounded by stars and soft clouds.",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "cat",
+        "moon",
+        "stars",
+        "beginner",
+        "large shapes"
+      ],
+      "source": "assets/source/atelier-moon-cat.png",
+      "colorGuide": "assets/source/atelier-moon-cat-color-guide.png",
+      "palette": [
+        "#F4D78E",
+        "#FFF4DF",
+        "#B8A6DE",
+        "#E9B5C9",
+        "#B7D9EA",
+        "#F7BB8E",
+        "#E6E4F5",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#F5D5BE",
+        "#E9B6A4",
+        "#F4AEC1",
+        "#D1879E",
+        "#D4C9E9",
+        "#A799C2",
+        "#A9C6DD",
+        "#669EA7",
+        "#A9C9AD",
+        "#D8C88E",
+        "#B48262",
+        "#78573F",
+        "#403646",
+        "#A596CE"
+      ],
+      "seeds": [
+        {
+          "x": 0.146,
+          "y": 0.423,
+          "color": "#F4D78E",
+          "name": "Golden moon"
+        },
+        {
+          "x": 0.43,
+          "y": 0.596,
+          "color": "#B8A6DE",
+          "name": "Lavender cat face"
+        },
+        {
+          "x": 0.586,
+          "y": 0.768,
+          "color": "#A596CE",
+          "name": "Lavender tail"
+        },
+        {
+          "x": 0.835,
+          "y": 0.459,
+          "color": "#B7D9EA",
+          "name": "Blue cloud"
+        },
+        {
+          "x": 0.83,
+          "y": 0.173,
+          "color": "#F7BB8E",
+          "name": "Peach star"
+        }
+      ]
+    },
+    {
+      "id": "atelier-melody-chibi",
+      "title": "Melody Lane",
+      "category": "Chibi",
+      "difficulty": "Medium",
+      "description": "Heart headphones, braids, a strawberry charm and a plaid skirt bring this cheerful music lover to life.",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "female",
+        "chibi",
+        "headphones",
+        "music",
+        "hoodie"
+      ],
+      "source": "assets/source/atelier-melody-chibi.png",
+      "colorGuide": "assets/source/atelier-melody-chibi-color-guide.png",
+      "palette": [
+        "#F2BED3",
+        "#D893B7",
+        "#B7A6DC",
+        "#DCD5EE",
+        "#A9CADF",
+        "#96CDBB",
+        "#F4DCA3",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#F5D5BE",
+        "#E9B6A4",
+        "#F4AEC1",
+        "#D1879E",
+        "#D4C9E9",
+        "#A799C2",
+        "#A9C6DD",
+        "#669EA7",
+        "#A9C9AD",
+        "#D8C88E",
+        "#B48262",
+        "#78573F",
+        "#403646",
+        "#ECB1C6",
+        "#BDB2E5",
+        "#F7D3BF",
+        "#CEE6F3",
+        "#B7DCD2",
+        "#5BAEAD",
+        "#EB7892"
+      ],
+      "seeds": [
+        {
+          "x": 0.488,
+          "y": 0.08,
+          "color": "#ECB1C6",
+          "name": "Strawberry hair"
+        },
+        {
+          "x": 0.449,
+          "y": 0.418,
+          "color": "#BDB2E5",
+          "name": "Lavender hoodie"
+        },
+        {
+          "x": 0.518,
+          "y": 0.214,
+          "color": "#F7D3BF",
+          "name": "Peach face"
+        },
+        {
+          "x": 0.124,
+          "y": 0.39,
+          "color": "#CEE6F3",
+          "name": "Shop window"
+        },
+        {
+          "x": 0.785,
+          "y": 0.467,
+          "color": "#B7DCD2",
+          "name": "Mint braid bow"
+        },
+        {
+          "x": 0.442,
+          "y": 0.221,
+          "color": "#5BAEAD",
+          "name": "Teal iris right"
+        },
+        {
+          "x": 0.426,
+          "y": 0.22,
+          "color": "#5BAEAD",
+          "name": "Teal iris left"
+        },
+        {
+          "x": 0.531,
+          "y": 0.249,
+          "color": "#EB7892",
+          "name": "Happy mouth"
+        },
+        {
+          "x": 0.284,
+          "y": 0.224,
+          "color": "#B7DCD2",
+          "name": "Mint headphone heart"
+        },
+        {
+          "x": 0.71,
+          "y": 0.167,
+          "color": "#B7DCD2",
+          "name": "Mint headphone heart right"
+        },
+        {
+          "x": 0.279,
+          "y": 0.479,
+          "color": "#B7DCD2",
+          "name": "Mint bow left"
+        },
+        {
+          "x": 0.813,
+          "y": 0.464,
+          "color": "#B7DCD2",
+          "name": "Mint bow right"
+        },
+        {
+          "x": 0.288,
+          "y": 0.379,
+          "color": "#ECB1C6",
+          "name": "Pink left braid"
+        },
+        {
+          "x": 0.783,
+          "y": 0.442,
+          "color": "#ECB1C6",
+          "name": "Pink right braid"
+        }
+      ],
+      "regionColors": {
+        "r-31ccb4abc07e7b": "#5BAEAD",
+        "r-c2ca706f432c26": "#FFFFFF",
+        "r-5b78928e1314b5": "#5BAEAD"
+      },
+      "repairs": [
+        {
+          "name": "Close faint lower smile contour",
+          "points": [
+            [
+              0.5278592375366569,
+              0.25928338762214986
+            ],
+            [
+              0.5347018572825024,
+              0.25993485342019546
+            ],
+            [
+              0.541544477028348,
+              0.25667752442996744
+            ]
+          ],
+          "width": 2
+        }
+      ]
+    },
+    {
+      "id": "atelier-lantern-promise",
+      "title": "Lantern Promise",
+      "category": "Festivals",
+      "difficulty": "Hard",
+      "description": "Two companions share an evening among lanterns, fireworks and finely patterned festival yukatas.",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "duo",
+        "male",
+        "female",
+        "yukata",
+        "lanterns",
+        "romance"
+      ],
+      "source": "assets/source/atelier-lantern-promise.png",
+      "colorGuide": "assets/source/atelier-lantern-promise-color-guide.png",
+      "palette": [
+        "#292947",
+        "#A596D0",
+        "#EE8B7F",
+        "#E6BC61",
+        "#E7B8C8",
+        "#91AA9B",
+        "#F2C8B1",
+        "#514041",
+        "#CBD4E2",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#F5D5BE",
+        "#E9B6A4",
+        "#F4AEC1",
+        "#D1879E",
+        "#D4C9E9",
+        "#A799C2",
+        "#A9C6DD",
+        "#669EA7",
+        "#A9C9AD",
+        "#D8C88E",
+        "#B48262",
+        "#78573F",
+        "#403646"
+      ],
+      "seeds": [
+        {
+          "x": 0.404,
+          "y": 0.152,
+          "color": "#F2C8B1",
+          "name": "Male cheek"
+        },
+        {
+          "x": 0.361,
+          "y": 0.07,
+          "color": "#514041",
+          "name": "Espresso hair"
+        },
+        {
+          "x": 0.117,
+          "y": 0.406,
+          "color": "#292947",
+          "name": "Indigo yukata"
+        },
+        {
+          "x": 0.638,
+          "y": 0.317,
+          "color": "#F2C8B1",
+          "name": "Female face"
+        },
+        {
+          "x": 0.803,
+          "y": 0.379,
+          "color": "#CBD4E2",
+          "name": "Lavender hair"
+        },
+        {
+          "x": 0.76,
+          "y": 0.07,
+          "color": "#FFF7E9",
+          "name": "Bright moon"
+        },
+        {
+          "x": 0.645,
+          "y": 0.178,
+          "color": "#CBD4E2",
+          "name": "Lavender hair crest"
+        },
+        {
+          "x": 0.126,
+          "y": 0.447,
+          "color": "#292947",
+          "name": "Indigo yukata panel"
+        },
+        {
+          "x": 0.57,
+          "y": 0.025,
+          "color": "#292947",
+          "name": "Night sky opposite moon boundary"
+        },
+        {
+          "x": 0.729,
+          "y": 0.122,
+          "color": "#FFF7E9",
+          "name": "Bright moon below wire"
+        },
+        {
+          "x": 0.645,
+          "y": 0.1694,
+          "color": "#292947",
+          "name": "Sky below moon boundary probe"
+        }
+      ],
+      "repairs": [
+        {
+          "name": "Close moon and lantern wire intersection left",
+          "points": [
+            [
+              0.660801564,
+              0.1042345277
+            ],
+            [
+              0.6627565982,
+              0.1074918567
+            ]
+          ],
+          "width": 2
+        },
+        {
+          "name": "Close moon and lantern wire intersection right",
+          "points": [
+            [
+              0.8543499511,
+              0.0566775244
+            ],
+            [
+              0.8572825024,
+              0.0605863192
+            ]
+          ],
+          "width": 2
+        },
+        {
+          "name": "Close lower moon edge beyond lantern wire",
+          "points": [
+            [
+              0.6656891496,
+              0.1094462541
+            ],
+            [
+              0.6686217009,
+              0.1133550489
+            ]
+          ],
+          "width": 2
+        }
+      ]
+    },
+    {
+      "id": "atelier-butterfly-alchemist",
+      "title": "The Butterfly Alchemist",
+      "category": "Fantasy",
+      "difficulty": "Hard",
+      "description": "An original alchemist tends her glass vial among winged ornaments, an embroidered cape and flowering vines.",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "female",
+        "butterflies",
+        "flowers",
+        "magic",
+        "vial"
+      ],
+      "source": "assets/source/atelier-butterfly-alchemist.png",
+      "colorGuide": "assets/source/atelier-butterfly-alchemist-color-guide.png",
+      "palette": [
+        "#ABD8C4",
+        "#9883C4",
+        "#50436B",
+        "#DDAF5A",
+        "#EFE0BC",
+        "#F1CBB9",
+        "#D996AC",
+        "#D6CBE8",
+        "#93BBD7",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#F5D5BE",
+        "#E9B6A4",
+        "#F4AEC1",
+        "#D1879E",
+        "#D4C9E9",
+        "#A799C2",
+        "#A9C6DD",
+        "#669EA7",
+        "#A9C9AD",
+        "#D8C88E",
+        "#B48262",
+        "#78573F",
+        "#403646"
+      ],
+      "seeds": [
+        {
+          "x": 0.598,
+          "y": 0.34,
+          "color": "#F1CBB9",
+          "name": "Warm face"
+        },
+        {
+          "x": 0.448,
+          "y": 0.185,
+          "color": "#D6CBE8",
+          "name": "Lilac hair"
+        },
+        {
+          "x": 0.787,
+          "y": 0.49,
+          "color": "#9883C4",
+          "name": "Violet cape"
+        },
+        {
+          "x": 0.017,
+          "y": 0.016,
+          "color": "#EFE0BC",
+          "name": "Champagne background"
+        },
+        {
+          "x": 0.71,
+          "y": 0.217,
+          "color": "#D6CBE8",
+          "name": "Lilac front hair lock"
+        }
+      ]
+    },
+    {
+      "id": "atelier-rooftop-skater",
+      "title": "Rooftop Reverie",
+      "category": "Streetwear",
+      "difficulty": "Hard",
+      "description": "Goggles, relaxed streetwear and a carefully detailed skateboard frame a confident rooftop character.",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "male",
+        "skateboard",
+        "goggles",
+        "rooftop",
+        "city"
+      ],
+      "source": "assets/source/atelier-rooftop-skater.png",
+      "colorGuide": "assets/source/atelier-rooftop-skater-color-guide.png",
+      "palette": [
+        "#3B6172",
+        "#78B9C2",
+        "#C29CCB",
+        "#D889B9",
+        "#E1C07B",
+        "#5A536C",
+        "#AAB2C6",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#F5D5BE",
+        "#E9B6A4",
+        "#F4AEC1",
+        "#D1879E",
+        "#D4C9E9",
+        "#A799C2",
+        "#A9C6DD",
+        "#669EA7",
+        "#A9C9AD",
+        "#D8C88E",
+        "#B48262",
+        "#78573F",
+        "#403646",
+        "#E5B394",
+        "#E7C376",
+        "#62C9C4",
+        "#25354F"
+      ],
+      "seeds": [
+        {
+          "x": 0.54,
+          "y": 0.109,
+          "color": "#E5B394",
+          "name": "Warm face"
+        },
+        {
+          "x": 0.48,
+          "y": 0.042,
+          "color": "#E7C376",
+          "name": "Amber hair"
+        },
+        {
+          "x": 0.342,
+          "y": 0.306,
+          "color": "#62C9C4",
+          "name": "Teal jacket"
+        },
+        {
+          "x": 0.82,
+          "y": 0.074,
+          "color": "#25354F",
+          "name": "Night sky"
+        },
+        {
+          "x": 0.555229716520039,
+          "y": 0.09902280130293159,
+          "color": "#62C9C4",
+          "name": "Small teal right iris \u2014 keep important eye detail"
+        }
+      ],
+      "keepSeedRegions": true
+    },
+    {
+      "id": "atelier-rainy-cafe",
+      "title": "Rainy Day Tea",
+      "category": "Cozy scenes",
+      "difficulty": "Hard",
+      "description": "A warm cup of tea, a quiet rainy window, flowing hair and detailed knitwear invite an unhurried coloring session.",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "female",
+        "cafe",
+        "tea",
+        "rain",
+        "knitwear"
+      ],
+      "source": "assets/source/atelier-rainy-cafe.png",
+      "colorGuide": "assets/source/atelier-rainy-cafe-color-guide.png",
+      "palette": [
+        "#C69A6D",
+        "#A8744C",
+        "#714C34",
+        "#DFA8AD",
+        "#BF838F",
+        "#EFE3CA",
+        "#ABB9C1",
+        "#B9A9BE",
+        "#81ACBD",
+        "#A0B396",
+        "#E4B269",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#F5D5BE",
+        "#E9B6A4",
+        "#F4AEC1",
+        "#D1879E",
+        "#D4C9E9",
+        "#A799C2",
+        "#A9C6DD",
+        "#669EA7",
+        "#A9C9AD",
+        "#D8C88E",
+        "#B48262",
+        "#78573F",
+        "#403646"
+      ],
+      "seeds": [
+        {
+          "x": 0.557,
+          "y": 0.226,
+          "color": "#F5D5BE",
+          "name": "Warm skin \u2014 face"
+        },
+        {
+          "x": 0.544,
+          "y": 0.405,
+          "color": "#F5D5BE",
+          "name": "Warm skin \u2014 neck"
+        },
+        {
+          "x": 0.306,
+          "y": 0.421,
+          "color": "#F5D5BE",
+          "name": "Warm skin \u2014 left hand"
+        },
+        {
+          "x": 0.429,
+          "y": 0.447,
+          "color": "#F5D5BE",
+          "name": "Warm skin \u2014 right hand"
+        },
+        {
+          "x": 0.16,
+          "y": 0.36,
+          "color": "#A9C6DD",
+          "name": "Rainy window"
+        },
+        {
+          "x": 0.61,
+          "y": 0.075,
+          "color": "#C69A6D",
+          "name": "Caramel hair"
+        },
+        {
+          "x": 0.69,
+          "y": 0.61,
+          "color": "#DFA8AD",
+          "name": "Rose cardigan"
+        },
+        {
+          "x": 0.479,
+          "y": 0.181,
+          "color": "#669EA7",
+          "name": "Teal left iris"
+        },
+        {
+          "x": 0.6,
+          "y": 0.212,
+          "color": "#669EA7",
+          "name": "Teal right iris"
+        },
+        {
+          "x": 0.453,
+          "y": 0.169,
+          "color": "#FFFFFF",
+          "name": "White left sclera"
+        },
+        {
+          "x": 0.583,
+          "y": 0.2,
+          "color": "#FFFFFF",
+          "name": "White inner right sclera"
+        },
+        {
+          "x": 0.631,
+          "y": 0.213,
+          "color": "#FFFFFF",
+          "name": "White outer right sclera"
+        }
+      ],
+      "repairs": [
+        {
+          "name": "Close faint left iris highlight arc",
+          "points": [
+            [
+              0.466276,
+              0.170684
+            ],
+            [
+              0.469208,
+              0.170033
+            ],
+            [
+              0.472141,
+              0.171336
+            ],
+            [
+              0.471163,
+              0.172638
+            ],
+            [
+              0.466276,
+              0.173941
+            ]
+          ],
+          "width": 1
+        },
+        {
+          "name": "Close faint right iris highlight arc",
+          "points": [
+            [
+              0.59042,
+              0.2
+            ],
+            [
+              0.593353,
+              0.199349
+            ],
+            [
+              0.596285,
+              0.200651
+            ],
+            [
+              0.595308,
+              0.201954
+            ],
+            [
+              0.588465,
+              0.203257
+            ]
+          ],
+          "width": 1
+        },
+        {
+          "name": "Close faint inner right lower eyelid",
+          "points": [
+            [
+              0.56305,
+              0.194788
+            ],
+            [
+              0.565982,
+              0.198697
+            ],
+            [
+              0.568915,
+              0.201954
+            ],
+            [
+              0.572825,
+              0.20456
+            ],
+            [
+              0.580645,
+              0.207166
+            ]
+          ],
+          "width": 1
+        },
+        {
+          "name": "Close faint outer right lower eyelid",
+          "points": [
+            [
+              0.615836,
+              0.216938
+            ],
+            [
+              0.623656,
+              0.218241
+            ],
+            [
+              0.630499,
+              0.21759
+            ],
+            [
+              0.635386,
+              0.215635
+            ]
+          ],
+          "width": 1
+        }
+      ]
+    },
+    {
+      "id": "atelier-daisy-beat",
+      "title": "Daisy Beat",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "tags": [
+        "atelier",
+        "png illustration",
+        "original illustration",
+        "headphones",
+        "daisies",
+        "bob",
+        "female"
+      ],
+      "description": "A cheerful bob-haired music lover with roomy hoodie panels, daisy headphones and generous coloring shapes.",
+      "source": "assets/source/atelier-daisy-beat.png",
+      "colorGuide": "assets/source/atelier-daisy-beat-color-guide.png",
+      "palette": [
+        "#B8A6DE",
+        "#D4C9E9",
+        "#A9D6BC",
+        "#F4D78E",
+        "#F1AEC5",
+        "#F5D5BE",
+        "#669EA7",
+        "#FFFFFF",
+        "#FFF7E9",
+        "#E9B6A4",
+        "#D1879E",
+        "#403646",
+        "#C7EAD6"
+      ],
+      "seeds": [
+        {
+          "x": 0.49,
+          "y": 0.35,
+          "color": "#F5D5BE",
+          "name": "Peach face"
+        },
+        {
+          "x": 0.52,
+          "y": 0.47,
+          "color": "#F5D5BE",
+          "name": "Peach neck"
+        },
+        {
+          "x": 0.48,
+          "y": 0.22,
+          "color": "#B8A6DE",
+          "name": "Lavender hair"
+        },
+        {
+          "x": 0.03,
+          "y": 0.04,
+          "color": "#FFFFFF",
+          "name": "Paper"
+        },
+        {
+          "x": 0.49,
+          "y": 0.065,
+          "color": "#F4D78E",
+          "name": "Golden star"
+        },
+        {
+          "x": 0.35,
+          "y": 0.64,
+          "color": "#C7EAD6",
+          "name": "Soft mint hoodie"
+        },
+        {
+          "x": 0.153,
+          "y": 0.67,
+          "color": "#C7EAD6",
+          "name": "Soft mint left sleeve"
+        },
+        {
+          "x": 0.865,
+          "y": 0.71,
+          "color": "#C7EAD6",
+          "name": "Soft mint right sleeve"
+        },
+        {
+          "x": 0.73,
+          "y": 0.271,
+          "color": "#F1AEC5",
+          "name": "Rose headphone cup"
+        },
+        {
+          "x": 0.665,
+          "y": 0.184,
+          "color": "#F1AEC5",
+          "name": "Rose headphone band"
+        },
+        {
+          "x": 0.166,
+          "y": 0.216,
+          "color": "#F4D78E",
+          "name": "Golden daisy center"
+        },
+        {
+          "x": 0.835,
+          "y": 0.218,
+          "color": "#F4D78E",
+          "name": "Golden daisy center"
+        },
+        {
+          "x": 0.15,
+          "y": 0.425,
+          "color": "#F4D78E",
+          "name": "Golden daisy center"
+        },
+        {
+          "x": 0.863,
+          "y": 0.426,
+          "color": "#F4D78E",
+          "name": "Golden daisy center"
+        },
+        {
+          "x": 0.407,
+          "y": 0.337,
+          "color": "#669EA7",
+          "name": "Teal left iris"
+        },
+        {
+          "x": 0.585,
+          "y": 0.301,
+          "color": "#669EA7",
+          "name": "Teal right iris"
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,206 @@
 {
-  "pageCount": 101,
-  "totalRegions": 9521,
+  "pageCount": 112,
+  "totalRegions": 17072,
   "problems": [],
   "pages": [
+    {
+      "id": "atelier-cloud-ribbon",
+      "regions": 681,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-city-dreamer",
+      "regions": 788,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-lantern-promise",
+      "regions": 1462,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-rainy-cafe",
+      "regions": 687,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-melody-chibi",
+      "regions": 399,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-boba-bunny",
+      "regions": 43,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-starlight-reader",
+      "regions": 1126,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-butterfly-alchemist",
+      "regions": 1640,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-rooftop-skater",
+      "regions": 595,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-moon-cat",
+      "regions": 16,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-daisy-beat",
+      "regions": 114,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
     {
       "id": "collectible-moon-botanist",
       "regions": 448,

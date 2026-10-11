@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "pages": {
+    "atelier-cloud-ribbon": {
+      "sourceSha256": "b2128d35ef53883e02fbe1899986193936f7bb511d8980cba5ad0e83855cd9f4",
+      "geometrySha256": "4f45ca9d4f4782b77dd1b3888bbef8367ec716b717ea53e8db2dfd584d5a6b0f",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 681
+    },
+    "atelier-starlight-reader": {
+      "sourceSha256": "430737ba3585f01546c8f268e3cd313913ec938205983cb69a9f378651b2d074",
+      "geometrySha256": "35ccff7522c6e745b58a81b1d5b106feee42283a4c81562932bc49d163336108",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 1126
+    },
+    "atelier-city-dreamer": {
+      "sourceSha256": "55f7904ef8ab4d1debfa07462b3e19b2b405d774e009d73e2aa8f5c8837906b4",
+      "geometrySha256": "485bf30a71d03d801d94d2546f93171920860655488df7911db038998a79d6cb",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 788
+    },
+    "atelier-boba-bunny": {
+      "sourceSha256": "d74db5fdf24b58fcdc97127eb3f7dfb8bff6027eb225db715ab6bcf64c669f61",
+      "geometrySha256": "594e485f3942f753d5db3ee05f888b8775da8a43a7c848a1de61b10ea58a4924",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 43
+    },
+    "atelier-moon-cat": {
+      "sourceSha256": "39c7f2960b9441e8c8ae7f1f59ac6377cc8203a2a45ed1ef2e222b5d5fdb5279",
+      "geometrySha256": "78c14f90b09389eac4f42204aaa1fa3dbe3cbd534b635d5ad08a6c2d4a286fc4",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 16
+    },
+    "atelier-melody-chibi": {
+      "sourceSha256": "de182a164a01071bb2c307c855ffd94b047835966ee2cf4932b18d8fe3ab0613",
+      "geometrySha256": "49d9cd0fde28866c8cd669a381a1374a3a52a73891bbfccbea31f77242f5bedc",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 399
+    },
+    "atelier-lantern-promise": {
+      "sourceSha256": "4653b3f90754d2e84b317758656b7de3be4a06298dd0f98d463d022b15a9e559",
+      "geometrySha256": "920734538070a08de8ee3436ba1c9a124f4dede9ae34d6fb127d831015958a09",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 1462
+    },
+    "atelier-butterfly-alchemist": {
+      "sourceSha256": "176591819e5f856e9484f79b28acf9949b69986220bed7d69570c5b931a34872",
+      "geometrySha256": "4dc215bb34194972f490d70cb18bc654b07ceb223cbc677718ed863eb516a435",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 1640
+    },
+    "atelier-rooftop-skater": {
+      "sourceSha256": "97fcfcf4c5d39055b8069545b3791c9baed2dd39b27170974b3ac956a7eee179",
+      "geometrySha256": "bbd9885c3afb3276bc5b79a34d3362290bd3fdd31fceff56bb9df1ab0d62db73",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 595
+    },
+    "atelier-daisy-beat": {
+      "sourceSha256": "b7a0560de4a45cb1d441f3d7a1f0f5ef28ee8a81578a261933312f641bf72f5d",
+      "geometrySha256": "7b96315aa25d4cfd6975e870e396136c817719f4e72c432de678cc3778afe87d",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 114
+    },
+    "atelier-rainy-cafe": {
+      "sourceSha256": "d3a3fd194919ec9293572552195cc55d0b79e1b147f5d1fb54056c2890bda8ff",
+      "geometrySha256": "2a65e2aeb5c4f4888a345f58bd9da53588f8a9051427533790a8c686e55d1f0d",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 687
+    }
+  }
+}

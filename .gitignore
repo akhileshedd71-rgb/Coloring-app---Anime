@@ -13,3 +13,5 @@ android/**/build/
 *.keystore
 !android/gradle/wrapper/gradle-wrapper.jar
 *.tsbuildinfo
+__pycache__/
+*.py[cod]

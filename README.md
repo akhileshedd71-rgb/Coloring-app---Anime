@@ -4,29 +4,34 @@
 
 ## Install the Android app
 
-Download **[hoshii-1.0.0-debug.apk](delivery/hoshii-1.0.0-debug.apk)**, open it on an Android phone, and allow installation from your file manager when Android asks. Android 6.0+ and a current Android System WebView are supported. This is a signed **testing APK**, not a Play Store release. The [SHA256 checksum](delivery/hoshii-1.0.0-debug.apk.sha256) accompanies the APK.
+Download **[hoshii-1.1.0-debug.apk](delivery/hoshii-1.1.0-debug.apk)**, open it on an Android phone, and allow installation from your file manager when Android asks. Android 6.0+ and a current Android System WebView are supported. This is a signed **testing APK**, not a Play Store release. The [SHA256 checksum](delivery/hoshii-1.1.0-debug.apk.sha256) accompanies the APK.
 
 The app bundles all artwork and fonts. No account, advertising, payment, tracking, or connection is required. Your editable coloring stays on the device. Export important artwork before uninstalling or clearing app data.
 
 ## What is included
 
-- **101 original, individually usable vector coloring pages**, across all ten requested categories, with genuinely different subjects, outfits, props and compositions. Easy, Medium and Hard reflect visible region counts and detail sizes.
-- Crisp closed paths, stable fill-region IDs, suggested palettes, aligned soft shading, finished-color references, line-art SVGs and lightweight WebP thumbnails.
+- **112 original, individually usable coloring pages**, across all ten requested categories, with genuinely different subjects, outfits, props and compositions. Easy, Medium and Hard reflect visible region counts and detail sizes.
+- **11 new individually image-generated PNG illustrations** in the Atelier collection: two Easy kawaii drawings, one spacious Medium anime portrait and eight intricate Hard portraits/scenes. Original 1024 × 1536 PNG masters, exact aligned PNG color references and lightweight previews are kept in the project.
+- Stable closed fill regions, suggested palettes and full-resolution immutable PNG ink preserve detailed hair, eyelashes and clothing. Earlier vector pages retain their original assets, IDs, and optional aligned shading.
 - **Free Color**, **Color by Number**, and **Paint & Shade**. Numbered regions include remaining counts and hints.
 - Tap fill, smooth pressure-sensitive brush, soft airbrush, pencil, diagonal gradient fill, sparkle brush, eraser and eyedropper. Brush size/opacity, per-stroke region locking, and unrestricted painting are available in tool settings.
 - Undo/redo; pinch zoom up to 20×; two-finger panning; fit and full-screen controls; collapsible palette; phone portrait/landscape and tablet layouts.
 - Coordinated skin, hair, eyes, pastel, festival, sunset, neon, comic and manga palettes; native full color picker; HEX input; recent shades; saved swatches and named custom palettes.
 - Autosave after every completed fill or stroke. Editable projects and thumbnails use separate IndexedDB stores. Restore, rename, duplicate, favorite, start fresh, and confirmed deletion.
-- **3000 × 3900 PNG/JPEG export** through Android’s share sheet. Transparent PNG for standalone character pages. Exports use final model state independently of fill animation.
+- **High-resolution PNG/JPEG export** (3000 × 3900 for vector pages; 2731 × 4096 for Atelier pages) through Android’s share sheet. Transparent PNG for standalone character pages. Exports use final model state independently of fill animation.
 - Light, dark and system themes; reduced-motion support; bundled fonts; original launcher icon and splash.
 
 The main flow is **Discover → choose a drawing and mode → color → save/share**. My gallery keeps unfinished pieces alongside completed ones.
+
+## The Atelier PNG collection
+
+[Download all eleven line-art and aligned color-reference PNG pairs](delivery/hoshii-atelier-pngs.zip). The archive preserves the native 1024 × 1536 resolution. Image-generated color guides and exact prompts are retained separately in `assets/source/`. In the app, choose **Atelier collection** to find the new drawings.
 
 ## Screenshots
 
 | Discover | Coloring studio | My gallery |
 |---|---|---|
-| ![Discover on a phone](docs/screenshots/home-mobile.png) | ![Coloring studio on a phone](docs/screenshots/studio-mobile.png) | ![Saved artwork gallery](docs/screenshots/gallery-mobile.png) |
+| ![Discover on a phone](docs/screenshots/home-mobile.png) | ![PNG coloring studio on a phone](docs/screenshots/atelier-studio.png) | ![Saved artwork gallery](docs/screenshots/gallery-mobile.png) |
 
 ![Desktop and tablet discovery layout](docs/screenshots/home-desktop.png)
 
@@ -60,7 +65,8 @@ This rebuilds the web app, synchronizes bundled assets, builds the native shell,
 npm test                    # 26 storage, export and engine unit checks
 npm run test:canvas         # Real Chromium pixel and multitouch checks
 npm run test:e2e            # Full app workflows, mobile layout and downloads
-node scripts/validate-library.mjs  # Every visible label, completion and reference alignment
+node scripts/validate-library.mjs  # All regions and exact PNG/reference alignment
+node scripts/validate-png-canvas.mjs # Actual PNG gradients and clipped brush boundaries
 npm run build
 npm run android:build
 ```
@@ -69,7 +75,7 @@ Browser checks use `/usr/bin/chromium`, or `CHROMIUM_PATH` when specified. Insta
 
 ## Add artwork without breaking saved projects
 
-Read [the artwork pipeline](docs/ARTWORK_PIPELINE.md). Generator source is under `scripts/art/`; published library assets live in `public/art/`.
+Read [the artwork pipeline](docs/ARTWORK_PIPELINE.md) and [the PNG collection guide](docs/PNG_COLLECTION.md). Original PNGs and prompts are under `assets/source/`; `assets/source/new-collection.json` defines the expandable collection. Published assets live in `public/art/`. Add a new manifest entry under a new stable ID, compile, review, validate, and rebuild. Ordinary app builds use the checked-in assets and require no image-generation service or Python.
 
 ```sh
 npm run art
@@ -81,7 +87,7 @@ Art and region IDs are permanent save-data keys. Add new pages under new IDs; re
 
 ## Architecture and future features
 
-React + TypeScript + Vite provide the interface. Canvas2D/Path2D render editable vector regions and strokes. Capacitor 7 packages the app and integrates Android back handling, lifecycle, status bars, private-cache file export and sharing.
+React + TypeScript + Vite provide the interface. Canvas2D/Path2D render editable fill regions and strokes underneath the preserved PNG ink or original vector linework. PNG images are decoded before opening a canvas and retained in a bounded cache. Capacitor 7 packages the app and integrates Android back handling, lifecycle, status bars, private-cache file export and sharing.
 
 | Location | Responsibility |
 |---|---|
@@ -91,10 +97,10 @@ React + TypeScript + Vite provide the interface. Canvas2D/Path2D render editable
 | `src/lib/storage.ts` | Validated, versioned local persistence and migration |
 | `src/lib/export.ts` | Native share and browser download adapters |
 | `src/types.ts` | Stable artwork, project and stroke contracts |
-| `scripts/art/`, `scripts/build-art.mjs` | Original source artwork and deterministic asset compiler |
+| `scripts/art/`, `scripts/build-art.mjs` | Original source artwork and deterministic library compiler |
+| `scripts/build-png-art.py`, `assets/source/new-collection.json` | PNG boundary extraction, stable region IDs, curated references and diagnostics |
 | `android/` | Native Android shell and packaging |
 
 Ads and a currency/premium library are deliberately future work. Add an entitlement service keyed by immutable artwork IDs, with a separate wallet ledger and platform billing/rewarded-ad adapters. Keep painting and storage independent of those services. Do not gate existing offline projects or add tracking without a deliberate product/privacy decision. This version contains no payment or ad SDKs.
 
-The main 100-page library has a consistent, stylized vector look; an additional
-generated collectible illustration offers finer detail. It is not a reproduction of the supplied painterly references. See the artwork documentation for the exact production and review process, sources and limitations.
+The earlier 100-page collection uses stylized vector artwork, with one additional generated collectible. The new Atelier collection uses eleven original image-generated PNG drawings inspired by the supplied references. Native PNG detail is retained rather than replaced with simplified vector artwork. Generated color guides supply palette hints; published references use the exact same fill geometry and ink as the editor. Free brushes and gradients add your own lighting. See the artwork documentation for source resolution, review results and conversion details.

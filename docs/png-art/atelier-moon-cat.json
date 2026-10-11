@@ -1,0 +1,525 @@
+{
+  "id": "atelier-moon-cat",
+  "source": "assets/source/atelier-moon-cat.png",
+  "sourceSha256": "39c7f2960b9441e8c8ae7f1f59ac6377cc8203a2a45ed1ef2e222b5d5fdb5279",
+  "colorGuide": "assets/source/atelier-moon-cat-color-guide.png",
+  "colorGuideUse": "Palette hints only; final reference uses source mask and ink",
+  "width": 1024,
+  "height": 1536,
+  "nativeResolution": true,
+  "difficulty": "Easy",
+  "requestedDifficulty": "Easy",
+  "visibleRegions": 16,
+  "smallestRegionPixels": 1264,
+  "tinyRegions": 0,
+  "minimumRegionPixels": 28,
+  "excludedDecorativeRegions": 0,
+  "excludedDecorativePixels": 0,
+  "inkThreshold": 200,
+  "repairCount": 0,
+  "gapClosingRadius": 0,
+  "gapClosingPixels": 0,
+  "seedConflicts": [],
+  "rejectedSeeds": [],
+  "seedAssignments": [
+    {
+      "name": "Golden moon",
+      "component": 5,
+      "color": "#F4D78E",
+      "pixel": [
+        149,
+        649
+      ],
+      "movedOffInk": false
+    },
+    {
+      "name": "Lavender cat face",
+      "component": 8,
+      "color": "#B8A6DE",
+      "pixel": [
+        440,
+        915
+      ],
+      "movedOffInk": false
+    },
+    {
+      "name": "Lavender tail",
+      "component": 11,
+      "color": "#A596CE",
+      "pixel": [
+        599,
+        1179
+      ],
+      "movedOffInk": false
+    },
+    {
+      "name": "Blue cloud",
+      "component": 7,
+      "color": "#B7D9EA",
+      "pixel": [
+        854,
+        705
+      ],
+      "movedOffInk": false
+    },
+    {
+      "name": "Peach star",
+      "component": 3,
+      "color": "#F7BB8E",
+      "pixel": [
+        849,
+        266
+      ],
+      "movedOffInk": false
+    }
+  ],
+  "borderRegions": [
+    {
+      "id": "r-8d0651c118c00f",
+      "areaFraction": 0.52029
+    }
+  ],
+  "regions": [
+    {
+      "index": 1,
+      "id": "r-8d0651c118c00f",
+      "component": 1,
+      "area": 818350,
+      "radius": 140.18,
+      "label": [
+        640.5,
+        141.5
+      ],
+      "bounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "holes": 5,
+      "touchesBorder": true,
+      "color": "#E6E4F5",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          230.0,
+          132.0,
+          119.0
+        ],
+        "paletteDistance": 3.16
+      }
+    },
+    {
+      "index": 2,
+      "id": "r-56b1d04db928e3",
+      "component": 2,
+      "area": 14202,
+      "radius": 48.38,
+      "label": [
+        403.5,
+        162.5
+      ],
+      "bounds": [
+        316,
+        65,
+        178,
+        173
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFF4DF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          245.0,
+          128.0,
+          139.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 3,
+      "id": "r-b6eb179892598d",
+      "component": 3,
+      "area": 15445,
+      "radius": 50.76,
+      "label": [
+        849.5,
+        263.5
+      ],
+      "bounds": [
+        757,
+        165,
+        186,
+        179
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F7BB8E",
+      "name": "Peach star",
+      "colorSource": "seed"
+    },
+    {
+      "index": 4,
+      "id": "r-0f39a8852f1104",
+      "component": 4,
+      "area": 33989,
+      "radius": 73.12,
+      "label": [
+        176.5,
+        326.5
+      ],
+      "bounds": [
+        33,
+        229,
+        287,
+        184
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#B7D9EA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          221.0,
+          121.0,
+          116.0
+        ],
+        "paletteDistance": 5.1
+      }
+    },
+    {
+      "index": 5,
+      "id": "r-3aa1f4bb066217",
+      "component": 5,
+      "area": 328528,
+      "radius": 122.48,
+      "label": [
+        159.5,
+        780.5
+      ],
+      "bounds": [
+        25,
+        291,
+        972,
+        1135
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#F4D78E",
+      "name": "Golden moon",
+      "colorSource": "seed"
+    },
+    {
+      "index": 6,
+      "id": "r-013890a869dcb7",
+      "component": 6,
+      "area": 12046,
+      "radius": 44.56,
+      "label": [
+        658.5,
+        553.5
+      ],
+      "bounds": [
+        577,
+        465,
+        164,
+        160
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFF4DF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          245.0,
+          128.0,
+          139.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 7,
+      "id": "r-2c145ce7a277ba",
+      "component": 7,
+      "area": 34083,
+      "radius": 74.35,
+      "label": [
+        857.5,
+        698.5
+      ],
+      "bounds": [
+        712,
+        600,
+        286,
+        181
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#B7D9EA",
+      "name": "Blue cloud",
+      "colorSource": "seed"
+    },
+    {
+      "index": 8,
+      "id": "r-68b08fbd667f0f",
+      "component": 8,
+      "area": 110117,
+      "radius": 85.2,
+      "label": [
+        475.5,
+        875.5
+      ],
+      "bounds": [
+        226,
+        700,
+        468,
+        412
+      ],
+      "holes": 19,
+      "touchesBorder": false,
+      "color": "#B8A6DE",
+      "name": "Lavender cat face",
+      "colorSource": "seed"
+    },
+    {
+      "index": 9,
+      "id": "r-86ba8b979f7e93",
+      "component": 9,
+      "area": 2610,
+      "radius": 21.97,
+      "label": [
+        351.5,
+        777.5
+      ],
+      "bounds": [
+        316,
+        740,
+        70,
+        78
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#E9B5C9",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          207.0,
+          154.0,
+          124.0
+        ],
+        "paletteDistance": 7.28
+      }
+    },
+    {
+      "index": 10,
+      "id": "r-89d284a143dfa4",
+      "component": 10,
+      "area": 2392,
+      "radius": 21.58,
+      "label": [
+        642.5,
+        855.5
+      ],
+      "bounds": [
+        609,
+        827,
+        57,
+        79
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#E9B5C9",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          207.0,
+          155.0,
+          123.0
+        ],
+        "paletteDistance": 8.06
+      }
+    },
+    {
+      "index": 11,
+      "id": "r-c7972a555d17ab",
+      "component": 11,
+      "area": 76275,
+      "radius": 69.0,
+      "label": [
+        600.5,
+        1182.5
+      ],
+      "bounds": [
+        497,
+        896,
+        374,
+        358
+      ],
+      "holes": 3,
+      "touchesBorder": false,
+      "color": "#A596CE",
+      "name": "Lavender tail",
+      "colorSource": "seed"
+    },
+    {
+      "index": 12,
+      "id": "r-cd843a10d19368",
+      "component": 12,
+      "area": 1274,
+      "radius": 15.98,
+      "label": [
+        295.5,
+        968.5
+      ],
+      "bounds": [
+        273,
+        952,
+        50,
+        33
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#E9B5C9",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          209.0,
+          153.0,
+          124.0
+        ],
+        "paletteDistance": 8.6
+      }
+    },
+    {
+      "index": 13,
+      "id": "r-659ef2abdb043e",
+      "component": 13,
+      "area": 1264,
+      "radius": 15.98,
+      "label": [
+        569.5,
+        1028.5
+      ],
+      "bounds": [
+        546,
+        1012,
+        51,
+        33
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#E9B5C9",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          209.0,
+          153.0,
+          124.0
+        ],
+        "paletteDistance": 8.6
+      }
+    },
+    {
+      "index": 14,
+      "id": "r-e3670c2ca0c4ef",
+      "component": 14,
+      "area": 9845,
+      "radius": 40.17,
+      "label": [
+        190.5,
+        1132.5
+      ],
+      "bounds": [
+        117,
+        1052,
+        147,
+        146
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F7BB8E",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          209.0,
+          144.0,
+          159.0
+        ],
+        "paletteDistance": 4.0
+      }
+    },
+    {
+      "index": 15,
+      "id": "r-d2a234553c468d",
+      "component": 15,
+      "area": 5262,
+      "radius": 25.2,
+      "label": [
+        365.5,
+        1091.5
+      ],
+      "bounds": [
+        312,
+        1064,
+        99,
+        79
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#FFF4DF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          246.0,
+          128.0,
+          139.0
+        ],
+        "paletteDistance": 0.0
+      }
+    },
+    {
+      "index": 16,
+      "id": "r-d1540d9e801230",
+      "component": 16,
+      "area": 8178,
+      "radius": 36.59,
+      "label": [
+        469.5,
+        1117.5
+      ],
+      "bounds": [
+        404,
+        1080,
+        129,
+        96
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#FFF4DF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          246.0,
+          128.0,
+          139.0
+        ],
+        "paletteDistance": 0.0
+      }
+    }
+  ],
+  "geometrySha256": "78c14f90b09389eac4f42204aaa1fa3dbe3cbd534b635d5ad08a6c2d4a286fc4"
+}

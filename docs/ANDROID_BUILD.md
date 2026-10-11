@@ -42,12 +42,16 @@ The build helper runs the production web build, Capacitor sync, and
 `assembleDebug --no-daemon --max-workers=2`, then writes:
 
 ```text
-delivery/hoshii-1.0.0-debug.apk
-delivery/hoshii-1.0.0-debug.apk.sha256
+delivery/hoshii-1.1.0-debug.apk
+delivery/hoshii-1.1.0-debug.apk.sha256
 ```
 
 Generated web assets and local SDK configuration are ignored by Git. After web
 or artwork changes, rerun the complete build helper so the APK includes them.
+The output filename follows the numeric version in `package.json`; the helper
+rejects an invalid version or an Android `versionName` mismatch. Update both npm
+manifests and `android/app/build.gradle`, and increment the native `versionCode`,
+for each delivery. Version 1.1.0 uses version code 2.
 The APK is self-contained and supports Android 6.0+ (API 23); API 35 is the build
 and target level. Use a current Android System WebView for the best canvas and
 touch behavior.
@@ -67,10 +71,10 @@ Cloud caches live outside the checkout at `/workspace/android-sdk`,
 ## Install and inspect
 
 ```sh
-adb install -r delivery/hoshii-1.0.0-debug.apk
+adb install -r delivery/hoshii-1.1.0-debug.apk
 adb shell am start -n studio.hoshii.coloring/.MainActivity
-"$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose delivery/hoshii-1.0.0-debug.apk
-"$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging delivery/hoshii-1.0.0-debug.apk
+"$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose delivery/hoshii-1.1.0-debug.apk
+"$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging delivery/hoshii-1.1.0-debug.apk
 ```
 
 You can also copy the APK to a phone, open it, and allow installation from that
@@ -80,6 +84,14 @@ different signing key requires uninstalling the previous build and would remove
 its local data. A production release must use the owner's securely retained
 release key; never commit a private signing key. Version codes must increase
 for future published updates.
+
+For the delivered testing builds, retain the cloud machine's existing debug
+keystore outside the repository. The 1.0.0 APK's public signing-certificate SHA256
+is `030e48dacbd59cc14825ad60d06b3f093a0004c0c487d1373fb3ec915770962f`.
+Verify the next APK against that certificate before sharing an update. A fresh
+machine's automatically generated debug key will differ; copying source alone
+does not preserve upgrade compatibility. The certificate hash is public; never
+publish the private keystore.
 
 ## Native integration
 

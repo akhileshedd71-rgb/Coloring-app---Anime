@@ -1,5 +1,11 @@
 # Original artwork pipeline
 
+The new eleven-page Atelier collection preserves individually generated PNG
+line art. Follow the [PNG collection pipeline](PNG_COLLECTION.md) to add future
+reference-inspired illustrations, retain original PNG masters, produce aligned
+references, and protect saved projects with stable region IDs. The sections
+below describe the earlier 101 vector pages, which remain unchanged.
+
 The standard library is built from authored closed Bezier geometry, using a shared
 1000 × 1300 coordinate space. It includes 10 pages in each of the ten categories.
 The original character designs borrow broad qualities from the supplied visual

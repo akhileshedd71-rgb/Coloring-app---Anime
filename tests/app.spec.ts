@@ -65,8 +65,8 @@ async function targets(page: Page, art: ArtPage): Promise<Target[]> {
     return artwork.regions.filter((region, index) => {
       // Use actual visible hit geometry, and avoid overlay controls at the top/bottom.
       const [x, y] = region.label;
-      if (paths.some((path, above) => above > index && context.isPointInPath(path, x, y))) return false;
-      if (!context.isPointInPath(paths[index], x, y)) return false;
+      if (paths.some((path, above) => above > index && context.isPointInPath(path, x, y, artwork.regions[above].fillRule ?? 'nonzero'))) return false;
+      if (!context.isPointInPath(paths[index], x, y, region.fillRule ?? 'nonzero')) return false;
       const sy = oy + y * scale;
       return sy > 65 && sy < rect.height - 65;
     }).map(region => ({ id: region.id, number: region.number, label: region.label, x: rect.left + ox + region.label[0] * scale, y: rect.top + oy + region.label[1] * scale }));
@@ -362,4 +362,89 @@ test('standalone character exports a transparent PNG with preserved colored pixe
   const pixel=await sharp(file).extract({left:Math.round(target.label[0]*3),top:Math.round(target.label[1]*3),width:1,height:1}).raw().toBuffer();
   expect(pixel[3]).toBe(255);
   expect(Math.abs(pixel[0]-230)+Math.abs(pixel[1]-91)+Math.abs(pixel[2]-131)).toBeLessThan(10);
+});
+
+test('generated PNG illustration fills, undo, restore and full-resolution export stay aligned', async ({ page }, testInfo) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  const catalog = await library(page);
+  const meta = catalog.find(item => item.lineart?.endsWith('.png'));
+  expect(meta, 'the library includes individually generated PNG artwork').toBeTruthy();
+  const art = await openArt(page, meta!);
+  expect(art.rasterInk).toBeTruthy();
+  const target = (await targets(page, art))[0];
+  expect(target).toBeTruthy();
+  await page.getByRole('button', { name: 'Soft shading on', exact: true }).click();
+  await chooseHex(page, '#ED547D'); await tap(page, target);
+  await expect.poll(async () => (await projects(page))[0].state.fills[target.id]?.color).toBe('#ED547D');
+  await page.getByRole('button', { name: 'Undo', exact: true }).click();
+  await expect.poll(async () => Object.keys((await projects(page))[0].state.fills).length).toBe(0);
+  await page.getByRole('button', { name: 'Redo', exact: true }).click();
+  await expect.poll(async () => (await projects(page))[0].state.fills[target.id]?.color).toBe('#ED547D');
+  const before = (await projects(page))[0];
+  await page.reload();
+  await expect(page.locator('.continue-card')).toBeVisible();
+  await navigation(page, 'My gallery');
+  await page.locator('.gallery-grid .art-image').first().click();
+  await expect(page.getByTestId('paint-canvas')).toBeVisible();
+  expect((await projects(page))[0].state).toEqual(before.state);
+  await page.getByRole('button', { name: 'Share', exact: true }).click();
+  const dialog = page.getByRole('dialog', { name: 'Export artwork' });
+  const pending = page.waitForEvent('download');
+  await dialog.getByRole('button', { name: 'Export & share' }).click();
+  const file = testInfo.outputPath('generated-illustration.png'); await (await pending).saveAs(file);
+  const scale = Math.min(3, 4096 / Math.max(art.width, art.height), Math.sqrt(12_000_000 / (art.width * art.height)));
+  const metadata = await sharp(file).metadata();
+  expect(metadata.width).toBe(Math.round(art.width * scale)); expect(metadata.height).toBe(Math.round(art.height * scale));
+  const pixel = await sharp(file).extract({ left: Math.round(target.label[0] * scale), top: Math.round(target.label[1] * scale), width: 1, height: 1 }).removeAlpha().raw().toBuffer();
+  expect(Math.abs(pixel[0] - 237) + Math.abs(pixel[1] - 84) + Math.abs(pixel[2] - 125)).toBeLessThan(9);
+  await noOverflow(page);
+});
+
+test('missing PNG ink blocks editing until a successful retry', async ({ page }) => {
+  const catalog = await library(page);
+  const meta = catalog.find(item => item.lineart?.endsWith('.png'));
+  expect(meta).toBeTruthy();
+  const response = await page.request.get(meta!.file.replace(/^\.\//, '/'));
+  const art = await response.json() as ArtPage;
+  const path = new URL(art.rasterInk!, 'http://127.0.0.1:5173/').pathname;
+  await page.route(`**${path}`, route => route.abort('failed'));
+  await page.getByRole('searchbox', { name: 'Search artwork' }).fill(meta!.title);
+  await page.getByRole('button', { name: `Open ${meta!.title}`, exact: true }).click();
+  const dialog = page.getByRole('dialog', { name: meta!.title, exact: true });
+  await dialog.getByRole('button', { name: 'Let’s add some color' }).click();
+  await expect(page.getByRole('alert')).toContainText('line art could not load');
+  await expect(page.getByTestId('paint-canvas')).toHaveCount(0);
+  expect(await projects(page)).toHaveLength(0);
+  await page.unroute(`**${path}`);
+  await page.getByRole('button', { name: 'Dismiss error' }).click();
+  await dialog.getByRole('button', { name: 'Let’s add some color' }).click();
+  await expect(page.getByTestId('paint-canvas')).toBeVisible();
+  expect(await projects(page)).toHaveLength(1);
+});
+
+test.describe('intricate PNG touch coloring', () => {
+  test.use({ hasTouch: true });
+  test('a tiny numbered region remains accurately tappable at 20x zoom', async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    const catalog = await library(page);
+    const meta = catalog.find(item => item.id === 'atelier-cloud-ribbon')!;
+    expect(meta).toBeTruthy();
+    const art = await openArt(page, meta, 'Color by number');
+    const response = await page.request.get(`/docs/png-art/${art.id}.json`);
+    const diagnostics = await response.json() as { regions: { id: string; area: number; radius: number }[] };
+    const target = (await targets(page, art)).find(point => diagnostics.regions.some(region => region.id === point.id && region.area <= 60 && region.radius >= 2));
+    expect(target, 'the test reaches an actual tiny mask instead of a large synthetic region').toBeTruthy();
+    const count = art.regions.filter(region => region.number === target!.number).length;
+    await page.getByRole('button', { name: `Color ${target!.number}, ${count} regions remaining`, exact: true }).click();
+    // Wheel zoom anchors the same artwork point beneath the pointer. The fill
+    // itself uses a real touchscreen event after the 20x transformation.
+    await page.mouse.move(target!.x, target!.y); await page.mouse.wheel(0, -3000);
+    await expect(page.locator('.zoom-label')).toHaveText('2000%');
+    await page.touchscreen.tap(target!.x, target!.y);
+    await expect.poll(async () => (await projects(page))[0].state.fills[target!.id]?.color).toBe(art.palette[target!.number - 1]);
+    expect(Object.keys((await projects(page))[0].state.fills)).toEqual([target!.id]);
+    await expect(page.getByRole('button', { name: `Color ${target!.number}, ${count - 1} regions remaining`, exact: true })).toBeVisible();
+    await noOverflow(page);
+    await screenshot(page, 'atelier-deep-zoom');
+  });
 });

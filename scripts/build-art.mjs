@@ -2,7 +2,8 @@ import { generatePages as portraits } from './art/portraits.mjs';
 import { generatePages as scenes } from './art/scenes.mjs';
 import { generatePages as kawaii } from './art/kawaii.mjs';
 import { generatePages as collectibles } from './art/collectible.mjs';
-import { mkdir,writeFile } from 'node:fs/promises';
+import { generatePages as pngCollection } from './art/png-collection.mjs';
+import { mkdir,writeFile,readFile,access } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { createHash } from 'node:crypto';
 import { chromium } from '@playwright/test';
@@ -10,7 +11,7 @@ import sharp from 'sharp';
 
 const root=resolve(import.meta.dirname,'..');
 for(const folder of ['pages','thumbs','references','lineart'])await mkdir(`${root}/public/art/${folder}`,{recursive:true});
-const art=[...portraits(),...scenes(),...kawaii(),...collectibles()];
+const art=[...portraits(),...scenes(),...kawaii(),...collectibles(),...pngCollection()];
 if(art.length<100)throw Error(`Expected at least 100 illustrations, received ${art.length}`);
 const ids=new Set(),geometry=new Set(),catalog=[],report=[];
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
@@ -23,6 +24,35 @@ for(const p of art){
  const hash=createHash('sha256').update(p.regions.map(r=>r.d).join('|')).digest('hex');
  if(geometry.has(hash))throw Error(`Geometry duplicated in ${p.id}`);geometry.add(hash);
  const regionIds=new Set();for(const r of p.regions){if(regionIds.has(r.id))throw Error(`Duplicate region ${p.id}/${r.id}`);regionIds.add(r.id);if(!/[zZ]\s*$/.test(r.d)||/NaN|undefined|Infinity/.test(r.d))throw Error(`Invalid region ${p.id}/${r.id}`);if(!/^#[a-f\d]{6}$/i.test(r.color))throw Error(`Invalid color ${r.color}`);}
+ if(p.rasterInk){
+  // Raster pages have a native-resolution partition and interior labels produced
+  // by build-png-art.py. Do not retrace, reorder, re-ID, or simplify their ink.
+  const diagnostics=JSON.parse(await readFile(`${root}/docs/png-art/${p.id}.json`,'utf8'));
+  if(diagnostics.seedConflicts.length)throw Error(`Unresolved PNG boundary/seed conflicts in ${p.id}`);
+  for(const file of [p.rasterInk,p.lineart,p.reference,`./art/thumbs/${p.id}.webp`])await access(`${root}/public/${file.replace(/^\.\//,'')}`);
+  const labelsValid=await tab.evaluate(p=>{const c=document.createElement('canvas'),ctx=c.getContext('2d');return p.regions.every(r=>ctx.isPointInPath(new Path2D(r.d),...r.label,r.fillRule||'nonzero'));},p);
+  if(!labelsValid)throw Error(`PNG interior label misses its own fill region in ${p.id}`);
+  // Publish references with the same native Canvas rasterizer as the app.
+  // Pillow's integer mask fill differs at dense subpixel contour boundaries;
+  // using Path2D here keeps even those edge pixels aligned with saved coloring.
+  if(p.lines.length||p.shades.length||p.ink?.length)throw Error(`PNG reference renderer requires original raster ink only: ${p.id}`);
+  const inkData=await readFile(`${root}/public/${p.rasterInk.replace(/^\.\//,'')}`);
+  const referenceData=await tab.evaluate(async({p,ink})=>{
+   const canvas=document.createElement('canvas');canvas.width=p.width;canvas.height=p.height;
+   const ctx=canvas.getContext('2d');ctx.fillStyle='#ffffff';ctx.fillRect(0,0,p.width,p.height);
+   for(const region of p.regions){ctx.fillStyle=region.color;ctx.fill(new Path2D(region.d),region.fillRule||'nonzero');}
+   const img=new Image();img.src=ink;await img.decode();ctx.drawImage(img,0,0,p.width,p.height);
+   return canvas.toDataURL('image/png').split(',')[1];
+  },{p,ink:`data:image/png;base64,${inkData.toString('base64')}`});
+  const referencePng=Buffer.from(referenceData,'base64');
+  await writeFile(`${root}/public/${p.reference.replace(/^\.\//,'')}`,referencePng);
+  await sharp(referencePng).resize(360,540,{fit:'inside'}).webp({quality:86,effort:4}).toFile(`${root}/public/art/thumbs/${p.id}.webp`);
+  await writeFile(`${root}/public/art/pages/${p.id}.json`,JSON.stringify(p));
+  const {regions,lines,shades,ink,width,height,rasterInk,sourceSha256,assetVersion,...meta}=p;
+  catalog.push({...meta,regionCount:p.regions.length,file:`./art/pages/${p.id}.json`,thumbnail:`./art/thumbs/${p.id}.webp`});
+  report.push({id:p.id,difficulty:p.difficulty,sourceRegions:p.regions.length,visibleRegions:p.regions.length,occludedRemoved:0,smallestRegionPixels:diagnostics.smallestRegionPixels,tinyRegions:diagnostics.tinyRegions,labelsValidated:true,geometryHash:hash,format:'png',width,height,sourceSha256,excludedDecorativeRegions:diagnostics.excludedDecorativeRegions});
+  continue;
+ }
  const originalCount=p.regions.length;
  // Visible-region masks use the same Path2D fill order as the app. Place labels at
  // the maximum interior distance, never at a mathematical centroid outside a shape.
@@ -62,8 +92,9 @@ for(const p of art){
 // Interleave categories for an inviting front page, retaining stable IDs and files.
 const categories=[...new Set(catalog.map(p=>p.category))];const ordered=[];
 for(let n=0;n<Math.max(...categories.map(c=>catalog.filter(p=>p.category===c).length));n++)for(const c of categories){const p=catalog.filter(p=>p.category===c)[n];if(p)ordered.push(p);}
-ordered.sort((a,b)=>Number(b.tags.includes('collectible'))-Number(a.tags.includes('collectible')));
+const featurePriority=p=>p.tags.includes('atelier')?2:p.tags.includes('collectible')?1:0;
+ordered.sort((a,b)=>featurePriority(b)-featurePriority(a));
 await writeFile(`${root}/public/art/catalog.json`,JSON.stringify(ordered));
 await writeFile(`${root}/docs/art-validation.json`,JSON.stringify({version:1,pageCount:catalog.length,categories:categories.map(c=>({name:c,count:catalog.filter(p=>p.category===c).length})),difficulty:['Easy','Medium','Hard'].map(d=>({name:d,count:catalog.filter(p=>p.difficulty===d).length})),pages:report},null,2));
-console.log(`Built ${catalog.length} distinct vector illustrations, aligned references, line art, thumbnails and verified visible-region labels.`);
+console.log(`Built ${catalog.length} distinct illustrations, aligned references, line art, thumbnails and verified visible-region labels.`);
 console.log(JSON.stringify(['Easy','Medium','Hard'].map(d=>({difficulty:d,pages:catalog.filter(p=>p.difficulty===d).length}))));

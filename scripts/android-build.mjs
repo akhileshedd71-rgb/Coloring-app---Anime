@@ -6,6 +6,15 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
+const { version } = JSON.parse(readFileSync(path.join(root, 'package.json'), 'utf8'));
+if (typeof version !== 'string' || !/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/.test(version)) {
+  throw new Error('package.json version must be a numeric major.minor.patch version for the APK filename.');
+}
+const gradleConfig = readFileSync(path.join(root, 'android/app/build.gradle'), 'utf8');
+const nativeVersion = gradleConfig.match(/^\s*versionName\s+["']([^"']+)["']/m)?.[1];
+if (nativeVersion !== version) {
+  throw new Error(`Android versionName (${nativeVersion || 'missing'}) must match package.json (${version}). Update versionCode too when publishing an update.`);
+}
 const env = { ...process.env };
 if (existsSync('/workspace/android-sdk')) {
   env.ANDROID_HOME ||= '/workspace/android-sdk';
@@ -37,7 +46,7 @@ run('npm', ['run', 'build']);
 run('npx', ['cap', 'sync', 'android']);
 run(process.platform === 'win32' ? 'gradlew.bat' : './gradlew', ['assembleDebug', '--no-daemon', '--max-workers=2'], path.join(root, 'android'));
 mkdirSync(path.join(root, 'delivery'), { recursive: true });
-const name = 'hoshii-1.0.0-debug.apk';
+const name = `hoshii-${version}-debug.apk`;
 const destination = path.join(root, 'delivery', name);
 copyFileSync(path.join(root, 'android/app/build/outputs/apk/debug/app-debug.apk'), destination);
 const digest = createHash('sha256').update(readFileSync(destination)).digest('hex');

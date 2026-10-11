@@ -1,0 +1,7 @@
+{
+  "baselineRevision": "c8832db02a73a92e9858b42639c0a58aa0e6f4cc",
+  "previousPages": 101,
+  "byteIdenticalPages": 101,
+  "changed": [],
+  "meaning": "All published page JSON, region IDs, geometry, palettes and labels remain byte-for-byte compatible with existing saved projects."
+}

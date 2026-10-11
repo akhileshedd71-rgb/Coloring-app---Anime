@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "pageCount": 101,
+  "pageCount": 112,
   "categories": [
     {
       "name": "Anime portraits",
-      "count": 10
+      "count": 13
     },
     {
       "name": "Fantasy",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Streetwear",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Manga & duos",
@@ -24,11 +24,11 @@
     },
     {
       "name": "Festivals",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Cozy scenes",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Comic heroes",
@@ -36,25 +36,25 @@
     },
     {
       "name": "Chibi",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Kawaii",
-      "count": 10
+      "count": 12
     }
   ],
   "difficulty": [
     {
       "name": "Easy",
-      "count": 20
+      "count": 22
     },
     {
       "name": "Medium",
-      "count": 23
+      "count": 24
     },
     {
       "name": "Hard",
-      "count": 58
+      "count": 66
     }
   ],
   "pages": [
@@ -1168,6 +1168,182 @@
       "tinyRegions": 53,
       "labelsValidated": true,
       "geometryHash": "2996f84a554e46bd18a47279546a5b47a82decddb31edfcae1f9eeb1b5f0a5a3"
+    },
+    {
+      "id": "atelier-cloud-ribbon",
+      "difficulty": "Hard",
+      "sourceRegions": 681,
+      "visibleRegions": 681,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 297,
+      "labelsValidated": true,
+      "geometryHash": "d42f9c6c66cc25a0ea05102e9172c5ef2b4a09b33c8d18cd53d709fe59632c71",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "b2128d35ef53883e02fbe1899986193936f7bb511d8980cba5ad0e83855cd9f4",
+      "excludedDecorativeRegions": 1603
+    },
+    {
+      "id": "atelier-starlight-reader",
+      "difficulty": "Hard",
+      "sourceRegions": 1126,
+      "visibleRegions": 1126,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 473,
+      "labelsValidated": true,
+      "geometryHash": "eb196a78015be4023d5fcaac1480ccb4566363a593ee2a8bad966d2eea27b821",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "430737ba3585f01546c8f268e3cd313913ec938205983cb69a9f378651b2d074",
+      "excludedDecorativeRegions": 2642
+    },
+    {
+      "id": "atelier-city-dreamer",
+      "difficulty": "Hard",
+      "sourceRegions": 788,
+      "visibleRegions": 788,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 433,
+      "labelsValidated": true,
+      "geometryHash": "92f82773ce83f23b2571fc604be9f00b0569a36da8061f8468e202bc6bbca804",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "55f7904ef8ab4d1debfa07462b3e19b2b405d774e009d73e2aa8f5c8837906b4",
+      "excludedDecorativeRegions": 1633
+    },
+    {
+      "id": "atelier-boba-bunny",
+      "difficulty": "Easy",
+      "sourceRegions": 43,
+      "visibleRegions": 43,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 79,
+      "tinyRegions": 8,
+      "labelsValidated": true,
+      "geometryHash": "248281c66bc1d414c9972ebd477087cd1e8b3ca4c4392d352cfec77f8d74bdb7",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "d74db5fdf24b58fcdc97127eb3f7dfb8bff6027eb225db715ab6bcf64c669f61",
+      "excludedDecorativeRegions": 0
+    },
+    {
+      "id": "atelier-moon-cat",
+      "difficulty": "Easy",
+      "sourceRegions": 16,
+      "visibleRegions": 16,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 1264,
+      "tinyRegions": 0,
+      "labelsValidated": true,
+      "geometryHash": "a6df868d0e13f6b543a43955e073409f854f1943063d7b39033ea2ac73a288fb",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "39c7f2960b9441e8c8ae7f1f59ac6377cc8203a2a45ed1ef2e222b5d5fdb5279",
+      "excludedDecorativeRegions": 0
+    },
+    {
+      "id": "atelier-melody-chibi",
+      "difficulty": "Hard",
+      "sourceRegions": 399,
+      "visibleRegions": 399,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 138,
+      "labelsValidated": true,
+      "geometryHash": "3c7c052798ce6e06f801b75279e7fe7824b84880c02c42490856169e7b342a90",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "de182a164a01071bb2c307c855ffd94b047835966ee2cf4932b18d8fe3ab0613",
+      "excludedDecorativeRegions": 418
+    },
+    {
+      "id": "atelier-lantern-promise",
+      "difficulty": "Hard",
+      "sourceRegions": 1462,
+      "visibleRegions": 1462,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 823,
+      "labelsValidated": true,
+      "geometryHash": "4132a91bb3481318f70696a10b4f3ba5403ae9604b8d160f6b954218490763c1",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "4653b3f90754d2e84b317758656b7de3be4a06298dd0f98d463d022b15a9e559",
+      "excludedDecorativeRegions": 3309
+    },
+    {
+      "id": "atelier-butterfly-alchemist",
+      "difficulty": "Hard",
+      "sourceRegions": 1640,
+      "visibleRegions": 1640,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 1038,
+      "labelsValidated": true,
+      "geometryHash": "9bb06701bb179554091b1f8dcad5b4f8b5f433654005fde0f0f1ddb5b99710aa",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "176591819e5f856e9484f79b28acf9949b69986220bed7d69570c5b931a34872",
+      "excludedDecorativeRegions": 4681
+    },
+    {
+      "id": "atelier-rooftop-skater",
+      "difficulty": "Hard",
+      "sourceRegions": 595,
+      "visibleRegions": 595,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 14,
+      "tinyRegions": 269,
+      "labelsValidated": true,
+      "geometryHash": "142a26c9a0ad3d178c120be68d404811eaca913ea510e792c8282c6a06d47fde",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "97fcfcf4c5d39055b8069545b3791c9baed2dd39b27170974b3ac956a7eee179",
+      "excludedDecorativeRegions": 895
+    },
+    {
+      "id": "atelier-rainy-cafe",
+      "difficulty": "Hard",
+      "sourceRegions": 687,
+      "visibleRegions": 687,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 322,
+      "labelsValidated": true,
+      "geometryHash": "7e89a90a5f8d5c6e17d6b355f3d6d0046ea30a60e5c6227e8ab3dd1d97f8f055",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "d3a3fd194919ec9293572552195cc55d0b79e1b147f5d1fb54056c2890bda8ff",
+      "excludedDecorativeRegions": 1770
+    },
+    {
+      "id": "atelier-daisy-beat",
+      "difficulty": "Medium",
+      "sourceRegions": 114,
+      "visibleRegions": 114,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 31,
+      "tinyRegions": 20,
+      "labelsValidated": true,
+      "geometryHash": "b7173a06be7a1fc24300b5ab5f93b4c2487731cb8a17a5e1434dfcadfdf5523c",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "b7a0560de4a45cb1d441f3d7a1f0f5ef28ee8a81578a261933312f641bf72f5d",
+      "excludedDecorativeRegions": 113
     }
   ]
 }
