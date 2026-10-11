@@ -1,0 +1,1173 @@
+{
+  "version": 1,
+  "pageCount": 101,
+  "categories": [
+    {
+      "name": "Anime portraits",
+      "count": 10
+    },
+    {
+      "name": "Fantasy",
+      "count": 11
+    },
+    {
+      "name": "Streetwear",
+      "count": 10
+    },
+    {
+      "name": "Manga & duos",
+      "count": 10
+    },
+    {
+      "name": "Romance & friendship",
+      "count": 10
+    },
+    {
+      "name": "Festivals",
+      "count": 10
+    },
+    {
+      "name": "Cozy scenes",
+      "count": 10
+    },
+    {
+      "name": "Comic heroes",
+      "count": 10
+    },
+    {
+      "name": "Chibi",
+      "count": 10
+    },
+    {
+      "name": "Kawaii",
+      "count": 10
+    }
+  ],
+  "difficulty": [
+    {
+      "name": "Easy",
+      "count": 20
+    },
+    {
+      "name": "Medium",
+      "count": 23
+    },
+    {
+      "name": "Hard",
+      "count": 58
+    }
+  ],
+  "pages": [
+    {
+      "id": "portrait-moonflower",
+      "difficulty": "Hard",
+      "sourceRegions": 146,
+      "visibleRegions": 143,
+      "occludedRemoved": 3,
+      "smallestRegionPixels": 31,
+      "tinyRegions": 30,
+      "labelsValidated": true,
+      "geometryHash": "262bd67ec01e7b40b4126111387844c694e465ad3163b77ec35656f68a0e5e89"
+    },
+    {
+      "id": "portrait-paper-cranes",
+      "difficulty": "Medium",
+      "sourceRegions": 57,
+      "visibleRegions": 57,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 56,
+      "tinyRegions": 3,
+      "labelsValidated": true,
+      "geometryHash": "61aca1127daf04c0d9838efe6dba9f939931c32269566ab626472dbf82cfbc50"
+    },
+    {
+      "id": "portrait-rosewater",
+      "difficulty": "Hard",
+      "sourceRegions": 134,
+      "visibleRegions": 134,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 27,
+      "tinyRegions": 27,
+      "labelsValidated": true,
+      "geometryHash": "673874e53bccbb5b4e5e9310ade351fd6e9f424713ae409dcd27ada264e7179c"
+    },
+    {
+      "id": "portrait-autumn-letter",
+      "difficulty": "Medium",
+      "sourceRegions": 80,
+      "visibleRegions": 80,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 56,
+      "tinyRegions": 10,
+      "labelsValidated": true,
+      "geometryHash": "1031d50c9f43b176da8da679c4dae5caadde421f98fea52a654dfe74b3895cf5"
+    },
+    {
+      "id": "portrait-butterfly-glass",
+      "difficulty": "Hard",
+      "sourceRegions": 130,
+      "visibleRegions": 130,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 54,
+      "tinyRegions": 26,
+      "labelsValidated": true,
+      "geometryHash": "5a5efc43ffb69727414d4946d7732a854c42c7b91a905880e1acb39e1565789a"
+    },
+    {
+      "id": "portrait-rain-listener",
+      "difficulty": "Medium",
+      "sourceRegions": 63,
+      "visibleRegions": 62,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 57,
+      "tinyRegions": 5,
+      "labelsValidated": true,
+      "geometryHash": "f7964143a9def5ea66193029d9b848c6cc72da476927c57f8f196c84f5dd8682"
+    },
+    {
+      "id": "portrait-sunlit-freckles",
+      "difficulty": "Hard",
+      "sourceRegions": 156,
+      "visibleRegions": 154,
+      "occludedRemoved": 2,
+      "smallestRegionPixels": 6,
+      "tinyRegions": 82,
+      "labelsValidated": true,
+      "geometryHash": "84d87e45421215fd98f8f540ab28a48949dce11038e4e0b82f0a4fc942f05903"
+    },
+    {
+      "id": "portrait-vinyl-dream",
+      "difficulty": "Hard",
+      "sourceRegions": 76,
+      "visibleRegions": 75,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 32,
+      "tinyRegions": 11,
+      "labelsValidated": true,
+      "geometryHash": "1a5c4c3a360c10b742be9bb24588d3f3ce100dcaa06eb1d25e189499dbf5497d"
+    },
+    {
+      "id": "portrait-sakura-ink",
+      "difficulty": "Hard",
+      "sourceRegions": 160,
+      "visibleRegions": 160,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 52,
+      "tinyRegions": 53,
+      "labelsValidated": true,
+      "geometryHash": "869d1c19d06697e35958b0d2dd4b814feea8b5820268bea378bde6459d107f47"
+    },
+    {
+      "id": "portrait-winter-velvet",
+      "difficulty": "Medium",
+      "sourceRegions": 52,
+      "visibleRegions": 52,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 56,
+      "tinyRegions": 10,
+      "labelsValidated": true,
+      "geometryHash": "51dc71eafaf2314d68cb11fd20f05d56e0c37a2bd206aa7db0573cdcd4b4bcc8"
+    },
+    {
+      "id": "fantasy-star-cartographer",
+      "difficulty": "Hard",
+      "sourceRegions": 97,
+      "visibleRegions": 97,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 44,
+      "tinyRegions": 33,
+      "labelsValidated": true,
+      "geometryHash": "6e381e8ac0815b931ea66ed1105ee9009b1c84eb71e51cd6b1f5ba5f6a84a732"
+    },
+    {
+      "id": "fantasy-dragon-envoy",
+      "difficulty": "Hard",
+      "sourceRegions": 86,
+      "visibleRegions": 86,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 57,
+      "tinyRegions": 27,
+      "labelsValidated": true,
+      "geometryHash": "5341beaeb97b23c8be4774037982b6555bf673b8e50a1055fccb85551de34732"
+    },
+    {
+      "id": "fantasy-petal-oracle",
+      "difficulty": "Hard",
+      "sourceRegions": 153,
+      "visibleRegions": 152,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 31,
+      "tinyRegions": 34,
+      "labelsValidated": true,
+      "geometryHash": "efc308c271e1d58577299c1d3fdfe3cb92c8363465b64a0f6f887247e72061fa"
+    },
+    {
+      "id": "fantasy-tide-singer",
+      "difficulty": "Hard",
+      "sourceRegions": 89,
+      "visibleRegions": 89,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 58,
+      "tinyRegions": 21,
+      "labelsValidated": true,
+      "geometryHash": "13a310695a59299d783666ff83356bd39711d508a3967dded4aa87f2c4543888"
+    },
+    {
+      "id": "fantasy-crescent-knight",
+      "difficulty": "Hard",
+      "sourceRegions": 93,
+      "visibleRegions": 92,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 44,
+      "tinyRegions": 25,
+      "labelsValidated": true,
+      "geometryHash": "c0649d807d7d9caf25eef00dfa34ac2542762ddecd2ce899358e36b1b4bf308e"
+    },
+    {
+      "id": "fantasy-amber-alchemist",
+      "difficulty": "Hard",
+      "sourceRegions": 75,
+      "visibleRegions": 75,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 32,
+      "tinyRegions": 19,
+      "labelsValidated": true,
+      "geometryHash": "3782d9cc03e51c6302953c8e2e6234ea2afe6101b4f7ac5d6e5e7de7603bcc40"
+    },
+    {
+      "id": "fantasy-lantern-keeper",
+      "difficulty": "Hard",
+      "sourceRegions": 110,
+      "visibleRegions": 110,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 32,
+      "labelsValidated": true,
+      "geometryHash": "db8b48da62b7e02638e1b6de34f72c490a7056136204601ed906dc15c237bbdc"
+    },
+    {
+      "id": "fantasy-thorn-prince",
+      "difficulty": "Hard",
+      "sourceRegions": 136,
+      "visibleRegions": 135,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 55,
+      "tinyRegions": 26,
+      "labelsValidated": true,
+      "geometryHash": "2ef15d72b01c13e70cd031353048df1067158ce2d1064c22e2a8f5e1b5972d2d"
+    },
+    {
+      "id": "fantasy-cloud-courier",
+      "difficulty": "Hard",
+      "sourceRegions": 83,
+      "visibleRegions": 83,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 57,
+      "tinyRegions": 16,
+      "labelsValidated": true,
+      "geometryHash": "36d7704fe1ec41c17ce35aae59f3645295fc62d7260a29b188197e5228bcb9d3"
+    },
+    {
+      "id": "fantasy-crystal-archivist",
+      "difficulty": "Hard",
+      "sourceRegions": 79,
+      "visibleRegions": 79,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 32,
+      "tinyRegions": 8,
+      "labelsValidated": true,
+      "geometryHash": "aed4dbda1b9c3754de86d4b27af17396e3bace78c8b4e91469df2b040baf6159"
+    },
+    {
+      "id": "street-neon-drifter",
+      "difficulty": "Hard",
+      "sourceRegions": 90,
+      "visibleRegions": 88,
+      "occludedRemoved": 2,
+      "smallestRegionPixels": 58,
+      "tinyRegions": 27,
+      "labelsValidated": true,
+      "geometryHash": "0b3bf0c8ed54329016c281111cf59589e174517f047b333c5c51475ec484b449"
+    },
+    {
+      "id": "street-rooftop-radio",
+      "difficulty": "Medium",
+      "sourceRegions": 67,
+      "visibleRegions": 65,
+      "occludedRemoved": 2,
+      "smallestRegionPixels": 56,
+      "tinyRegions": 10,
+      "labelsValidated": true,
+      "geometryHash": "b1ded2140e774828ec14ff401b8fa96dbf82dd371c1b186a294a72fd54b4a497"
+    },
+    {
+      "id": "street-cherry-static",
+      "difficulty": "Hard",
+      "sourceRegions": 101,
+      "visibleRegions": 99,
+      "occludedRemoved": 2,
+      "smallestRegionPixels": 57,
+      "tinyRegions": 29,
+      "labelsValidated": true,
+      "geometryHash": "27f82dd8fc98fc5da7828b1a4929dfe183bf371698566da23c23baf0c43e0c11"
+    },
+    {
+      "id": "street-midnight-skater",
+      "difficulty": "Medium",
+      "sourceRegions": 66,
+      "visibleRegions": 66,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 59,
+      "tinyRegions": 13,
+      "labelsValidated": true,
+      "geometryHash": "83dc7826491cb08b373a062ab8a8ddf1cff5a9aa2dc0ef500b8a774acdc4199c"
+    },
+    {
+      "id": "street-pastel-orbit",
+      "difficulty": "Hard",
+      "sourceRegions": 98,
+      "visibleRegions": 98,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 18,
+      "tinyRegions": 34,
+      "labelsValidated": true,
+      "geometryHash": "346fafd5829c379e640da0fbaf4393d5e65815aae528163ea15354b762caaca6"
+    },
+    {
+      "id": "street-golden-hour",
+      "difficulty": "Hard",
+      "sourceRegions": 86,
+      "visibleRegions": 86,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 56,
+      "tinyRegions": 29,
+      "labelsValidated": true,
+      "geometryHash": "1c564026d4631b6643ff745fae13f4457a6ab20c479648db38bdc40f2b7658d5"
+    },
+    {
+      "id": "street-arcade-angel",
+      "difficulty": "Hard",
+      "sourceRegions": 112,
+      "visibleRegions": 110,
+      "occludedRemoved": 2,
+      "smallestRegionPixels": 57,
+      "tinyRegions": 28,
+      "labelsValidated": true,
+      "geometryHash": "96c19a68fe14547f5dc208820f3466fa81d0ad9c30ce2638b6f996a470d06acb"
+    },
+    {
+      "id": "street-blue-frequency",
+      "difficulty": "Medium",
+      "sourceRegions": 74,
+      "visibleRegions": 70,
+      "occludedRemoved": 4,
+      "smallestRegionPixels": 56,
+      "tinyRegions": 11,
+      "labelsValidated": true,
+      "geometryHash": "0a0f5d04800b6d5542fdcb21eb06dfa0b047b25a381d6a48a0c09845e0d172ba"
+    },
+    {
+      "id": "street-pixel-punk",
+      "difficulty": "Hard",
+      "sourceRegions": 100,
+      "visibleRegions": 99,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 56,
+      "tinyRegions": 29,
+      "labelsValidated": true,
+      "geometryHash": "5c8655d6677cf7cc59c67e0d1df3a9f6e7bcf51585d89f9a9c2a4ebe8ec4d3fb"
+    },
+    {
+      "id": "street-rain-circuit",
+      "difficulty": "Hard",
+      "sourceRegions": 96,
+      "visibleRegions": 95,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 58,
+      "tinyRegions": 28,
+      "labelsValidated": true,
+      "geometryHash": "0ee9134d8631c2c78097aec43c79b776404f6eb818df8a21e53ac2aae1284aa5"
+    },
+    {
+      "id": "manga-01",
+      "difficulty": "Medium",
+      "sourceRegions": 60,
+      "visibleRegions": 60,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 48,
+      "tinyRegions": 13,
+      "labelsValidated": true,
+      "geometryHash": "f47b3db12752d2d5536363be081ec2c0b325caab2bacb0aabf76c3062c678f39"
+    },
+    {
+      "id": "manga-02",
+      "difficulty": "Medium",
+      "sourceRegions": 85,
+      "visibleRegions": 75,
+      "occludedRemoved": 10,
+      "smallestRegionPixels": 30,
+      "tinyRegions": 11,
+      "labelsValidated": true,
+      "geometryHash": "ba17146a29eb4b22cdca0e4643f058e316a03452c2d4130cd05ca6b24256354b"
+    },
+    {
+      "id": "manga-03",
+      "difficulty": "Hard",
+      "sourceRegions": 145,
+      "visibleRegions": 133,
+      "occludedRemoved": 12,
+      "smallestRegionPixels": 30,
+      "tinyRegions": 23,
+      "labelsValidated": true,
+      "geometryHash": "71215f0a78935ee79b183591982f64e94a8ecd26c5237fadc77d8ae384770573"
+    },
+    {
+      "id": "manga-04",
+      "difficulty": "Hard",
+      "sourceRegions": 105,
+      "visibleRegions": 105,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 33,
+      "tinyRegions": 27,
+      "labelsValidated": true,
+      "geometryHash": "1b590ffdf5409a8e8c661900cd1f4552d3ba5cbbf8101c78a30f5a2fc08d6f46"
+    },
+    {
+      "id": "manga-05",
+      "difficulty": "Hard",
+      "sourceRegions": 188,
+      "visibleRegions": 183,
+      "occludedRemoved": 5,
+      "smallestRegionPixels": 32,
+      "tinyRegions": 123,
+      "labelsValidated": true,
+      "geometryHash": "a892f147428ca55e96389a86305db2aa59d1b1a098d2fcce035640eaff0b8671"
+    },
+    {
+      "id": "manga-06",
+      "difficulty": "Medium",
+      "sourceRegions": 57,
+      "visibleRegions": 56,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 48,
+      "tinyRegions": 8,
+      "labelsValidated": true,
+      "geometryHash": "1bd91a4ee0cfc23bd41c0190a515f3e374d27ea71474fb4d29cd76497cd17e38"
+    },
+    {
+      "id": "manga-07",
+      "difficulty": "Hard",
+      "sourceRegions": 129,
+      "visibleRegions": 121,
+      "occludedRemoved": 8,
+      "smallestRegionPixels": 30,
+      "tinyRegions": 23,
+      "labelsValidated": true,
+      "geometryHash": "7462c10569f9ae26a1a4c7c59e95c755066ec3c1529e7a34bfa44703fc5aba82"
+    },
+    {
+      "id": "manga-08",
+      "difficulty": "Hard",
+      "sourceRegions": 95,
+      "visibleRegions": 92,
+      "occludedRemoved": 3,
+      "smallestRegionPixels": 48,
+      "tinyRegions": 36,
+      "labelsValidated": true,
+      "geometryHash": "77a3838e12e8a1ef484b65f6254e0c36b3b13de9a2c56af78c50d88e1c93d69b"
+    },
+    {
+      "id": "manga-09",
+      "difficulty": "Medium",
+      "sourceRegions": 77,
+      "visibleRegions": 74,
+      "occludedRemoved": 3,
+      "smallestRegionPixels": 48,
+      "tinyRegions": 5,
+      "labelsValidated": true,
+      "geometryHash": "e71d38a8ac2631c805356c293a13c96309864877640cf15b662e4ca6148be957"
+    },
+    {
+      "id": "manga-10",
+      "difficulty": "Hard",
+      "sourceRegions": 123,
+      "visibleRegions": 110,
+      "occludedRemoved": 13,
+      "smallestRegionPixels": 15,
+      "tinyRegions": 21,
+      "labelsValidated": true,
+      "geometryHash": "77fec1bcd72625d4b30318fc6e2a1c16a31479925702449760543478e19a34d1"
+    },
+    {
+      "id": "romance-01",
+      "difficulty": "Hard",
+      "sourceRegions": 122,
+      "visibleRegions": 111,
+      "occludedRemoved": 11,
+      "smallestRegionPixels": 34,
+      "tinyRegions": 15,
+      "labelsValidated": true,
+      "geometryHash": "201d964749ce5ee073867b957ffb2b8e3094e45a222b1b6d49ee90f378eaed17"
+    },
+    {
+      "id": "romance-02",
+      "difficulty": "Hard",
+      "sourceRegions": 246,
+      "visibleRegions": 234,
+      "occludedRemoved": 12,
+      "smallestRegionPixels": 30,
+      "tinyRegions": 139,
+      "labelsValidated": true,
+      "geometryHash": "25a44dfe0ba5c7ff9b8d9c7cd9434b23cc1128fd229d1763d8dfacc535809fe1"
+    },
+    {
+      "id": "romance-03",
+      "difficulty": "Hard",
+      "sourceRegions": 132,
+      "visibleRegions": 116,
+      "occludedRemoved": 16,
+      "smallestRegionPixels": 34,
+      "tinyRegions": 24,
+      "labelsValidated": true,
+      "geometryHash": "6752daab822b334bfb8deef02bf28a5e819a580284bd4fb68acee92e4e68a582"
+    },
+    {
+      "id": "romance-04",
+      "difficulty": "Hard",
+      "sourceRegions": 147,
+      "visibleRegions": 132,
+      "occludedRemoved": 15,
+      "smallestRegionPixels": 10,
+      "tinyRegions": 22,
+      "labelsValidated": true,
+      "geometryHash": "afe1d5505a2ee8bcba9dfff9520a5a0b6eb95577c887644f11b726872f947e1d"
+    },
+    {
+      "id": "romance-05",
+      "difficulty": "Hard",
+      "sourceRegions": 135,
+      "visibleRegions": 135,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 34,
+      "tinyRegions": 44,
+      "labelsValidated": true,
+      "geometryHash": "1bccdc6f8e05ce03e6aac76c10457ce7b051df48c80780a2b7306caf3fe518d9"
+    },
+    {
+      "id": "romance-06",
+      "difficulty": "Hard",
+      "sourceRegions": 99,
+      "visibleRegions": 98,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 30,
+      "tinyRegions": 20,
+      "labelsValidated": true,
+      "geometryHash": "3f14c21cb2dd037b9d243a92bde5f24f2f2a53b3c81a7c5d930b2838968911d5"
+    },
+    {
+      "id": "romance-07",
+      "difficulty": "Hard",
+      "sourceRegions": 118,
+      "visibleRegions": 110,
+      "occludedRemoved": 8,
+      "smallestRegionPixels": 34,
+      "tinyRegions": 17,
+      "labelsValidated": true,
+      "geometryHash": "3fdff1ce64a52fc07cb36c97c9359c22476e66c8dbbf45e930062cb194b127d5"
+    },
+    {
+      "id": "romance-08",
+      "difficulty": "Hard",
+      "sourceRegions": 177,
+      "visibleRegions": 177,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 34,
+      "tinyRegions": 86,
+      "labelsValidated": true,
+      "geometryHash": "3d9b9abc0760f0d5061913b62afed31d1916f02824599b6450120fdfed4eb549"
+    },
+    {
+      "id": "romance-09",
+      "difficulty": "Hard",
+      "sourceRegions": 224,
+      "visibleRegions": 189,
+      "occludedRemoved": 35,
+      "smallestRegionPixels": 12,
+      "tinyRegions": 101,
+      "labelsValidated": true,
+      "geometryHash": "3cf078cb60045ff7f849eb9c6c22457b4a25d39ede9dc35b62a65c81256368b9"
+    },
+    {
+      "id": "romance-10",
+      "difficulty": "Hard",
+      "sourceRegions": 130,
+      "visibleRegions": 123,
+      "occludedRemoved": 7,
+      "smallestRegionPixels": 12,
+      "tinyRegions": 27,
+      "labelsValidated": true,
+      "geometryHash": "f4737211917d3b6e8dca91611f7b7ff3ebeac15ffe62a1f06c3c763216552d81"
+    },
+    {
+      "id": "festival-01",
+      "difficulty": "Hard",
+      "sourceRegions": 112,
+      "visibleRegions": 112,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 35,
+      "tinyRegions": 59,
+      "labelsValidated": true,
+      "geometryHash": "4dce92cef4d0e624e9e5ed00fb9af23b7c91517d03c2e146aae18966f273710d"
+    },
+    {
+      "id": "festival-02",
+      "difficulty": "Hard",
+      "sourceRegions": 108,
+      "visibleRegions": 108,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 44,
+      "tinyRegions": 56,
+      "labelsValidated": true,
+      "geometryHash": "8585580a5488bd66eeb55943d01f0e360fb72ea8cc3c7059f42e36aa2aa9a681"
+    },
+    {
+      "id": "festival-03",
+      "difficulty": "Hard",
+      "sourceRegions": 169,
+      "visibleRegions": 166,
+      "occludedRemoved": 3,
+      "smallestRegionPixels": 36,
+      "tinyRegions": 77,
+      "labelsValidated": true,
+      "geometryHash": "cb2a0514c4df80a45279832a48a1f0947cfff61809c42ede8cb96ced8248dd1a"
+    },
+    {
+      "id": "festival-04",
+      "difficulty": "Hard",
+      "sourceRegions": 194,
+      "visibleRegions": 187,
+      "occludedRemoved": 7,
+      "smallestRegionPixels": 32,
+      "tinyRegions": 131,
+      "labelsValidated": true,
+      "geometryHash": "b0161599cef38058f2793dc27d2888f3a79d58a2756b903d44f868368e68db85"
+    },
+    {
+      "id": "festival-05",
+      "difficulty": "Hard",
+      "sourceRegions": 110,
+      "visibleRegions": 110,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 44,
+      "tinyRegions": 54,
+      "labelsValidated": true,
+      "geometryHash": "08105e2aa31434e1384b8530e5dbce8ec5e6f09c37b319bde6376168201644f9"
+    },
+    {
+      "id": "festival-06",
+      "difficulty": "Hard",
+      "sourceRegions": 118,
+      "visibleRegions": 112,
+      "occludedRemoved": 6,
+      "smallestRegionPixels": 34,
+      "tinyRegions": 37,
+      "labelsValidated": true,
+      "geometryHash": "3de431c4a52172ed2a2062ec3a48ba9ee868525bfea7749663da33428c11f031"
+    },
+    {
+      "id": "festival-07",
+      "difficulty": "Hard",
+      "sourceRegions": 105,
+      "visibleRegions": 96,
+      "occludedRemoved": 9,
+      "smallestRegionPixels": 44,
+      "tinyRegions": 20,
+      "labelsValidated": true,
+      "geometryHash": "ece8b97184f6f364ca4b97dda7b2d710ae224bd8fcc431180c2355c23a003613"
+    },
+    {
+      "id": "festival-08",
+      "difficulty": "Hard",
+      "sourceRegions": 161,
+      "visibleRegions": 161,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 34,
+      "tinyRegions": 75,
+      "labelsValidated": true,
+      "geometryHash": "fc3c7fde409b5dfd2d85d63b9d1f66f0a2cdea62e102b819d2b8a2b39f0079c9"
+    },
+    {
+      "id": "festival-09",
+      "difficulty": "Hard",
+      "sourceRegions": 97,
+      "visibleRegions": 97,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 35,
+      "tinyRegions": 46,
+      "labelsValidated": true,
+      "geometryHash": "fab0eb258f199011b4f10cc488a47a8f743021c3af8da835d9372695e3ea49ff"
+    },
+    {
+      "id": "festival-10",
+      "difficulty": "Hard",
+      "sourceRegions": 195,
+      "visibleRegions": 190,
+      "occludedRemoved": 5,
+      "smallestRegionPixels": 32,
+      "tinyRegions": 132,
+      "labelsValidated": true,
+      "geometryHash": "d8d3713f2fbc435f559655de5e0d2daa1fb1e187900421922643858716aeda0c"
+    },
+    {
+      "id": "cozy-01",
+      "difficulty": "Medium",
+      "sourceRegions": 82,
+      "visibleRegions": 80,
+      "occludedRemoved": 2,
+      "smallestRegionPixels": 46,
+      "tinyRegions": 8,
+      "labelsValidated": true,
+      "geometryHash": "99a6fe18e7d9dd6b9ba87dfc6b610b7ce1eaf0d1f119003a9288d288a0fd332c"
+    },
+    {
+      "id": "cozy-02",
+      "difficulty": "Hard",
+      "sourceRegions": 167,
+      "visibleRegions": 162,
+      "occludedRemoved": 5,
+      "smallestRegionPixels": 32,
+      "tinyRegions": 112,
+      "labelsValidated": true,
+      "geometryHash": "f30072b4ec71367320a1ad1acc9312d9c8057b54e20f69d6390dcd22bc263f1e"
+    },
+    {
+      "id": "cozy-03",
+      "difficulty": "Medium",
+      "sourceRegions": 69,
+      "visibleRegions": 65,
+      "occludedRemoved": 4,
+      "smallestRegionPixels": 41,
+      "tinyRegions": 8,
+      "labelsValidated": true,
+      "geometryHash": "dd78bb17cd96a9f15ddcd3d92e81743acbbd27fbd81655dadb880a69c803ba65"
+    },
+    {
+      "id": "cozy-04",
+      "difficulty": "Medium",
+      "sourceRegions": 88,
+      "visibleRegions": 88,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 35,
+      "tinyRegions": 15,
+      "labelsValidated": true,
+      "geometryHash": "eca17855a1fe2f5a96346c786fd8e59a56e0a30b89c9ef4345396cc0f9b5ccb3"
+    },
+    {
+      "id": "cozy-05",
+      "difficulty": "Medium",
+      "sourceRegions": 99,
+      "visibleRegions": 91,
+      "occludedRemoved": 8,
+      "smallestRegionPixels": 46,
+      "tinyRegions": 10,
+      "labelsValidated": true,
+      "geometryHash": "baf8698629358ccb02126a3c47410bcd33fb109a9a03c3734a835938bb9b1a2b"
+    },
+    {
+      "id": "cozy-06",
+      "difficulty": "Medium",
+      "sourceRegions": 57,
+      "visibleRegions": 56,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 46,
+      "tinyRegions": 7,
+      "labelsValidated": true,
+      "geometryHash": "89856930f39bcfbf4d22d305885df8c774e7b3dc4104fc3104d29d3ff035ce43"
+    },
+    {
+      "id": "cozy-07",
+      "difficulty": "Hard",
+      "sourceRegions": 113,
+      "visibleRegions": 103,
+      "occludedRemoved": 10,
+      "smallestRegionPixels": 40,
+      "tinyRegions": 21,
+      "labelsValidated": true,
+      "geometryHash": "f7fc2d9adbc7b3982778971b405a68aadb51b363cae718ce4208d6416403637f"
+    },
+    {
+      "id": "cozy-08",
+      "difficulty": "Medium",
+      "sourceRegions": 86,
+      "visibleRegions": 83,
+      "occludedRemoved": 3,
+      "smallestRegionPixels": 35,
+      "tinyRegions": 13,
+      "labelsValidated": true,
+      "geometryHash": "a6155a103254091e8698bd834ab71f0ff027584c1ddbb041330fe09be1e855d5"
+    },
+    {
+      "id": "cozy-09",
+      "difficulty": "Medium",
+      "sourceRegions": 55,
+      "visibleRegions": 55,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 46,
+      "tinyRegions": 5,
+      "labelsValidated": true,
+      "geometryHash": "981c68204254a6b0d6236f5a50e5842ca8668931afdde78d4c1471c867398970"
+    },
+    {
+      "id": "cozy-10",
+      "difficulty": "Hard",
+      "sourceRegions": 131,
+      "visibleRegions": 120,
+      "occludedRemoved": 11,
+      "smallestRegionPixels": 40,
+      "tinyRegions": 25,
+      "labelsValidated": true,
+      "geometryHash": "f261c39d53737c0769424b668e423fdb4f43708c3b933e8c598192d9fbba3912"
+    },
+    {
+      "id": "comic-aurora-sentinel",
+      "difficulty": "Medium",
+      "sourceRegions": 72,
+      "visibleRegions": 72,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 45,
+      "tinyRegions": 6,
+      "labelsValidated": true,
+      "geometryHash": "22b0b50435af4932ac2c5022cfabb364d30e213cee5943b0133208babf6e8466"
+    },
+    {
+      "id": "comic-velocity-red",
+      "difficulty": "Medium",
+      "sourceRegions": 74,
+      "visibleRegions": 73,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 45,
+      "tinyRegions": 9,
+      "labelsValidated": true,
+      "geometryHash": "890af73d69c57856f4ff1e94d4081021277b9b9e8666970f200ef5c6e6a55f66"
+    },
+    {
+      "id": "comic-lotus-shield",
+      "difficulty": "Medium",
+      "sourceRegions": 79,
+      "visibleRegions": 77,
+      "occludedRemoved": 2,
+      "smallestRegionPixels": 45,
+      "tinyRegions": 7,
+      "labelsValidated": true,
+      "geometryHash": "67b7e66f2285dce39bcdd8892a970123dc85a5d893ccb6ba9d708b4dc2c89647"
+    },
+    {
+      "id": "comic-storm-archer",
+      "difficulty": "Medium",
+      "sourceRegions": 64,
+      "visibleRegions": 61,
+      "occludedRemoved": 3,
+      "smallestRegionPixels": 45,
+      "tinyRegions": 7,
+      "labelsValidated": true,
+      "geometryHash": "1a9e6a5fab064925ad4fb0ef26b352e2dbb5cacec1fe2ce86847bb6b920992e3"
+    },
+    {
+      "id": "comic-comet-rider",
+      "difficulty": "Medium",
+      "sourceRegions": 74,
+      "visibleRegions": 74,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 45,
+      "tinyRegions": 8,
+      "labelsValidated": true,
+      "geometryHash": "a38cc230eabe4017ad07099d41598ca7a2c98ab65f50ba4db90a534aeaacc771"
+    },
+    {
+      "id": "comic-ink-knight",
+      "difficulty": "Hard",
+      "sourceRegions": 76,
+      "visibleRegions": 76,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 45,
+      "tinyRegions": 17,
+      "labelsValidated": true,
+      "geometryHash": "2cd35012699722e695aa84008ad60102a1402d0c521bc2488fcd0f8959931934"
+    },
+    {
+      "id": "comic-cobalt-oracle",
+      "difficulty": "Hard",
+      "sourceRegions": 83,
+      "visibleRegions": 83,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 45,
+      "tinyRegions": 18,
+      "labelsValidated": true,
+      "geometryHash": "cf36dd29368e4bdcbc8029a0028b7525569a32d92105af4ebbc36a0c3365c7ff"
+    },
+    {
+      "id": "comic-solar-bolt",
+      "difficulty": "Hard",
+      "sourceRegions": 76,
+      "visibleRegions": 76,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 45,
+      "tinyRegions": 16,
+      "labelsValidated": true,
+      "geometryHash": "ec85ebc85c867f8a3a4ef88a9d2a5e35daba8440094684248410ba4d2eec7518"
+    },
+    {
+      "id": "comic-jade-wing",
+      "difficulty": "Hard",
+      "sourceRegions": 94,
+      "visibleRegions": 94,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 45,
+      "tinyRegions": 17,
+      "labelsValidated": true,
+      "geometryHash": "6ed9da7d45446b7e5e92bed60b0bb4e2a984956f734a79e628cf7d01683e0e13"
+    },
+    {
+      "id": "comic-neon-defender",
+      "difficulty": "Hard",
+      "sourceRegions": 99,
+      "visibleRegions": 90,
+      "occludedRemoved": 9,
+      "smallestRegionPixels": 27,
+      "tinyRegions": 18,
+      "labelsValidated": true,
+      "geometryHash": "2aa4f257a1483f7686dfbe24f458366d3d82c9cba68200959816f488764040f8"
+    },
+    {
+      "id": "chibi-starlight-apprentice",
+      "difficulty": "Easy",
+      "sourceRegions": 40,
+      "visibleRegions": 40,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 305,
+      "tinyRegions": 0,
+      "labelsValidated": true,
+      "geometryHash": "7eb69af30f12aacc70892bb1d10cff207d052b2d7d852a381d357b4a0049a257"
+    },
+    {
+      "id": "chibi-skate-day",
+      "difficulty": "Easy",
+      "sourceRegions": 38,
+      "visibleRegions": 38,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 305,
+      "tinyRegions": 0,
+      "labelsValidated": true,
+      "geometryHash": "cbf4bf2d6bd6cf295ecea1124aab29e25e9d3fffdfc54e10a9bdca531e6ff49a"
+    },
+    {
+      "id": "chibi-strawberry-chef",
+      "difficulty": "Easy",
+      "sourceRegions": 40,
+      "visibleRegions": 40,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 305,
+      "tinyRegions": 0,
+      "labelsValidated": true,
+      "geometryHash": "17135400a807e6496394eb983e12d904099ee5adadf95b0767fa3a1c74fecbca"
+    },
+    {
+      "id": "chibi-cloud-pilot",
+      "difficulty": "Easy",
+      "sourceRegions": 36,
+      "visibleRegions": 36,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 305,
+      "tinyRegions": 0,
+      "labelsValidated": true,
+      "geometryHash": "7876634a9165787a9a675c5e1fd26d4b7fe98a41cf926ddb1620f41ab464931f"
+    },
+    {
+      "id": "chibi-garden-poet",
+      "difficulty": "Easy",
+      "sourceRegions": 48,
+      "visibleRegions": 48,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 88,
+      "tinyRegions": 1,
+      "labelsValidated": true,
+      "geometryHash": "49740c14a2ccd5b573576e98ff246c204fccfad8887674e31144b9736a0ac04d"
+    },
+    {
+      "id": "chibi-moon-bard",
+      "difficulty": "Easy",
+      "sourceRegions": 38,
+      "visibleRegions": 38,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 305,
+      "tinyRegions": 0,
+      "labelsValidated": true,
+      "geometryHash": "55c4896b97e64018f984934691c22a7bbc91424210f574249922df0ef451aaea"
+    },
+    {
+      "id": "chibi-ramen-hero",
+      "difficulty": "Easy",
+      "sourceRegions": 40,
+      "visibleRegions": 40,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 305,
+      "tinyRegions": 0,
+      "labelsValidated": true,
+      "geometryHash": "f3471fa5696236b1a132bab51fa1d846ce64a8f7ad711945840ca7096157b9ac"
+    },
+    {
+      "id": "chibi-flower-courier",
+      "difficulty": "Easy",
+      "sourceRegions": 46,
+      "visibleRegions": 46,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 305,
+      "tinyRegions": 0,
+      "labelsValidated": true,
+      "geometryHash": "f856c4b7ecddd919cbc04b524a66ca89b0126b3c1977b44404142377152d9afa"
+    },
+    {
+      "id": "chibi-star-astronaut",
+      "difficulty": "Easy",
+      "sourceRegions": 39,
+      "visibleRegions": 39,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 305,
+      "tinyRegions": 0,
+      "labelsValidated": true,
+      "geometryHash": "92fe99ff8a5588d16380a018d2b6dc35b6bf0b8c49b7ebf8abfa423ee393635c"
+    },
+    {
+      "id": "chibi-forest-ranger",
+      "difficulty": "Easy",
+      "sourceRegions": 45,
+      "visibleRegions": 45,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 305,
+      "tinyRegions": 0,
+      "labelsValidated": true,
+      "geometryHash": "dd5188e33071b8d6f7b26e3c1c405c97824d72bb3ee6fe6a330d2dff7137f0ff"
+    },
+    {
+      "id": "kawaii-moonlit-fox",
+      "difficulty": "Easy",
+      "sourceRegions": 27,
+      "visibleRegions": 27,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 132,
+      "tinyRegions": 2,
+      "labelsValidated": true,
+      "geometryHash": "4ce0c8a3e5baae27544f5d62b5d6e081eb8a75a4d0de35d7ee3155b87e3e6540"
+    },
+    {
+      "id": "kawaii-bunny-matcha",
+      "difficulty": "Easy",
+      "sourceRegions": 30,
+      "visibleRegions": 30,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 158,
+      "tinyRegions": 3,
+      "labelsValidated": true,
+      "geometryHash": "10eaadbca878ac7a15bc3ca013637778efbdff9690fe6d68adb12cf151fbf247"
+    },
+    {
+      "id": "kawaii-axolotl-garden",
+      "difficulty": "Easy",
+      "sourceRegions": 33,
+      "visibleRegions": 33,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 163,
+      "tinyRegions": 3,
+      "labelsValidated": true,
+      "geometryHash": "0cf6cd74a7014681b7478754f0df541d0e21e8a9bc589975530c4234086a1c2f"
+    },
+    {
+      "id": "kawaii-corgi-bakery",
+      "difficulty": "Easy",
+      "sourceRegions": 27,
+      "visibleRegions": 27,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 132,
+      "tinyRegions": 3,
+      "labelsValidated": true,
+      "geometryHash": "176545f3a73627371c4e69fd7c080844a93a9d2a00bb824650992de5e9ed58d8"
+    },
+    {
+      "id": "kawaii-raincoat-kitten",
+      "difficulty": "Easy",
+      "sourceRegions": 32,
+      "visibleRegions": 31,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 162,
+      "tinyRegions": 3,
+      "labelsValidated": true,
+      "geometryHash": "e78b5e8a855449fc08823318a3367399a602e0e27c48974c107aac82f23226f7"
+    },
+    {
+      "id": "kawaii-panda-boba",
+      "difficulty": "Easy",
+      "sourceRegions": 29,
+      "visibleRegions": 29,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 160,
+      "tinyRegions": 2,
+      "labelsValidated": true,
+      "geometryHash": "9800eda382f51f725bf29b16764ba24d39fed25e8940884967528823e7844e46"
+    },
+    {
+      "id": "kawaii-otter-shells",
+      "difficulty": "Easy",
+      "sourceRegions": 24,
+      "visibleRegions": 24,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 132,
+      "tinyRegions": 3,
+      "labelsValidated": true,
+      "geometryHash": "a043a02aa0e652d8d201dca19510a1781fec656b9cc3eb02ccfda07f9c54891c"
+    },
+    {
+      "id": "kawaii-penguin-post",
+      "difficulty": "Easy",
+      "sourceRegions": 27,
+      "visibleRegions": 27,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 132,
+      "tinyRegions": 3,
+      "labelsValidated": true,
+      "geometryHash": "f2633fd5e2ec85d15eaeb56a8fe2438d1e56f6f93f1c1d84e84fb276092ba53f"
+    },
+    {
+      "id": "kawaii-frog-greenhouse",
+      "difficulty": "Easy",
+      "sourceRegions": 30,
+      "visibleRegions": 30,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 161,
+      "tinyRegions": 2,
+      "labelsValidated": true,
+      "geometryHash": "52fd741bb54e76cc6db5a03649176ad37c7bb77eb6e4638cddba2e9e2e931fcd"
+    },
+    {
+      "id": "kawaii-red-panda-autumn",
+      "difficulty": "Easy",
+      "sourceRegions": 33,
+      "visibleRegions": 32,
+      "occludedRemoved": 1,
+      "smallestRegionPixels": 160,
+      "tinyRegions": 2,
+      "labelsValidated": true,
+      "geometryHash": "ac277461dfeeee16306dd61dbd6274d82ad1243ddb5d755c47800d731fec3668"
+    },
+    {
+      "id": "collectible-moon-botanist",
+      "difficulty": "Hard",
+      "sourceRegions": 464,
+      "visibleRegions": 448,
+      "occludedRemoved": 16,
+      "smallestRegionPixels": 20,
+      "tinyRegions": 53,
+      "labelsValidated": true,
+      "geometryHash": "2996f84a554e46bd18a47279546a5b47a82decddb31edfcae1f9eeb1b5f0a5a3"
+    }
+  ]
+}

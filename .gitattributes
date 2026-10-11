@@ -1,0 +1,9 @@
+* text=auto
+*.bat text eol=crlf
+*.sh text eol=lf
+*.apk binary
+*.png binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.jar binary

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vite/
+test-results/
+playwright-report/
+android/.gradle/
+android/local.properties
+android/**/build/
+*.log
+.DS_Store
+.env*
+*.jks
+*.keystore
+!android/gradle/wrapper/gradle-wrapper.jar
+*.tsbuildinfo

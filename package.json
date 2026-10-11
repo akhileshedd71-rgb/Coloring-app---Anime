@@ -1,0 +1,42 @@
+{
+  "name": "hoshii-anime-coloring-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "art": "node scripts/build-art.mjs",
+    "test": "vitest run tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "android:sync": "npm run build && cap sync android",
+    "android:build": "node scripts/android-build.mjs",
+    "test:canvas": "node tests/engine.browser.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "7.4.3",
+    "@capacitor/app": "7.1.0",
+    "@capacitor/core": "7.4.3",
+    "@capacitor/filesystem": "7.1.4",
+    "@capacitor/share": "7.0.2",
+    "@capacitor/status-bar": "7.0.3",
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/fraunces": "^5.3.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.4.3",
+    "@playwright/test": "^1.51.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "fake-indexeddb": "^6.2.5",
+    "sharp": "^0.34.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.5"
+  }
+}
