@@ -3,7 +3,7 @@
   "collection": {
     "id": "atelier",
     "title": "The Atelier Collection",
-    "description": "Eleven individually generated original PNG coloring illustrations."
+    "description": "Thirty-one individually generated original PNG coloring illustrations, including the twenty-page New Horizons expansion."
   },
   "pages": [
     {
@@ -1533,6 +1533,2043 @@
           "name": "Teal right iris"
         }
       ]
+    },
+    {
+      "id": "atelier-celestial-violinist",
+      "title": "Celestial Violinist",
+      "category": "Fantasy",
+      "difficulty": "Hard",
+      "description": "Braided hair, a star-trimmed dress and a golden violin beneath an observatory window.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "violin",
+        "stars",
+        "music",
+        "observatory"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.46,
+          "y": 0.327,
+          "color": "#F8D1AD",
+          "name": "Face"
+        },
+        {
+          "x": 0.32,
+          "y": 0.225,
+          "color": "#B8A1D9",
+          "name": "Hair"
+        },
+        {
+          "x": 0.55,
+          "y": 0.84,
+          "color": "#294D83",
+          "name": "Dress"
+        },
+        {
+          "x": 0.49,
+          "y": 0.415,
+          "color": "#E4B750",
+          "name": "Violin"
+        },
+        {
+          "x": 0.535,
+          "y": 0.125,
+          "color": "#294D83",
+          "name": "Night sky"
+        }
+      ],
+      "source": "assets/source/atelier-celestial-violinist.png",
+      "colorGuide": "assets/source/atelier-celestial-violinist-color-guide.png"
+    },
+    {
+      "id": "atelier-camellia-muse",
+      "title": "Camellia Muse",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "A wavy bob, pearl hairpin and three camellias frame a gentle portrait.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "portrait",
+        "camellia",
+        "flowers",
+        "bob"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.53,
+          "y": 0.292,
+          "color": "#E4AE7B",
+          "name": "Face"
+        },
+        {
+          "x": 0.53,
+          "y": 0.49,
+          "color": "#E4AE7B",
+          "name": "Neck"
+        },
+        {
+          "x": 0.33,
+          "y": 0.118,
+          "color": "#A36752",
+          "name": "Hair"
+        },
+        {
+          "x": 0.54,
+          "y": 0.71,
+          "color": "#FFF4DD",
+          "name": "Blouse"
+        },
+        {
+          "x": 0.16,
+          "y": 0.574,
+          "color": "#E8A9B9",
+          "name": "Camellia"
+        },
+        {
+          "x": 0.96,
+          "y": 0.11,
+          "color": "#FFFFFF",
+          "name": "Paper"
+        }
+      ],
+      "source": "assets/source/atelier-camellia-muse.png",
+      "colorGuide": "assets/source/atelier-camellia-muse-color-guide.png"
+    },
+    {
+      "id": "atelier-greenhouse-dreamer",
+      "title": "Greenhouse Dreamer",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "A thoughtful reader with round glasses, soft knitwear and greenhouse foliage.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "portrait",
+        "male",
+        "glasses",
+        "plants"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.54,
+          "y": 0.407,
+          "color": "#E4AE7B",
+          "name": "Face"
+        },
+        {
+          "x": 0.34,
+          "y": 0.167,
+          "color": "#89563C",
+          "name": "Hair"
+        },
+        {
+          "x": 0.87,
+          "y": 0.74,
+          "color": "#A2B58B",
+          "name": "Cardigan"
+        },
+        {
+          "x": 0.59,
+          "y": 0.72,
+          "color": "#FFF4DD",
+          "name": "Turtleneck"
+        },
+        {
+          "x": 0.325,
+          "y": 0.07,
+          "color": "#D8EAF2",
+          "name": "Glass"
+        },
+        {
+          "x": 0.18,
+          "y": 0.583,
+          "color": "#3C7F5C",
+          "name": "Monstera"
+        }
+      ],
+      "source": "assets/source/atelier-greenhouse-dreamer.png",
+      "colorGuide": "assets/source/atelier-greenhouse-dreamer-color-guide.png"
+    },
+    {
+      "id": "atelier-bookshop-companions",
+      "title": "Bookshop Companions",
+      "category": "Manga & duos",
+      "difficulty": "Hard",
+      "description": "Two readers share an illustrated book while a cat naps by their window seat.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "friends",
+        "books",
+        "cat",
+        "library"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.402,
+          "y": 0.362,
+          "color": "#F8D1AD",
+          "name": "Reader face"
+        },
+        {
+          "x": 0.619,
+          "y": 0.306,
+          "color": "#E4AE7B",
+          "name": "Companion face"
+        },
+        {
+          "x": 0.325,
+          "y": 0.25,
+          "color": "#89563C",
+          "name": "Bob haircut"
+        },
+        {
+          "x": 0.62,
+          "y": 0.184,
+          "color": "#30465F",
+          "name": "Wavy hair"
+        },
+        {
+          "x": 0.225,
+          "y": 0.485,
+          "color": "#EC8F83",
+          "name": "Sweater"
+        },
+        {
+          "x": 0.875,
+          "y": 0.451,
+          "color": "#438C91",
+          "name": "Coat"
+        },
+        {
+          "x": 0.665,
+          "y": 0.853,
+          "color": "#E7A258",
+          "name": "Cat"
+        }
+      ],
+      "source": "assets/source/atelier-bookshop-companions.png",
+      "colorGuide": "assets/source/atelier-bookshop-companions-color-guide.png"
+    },
+    {
+      "id": "atelier-origami-afternoon",
+      "title": "Origami Afternoon",
+      "category": "Manga & duos",
+      "difficulty": "Medium",
+      "description": "Two sisters fold floral paper cranes over tea at a round garden window.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "sisters",
+        "origami",
+        "tea",
+        "cranes"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.342,
+          "y": 0.347,
+          "color": "#F8D1AD",
+          "name": "Left face"
+        },
+        {
+          "x": 0.716,
+          "y": 0.313,
+          "color": "#F8D1AD",
+          "name": "Right face"
+        },
+        {
+          "x": 0.257,
+          "y": 0.23,
+          "color": "#704569",
+          "name": "Short hair"
+        },
+        {
+          "x": 0.746,
+          "y": 0.17,
+          "color": "#89563C",
+          "name": "Long hair"
+        },
+        {
+          "x": 0.165,
+          "y": 0.416,
+          "color": "#B8A1D9",
+          "name": "Left robe"
+        },
+        {
+          "x": 0.614,
+          "y": 0.405,
+          "color": "#85C4DF",
+          "name": "Right robe"
+        },
+        {
+          "x": 0.513,
+          "y": 0.857,
+          "color": "#FFF4DD",
+          "name": "Table"
+        }
+      ],
+      "source": "assets/source/atelier-origami-afternoon.png",
+      "colorGuide": "assets/source/atelier-origami-afternoon-color-guide.png"
+    },
+    {
+      "id": "atelier-wildflower-picnic",
+      "title": "Wildflower Picnic",
+      "category": "Romance & friendship",
+      "difficulty": "Hard",
+      "description": "Strawberries, wildflowers and a flowering tree set the scene for a shared picnic.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "picnic",
+        "strawberries",
+        "friendship",
+        "flowers"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.362,
+          "y": 0.351,
+          "color": "#F8D1AD",
+          "name": "Left face"
+        },
+        {
+          "x": 0.681,
+          "y": 0.334,
+          "color": "#E4AE7B",
+          "name": "Right face"
+        },
+        {
+          "x": 0.22,
+          "y": 0.38,
+          "color": "#E4B750",
+          "name": "Curls"
+        },
+        {
+          "x": 0.7,
+          "y": 0.207,
+          "color": "#89563C",
+          "name": "Short hair"
+        },
+        {
+          "x": 0.178,
+          "y": 0.456,
+          "color": "#EC8F83",
+          "name": "Dress"
+        },
+        {
+          "x": 0.864,
+          "y": 0.373,
+          "color": "#A2B58B",
+          "name": "Shirt"
+        },
+        {
+          "x": 0.54,
+          "y": 0.12,
+          "color": "#85C4DF",
+          "name": "Sky"
+        }
+      ],
+      "source": "assets/source/atelier-wildflower-picnic.png",
+      "colorGuide": "assets/source/atelier-wildflower-picnic-color-guide.png",
+      "closeGaps": 1
+    },
+    {
+      "id": "atelier-rainy-day-duet",
+      "title": "Rainy Day Duet",
+      "category": "Romance & friendship",
+      "difficulty": "Medium",
+      "description": "Two friends share a plum umbrella on a hydrangea-lined garden path.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "umbrella",
+        "rain",
+        "friends",
+        "hydrangeas"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.397,
+          "y": 0.204,
+          "color": "#F8D1AD",
+          "name": "Braided friend's face"
+        },
+        {
+          "x": 0.668,
+          "y": 0.231,
+          "color": "#E4AE7B",
+          "name": "Short-haired friend's face"
+        },
+        {
+          "x": 0.32,
+          "y": 0.115,
+          "color": "#89563C",
+          "name": "Braid"
+        },
+        {
+          "x": 0.67,
+          "y": 0.135,
+          "color": "#30465F",
+          "name": "Pixie hair"
+        },
+        {
+          "x": 0.343,
+          "y": 0.626,
+          "color": "#E4B750",
+          "name": "Left raincoat"
+        },
+        {
+          "x": 0.829,
+          "y": 0.508,
+          "color": "#438C91",
+          "name": "Right raincoat"
+        },
+        {
+          "x": 0.243,
+          "y": 0.075,
+          "color": "#704569",
+          "name": "Umbrella"
+        }
+      ],
+      "source": "assets/source/atelier-rainy-day-duet.png",
+      "colorGuide": "assets/source/atelier-rainy-day-duet-color-guide.png"
+    },
+    {
+      "id": "atelier-koi-lantern-night",
+      "title": "Koi Lantern Night",
+      "category": "Festivals",
+      "difficulty": "Hard",
+      "description": "A floral yukata, glowing lanterns and graceful koi beside a curved garden bridge.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "yukata",
+        "koi",
+        "lanterns",
+        "pond"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.581,
+          "y": 0.195,
+          "color": "#F8D1AD",
+          "name": "Face"
+        },
+        {
+          "x": 0.489,
+          "y": 0.105,
+          "color": "#704569",
+          "name": "Hair"
+        },
+        {
+          "x": 0.578,
+          "y": 0.369,
+          "color": "#294D83",
+          "name": "Yukata"
+        },
+        {
+          "x": 0.267,
+          "y": 0.453,
+          "color": "#E4B750",
+          "name": "Lantern"
+        },
+        {
+          "x": 0.354,
+          "y": 0.585,
+          "color": "#71C9C8",
+          "name": "Pond"
+        },
+        {
+          "x": 0.687,
+          "y": 0.285,
+          "color": "#EC8F83",
+          "name": "Chrysanthemum"
+        }
+      ],
+      "source": "assets/source/atelier-koi-lantern-night.png",
+      "colorGuide": "assets/source/atelier-koi-lantern-night-color-guide.png",
+      "closeGaps": 1
+    },
+    {
+      "id": "atelier-ribbon-festival",
+      "title": "Ribbon Festival",
+      "category": "Festivals",
+      "difficulty": "Hard",
+      "description": "A festival dancer turns a broad ribbon through lanterns and peonies.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "dance",
+        "ribbon",
+        "lanterns",
+        "peonies"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.564,
+          "y": 0.176,
+          "color": "#E4AE7B",
+          "name": "Face"
+        },
+        {
+          "x": 0.337,
+          "y": 0.279,
+          "color": "#89563C",
+          "name": "Ponytail"
+        },
+        {
+          "x": 0.682,
+          "y": 0.41,
+          "color": "#A94250",
+          "name": "Dress"
+        },
+        {
+          "x": 0.525,
+          "y": 0.066,
+          "color": "#E4B750",
+          "name": "Ribbon"
+        },
+        {
+          "x": 0.643,
+          "y": 0.51,
+          "color": "#FFF4DD",
+          "name": "Skirt lining"
+        },
+        {
+          "x": 0.559,
+          "y": 0.62,
+          "color": "#E4AE7B",
+          "name": "Leg"
+        }
+      ],
+      "source": "assets/source/atelier-ribbon-festival.png",
+      "colorGuide": "assets/source/atelier-ribbon-festival-color-guide.png"
+    },
+    {
+      "id": "atelier-dragon-post",
+      "title": "Dragon Post",
+      "category": "Fantasy",
+      "difficulty": "Medium",
+      "description": "A cheerful courier and a tiny letter-carrying dragon above floating islands.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "dragon",
+        "courier",
+        "fantasy",
+        "letter"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.351,
+          "y": 0.25,
+          "color": "#B8784E",
+          "name": "Face"
+        },
+        {
+          "x": 0.171,
+          "y": 0.137,
+          "color": "#B45D3A",
+          "name": "Hair"
+        },
+        {
+          "x": 0.134,
+          "y": 0.404,
+          "color": "#E4B750",
+          "name": "Cape"
+        },
+        {
+          "x": 0.515,
+          "y": 0.53,
+          "color": "#FFF4DD",
+          "name": "Shirt"
+        },
+        {
+          "x": 0.707,
+          "y": 0.25,
+          "color": "#438C91",
+          "name": "Dragon"
+        },
+        {
+          "x": 0.338,
+          "y": 0.83,
+          "color": "#89563C",
+          "name": "Satchel"
+        }
+      ],
+      "source": "assets/source/atelier-dragon-post.png",
+      "colorGuide": "assets/source/atelier-dragon-post-color-guide.png"
+    },
+    {
+      "id": "atelier-roller-bloom",
+      "title": "Roller Bloom",
+      "category": "Streetwear",
+      "difficulty": "Medium",
+      "description": "A skater in a varsity jacket poses against a wall of oversized daisies.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "skates",
+        "daisies",
+        "streetwear",
+        "city"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.49,
+          "y": 0.14,
+          "color": "#B8784E",
+          "name": "Face"
+        },
+        {
+          "x": 0.367,
+          "y": 0.08,
+          "color": "#704569",
+          "name": "Hair"
+        },
+        {
+          "x": 0.56,
+          "y": 0.234,
+          "color": "#EC8F83",
+          "name": "Jacket"
+        },
+        {
+          "x": 0.457,
+          "y": 0.263,
+          "color": "#71C9C8",
+          "name": "Tee"
+        },
+        {
+          "x": 0.459,
+          "y": 0.4,
+          "color": "#B8A1D9",
+          "name": "Shorts"
+        },
+        {
+          "x": 0.378,
+          "y": 0.849,
+          "color": "#A1D7C9",
+          "name": "Skate"
+        }
+      ],
+      "source": "assets/source/atelier-roller-bloom.png",
+      "colorGuide": "assets/source/atelier-roller-bloom-color-guide.png"
+    },
+    {
+      "id": "atelier-sunday-film-club",
+      "title": "Sunday Film Club",
+      "category": "Streetwear",
+      "difficulty": "Medium",
+      "description": "A beanie-wearing photographer pauses with a vintage camera outside a plant-filled cafe.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "camera",
+        "photography",
+        "male",
+        "cafe"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.53,
+          "y": 0.225,
+          "color": "#E4AE7B",
+          "name": "Face"
+        },
+        {
+          "x": 0.439,
+          "y": 0.143,
+          "color": "#89563C",
+          "name": "Hair"
+        },
+        {
+          "x": 0.587,
+          "y": 0.069,
+          "color": "#E4B750",
+          "name": "Beanie"
+        },
+        {
+          "x": 0.513,
+          "y": 0.427,
+          "color": "#FFF4DD",
+          "name": "Tee"
+        },
+        {
+          "x": 0.193,
+          "y": 0.503,
+          "color": "#A2B58B",
+          "name": "Overshirt"
+        },
+        {
+          "x": 0.69,
+          "y": 0.681,
+          "color": "#438C91",
+          "name": "Camera"
+        }
+      ],
+      "source": "assets/source/atelier-sunday-film-club.png",
+      "colorGuide": "assets/source/atelier-sunday-film-club-color-guide.png"
+    },
+    {
+      "id": "atelier-cloud-guardian",
+      "title": "Cloud Guardian",
+      "category": "Comic heroes",
+      "difficulty": "Medium",
+      "description": "A caped sky guardian holds a star crystal above a cloud-filled city.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "hero",
+        "cape",
+        "crystal",
+        "clouds"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.51,
+          "y": 0.118,
+          "color": "#E4AE7B",
+          "name": "Face"
+        },
+        {
+          "x": 0.439,
+          "y": 0.054,
+          "color": "#CCD2D0",
+          "name": "Hair"
+        },
+        {
+          "x": 0.487,
+          "y": 0.369,
+          "color": "#4A75B0",
+          "name": "Suit"
+        },
+        {
+          "x": 0.15,
+          "y": 0.34,
+          "color": "#EC8F83",
+          "name": "Cape"
+        },
+        {
+          "x": 0.694,
+          "y": 0.141,
+          "color": "#F4D875",
+          "name": "Crystal"
+        },
+        {
+          "x": 0.794,
+          "y": 0.43,
+          "color": "#D8EAF2",
+          "name": "Sky"
+        }
+      ],
+      "source": "assets/source/atelier-cloud-guardian.png",
+      "colorGuide": "assets/source/atelier-cloud-guardian-color-guide.png"
+    },
+    {
+      "id": "atelier-mecha-garden",
+      "title": "Mecha Garden",
+      "category": "Comic heroes",
+      "difficulty": "Hard",
+      "description": "A mechanic gives a friendly little robot a flowering planter in a bright workshop.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "robot",
+        "mechanic",
+        "flowers",
+        "workshop"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.428,
+          "y": 0.234,
+          "color": "#E4AE7B",
+          "name": "Face"
+        },
+        {
+          "x": 0.316,
+          "y": 0.121,
+          "color": "#89563C",
+          "name": "Hair"
+        },
+        {
+          "x": 0.243,
+          "y": 0.613,
+          "color": "#B45D3A",
+          "name": "Jumpsuit"
+        },
+        {
+          "x": 0.723,
+          "y": 0.421,
+          "color": "#FFF4DD",
+          "name": "Robot face"
+        },
+        {
+          "x": 0.605,
+          "y": 0.619,
+          "color": "#438C91",
+          "name": "Robot leg"
+        },
+        {
+          "x": 0.696,
+          "y": 0.338,
+          "color": "#DECBAD",
+          "name": "Planter"
+        }
+      ],
+      "source": "assets/source/atelier-mecha-garden.png",
+      "colorGuide": "assets/source/atelier-mecha-garden-color-guide.png"
+    },
+    {
+      "id": "atelier-little-star-witch",
+      "title": "Little Star Witch",
+      "category": "Chibi",
+      "difficulty": "Easy",
+      "description": "A small star witch and her owl ride a broom past a crescent moon.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "witch",
+        "owl",
+        "stars",
+        "broom"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.365,
+          "y": 0.393,
+          "color": "#F8D1AD",
+          "name": "Face"
+        },
+        {
+          "x": 0.596,
+          "y": 0.153,
+          "color": "#B8A1D9",
+          "name": "Hat"
+        },
+        {
+          "x": 0.226,
+          "y": 0.283,
+          "color": "#704569",
+          "name": "Hair"
+        },
+        {
+          "x": 0.751,
+          "y": 0.55,
+          "color": "#B8A1D9",
+          "name": "Cape"
+        },
+        {
+          "x": 0.161,
+          "y": 0.569,
+          "color": "#FFF4DD",
+          "name": "Owl"
+        },
+        {
+          "x": 0.921,
+          "y": 0.188,
+          "color": "#F4D875",
+          "name": "Moon"
+        },
+        {
+          "x": 0.04,
+          "y": 0.05,
+          "color": "#FFFFFF",
+          "name": "Paper"
+        }
+      ],
+      "source": "assets/source/atelier-little-star-witch.png",
+      "colorGuide": "assets/source/atelier-little-star-witch-color-guide.png"
+    },
+    {
+      "id": "atelier-strawberry-knight",
+      "title": "Strawberry Knight",
+      "category": "Chibi",
+      "difficulty": "Easy",
+      "description": "A daisy-carrying garden knight and a friendly snail with a strawberry shield.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "knight",
+        "strawberry",
+        "snail",
+        "daisy"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.472,
+          "y": 0.397,
+          "color": "#F8D1AD",
+          "name": "Face"
+        },
+        {
+          "x": 0.456,
+          "y": 0.232,
+          "color": "#89563C",
+          "name": "Hair"
+        },
+        {
+          "x": 0.431,
+          "y": 0.524,
+          "color": "#FFF4DD",
+          "name": "Armor"
+        },
+        {
+          "x": 0.611,
+          "y": 0.594,
+          "color": "#CE6064",
+          "name": "Strawberry shield"
+        },
+        {
+          "x": 0.881,
+          "y": 0.841,
+          "color": "#B8A1D9",
+          "name": "Snail shell"
+        },
+        {
+          "x": 0.229,
+          "y": 0.145,
+          "color": "#F4D875",
+          "name": "Daisy center"
+        },
+        {
+          "x": 0.93,
+          "y": 0.04,
+          "color": "#FFFFFF",
+          "name": "Paper"
+        }
+      ],
+      "source": "assets/source/atelier-strawberry-knight.png",
+      "colorGuide": "assets/source/atelier-strawberry-knight-color-guide.png"
+    },
+    {
+      "id": "atelier-fox-teacup",
+      "title": "Fox Teacup",
+      "category": "Kawaii",
+      "difficulty": "Easy",
+      "description": "A bright-eyed fox curls up in a floral teacup surrounded by camellias and hearts.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "fox",
+        "teacup",
+        "flowers",
+        "cute"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.337,
+          "y": 0.28,
+          "color": "#E7A258",
+          "name": "Fox fur"
+        },
+        {
+          "x": 0.556,
+          "y": 0.378,
+          "color": "#E7A258",
+          "name": "Tail"
+        },
+        {
+          "x": 0.54,
+          "y": 0.558,
+          "color": "#B8A1D9",
+          "name": "Teacup"
+        },
+        {
+          "x": 0.698,
+          "y": 0.118,
+          "color": "#E8A9B9",
+          "name": "Heart"
+        },
+        {
+          "x": 0.154,
+          "y": 0.685,
+          "color": "#EC8F83",
+          "name": "Camellia"
+        },
+        {
+          "x": 0.095,
+          "y": 0.608,
+          "color": "#A1D7C9",
+          "name": "Leaf"
+        },
+        {
+          "x": 0.03,
+          "y": 0.03,
+          "color": "#FFFFFF",
+          "name": "Paper"
+        }
+      ],
+      "source": "assets/source/atelier-fox-teacup.png",
+      "colorGuide": "assets/source/atelier-fox-teacup-color-guide.png"
+    },
+    {
+      "id": "atelier-axolotl-garden",
+      "title": "Axolotl Garden",
+      "category": "Kawaii",
+      "difficulty": "Easy",
+      "description": "A smiling axolotl rests among smooth pebbles, leafy plants and mushrooms.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "axolotl",
+        "terrarium",
+        "mushrooms",
+        "cute"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.461,
+          "y": 0.495,
+          "color": "#E8A9B9",
+          "name": "Axolotl"
+        },
+        {
+          "x": 0.254,
+          "y": 0.467,
+          "color": "#EC8F83",
+          "name": "Gill"
+        },
+        {
+          "x": 0.27,
+          "y": 0.2,
+          "color": "#A1D7C9",
+          "name": "Leaf"
+        },
+        {
+          "x": 0.55,
+          "y": 0.783,
+          "color": "#B8A1D9",
+          "name": "Pebble"
+        },
+        {
+          "x": 0.779,
+          "y": 0.221,
+          "color": "#E4B750",
+          "name": "Mushroom"
+        },
+        {
+          "x": 0.451,
+          "y": 0.188,
+          "color": "#D8EAF2",
+          "name": "Glass"
+        },
+        {
+          "x": 0.03,
+          "y": 0.03,
+          "color": "#FFFFFF",
+          "name": "Paper"
+        }
+      ],
+      "source": "assets/source/atelier-axolotl-garden.png",
+      "colorGuide": "assets/source/atelier-axolotl-garden-color-guide.png",
+      "repairs": [
+        {
+          "points": [
+            [
+              0.3362658846529814,
+              0.43517915309446253
+            ],
+            [
+              0.3421309872922776,
+              0.4319218241042345
+            ],
+            [
+              0.34995112414467255,
+              0.4286644951140065
+            ]
+          ],
+          "width": 3
+        },
+        {
+          "points": [
+            [
+              0.30498533724340177,
+              0.4638436482084691
+            ],
+            [
+              0.2991202346041056,
+              0.4710097719869707
+            ],
+            [
+              0.29521016617790813,
+              0.4781758957654723
+            ]
+          ],
+          "width": 3
+        },
+        {
+          "points": [
+            [
+              0.2903225806451613,
+              0.501628664495114
+            ],
+            [
+              0.28934506353861195,
+              0.5094462540716612
+            ],
+            [
+              0.2903225806451613,
+              0.5185667752442997
+            ]
+          ],
+          "width": 3
+        }
+      ]
+    },
+    {
+      "id": "atelier-cat-library",
+      "title": "The Cat Library",
+      "category": "Cozy scenes",
+      "difficulty": "Medium",
+      "description": "A sleepy cat claims an armchair in a book-filled reading nook.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "cat",
+        "books",
+        "reading",
+        "cozy"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.38,
+          "y": 0.409,
+          "color": "#A2B58B",
+          "name": "Armchair"
+        },
+        {
+          "x": 0.442,
+          "y": 0.559,
+          "color": "#E7A258",
+          "name": "Cat"
+        },
+        {
+          "x": 0.927,
+          "y": 0.264,
+          "color": "#9F7954",
+          "name": "Bookcase"
+        },
+        {
+          "x": 0.114,
+          "y": 0.17,
+          "color": "#FFF4DD",
+          "name": "Lamp shade"
+        },
+        {
+          "x": 0.37,
+          "y": 0.866,
+          "color": "#DECBAD",
+          "name": "Rug"
+        },
+        {
+          "x": 0.344,
+          "y": 0.21,
+          "color": "#D8EAF2",
+          "name": "Window"
+        }
+      ],
+      "source": "assets/source/atelier-cat-library.png",
+      "colorGuide": "assets/source/atelier-cat-library-color-guide.png"
+    },
+    {
+      "id": "atelier-greenhouse-tea",
+      "title": "Greenhouse Tea",
+      "category": "Cozy scenes",
+      "difficulty": "Medium",
+      "description": "Tea and strawberry cake await at a little table inside a flowering greenhouse.",
+      "tags": [
+        "atelier",
+        "new horizons",
+        "png illustration",
+        "original illustration",
+        "greenhouse",
+        "tea",
+        "cake",
+        "plants"
+      ],
+      "palette": [
+        "#FFFFFF",
+        "#FFF4DD",
+        "#F8D1AD",
+        "#E4AE7B",
+        "#B8784E",
+        "#74523C",
+        "#89563C",
+        "#A36752",
+        "#B45D3A",
+        "#D8A14A",
+        "#E4B750",
+        "#F4D875",
+        "#B8A1D9",
+        "#DCD4EF",
+        "#8668B3",
+        "#704569",
+        "#294D83",
+        "#30465F",
+        "#4A75B0",
+        "#85C4DF",
+        "#D8EAF2",
+        "#438C91",
+        "#71C9C8",
+        "#A1D7C9",
+        "#A2B58B",
+        "#719663",
+        "#3C7F5C",
+        "#EC8F83",
+        "#E8A9B9",
+        "#CE6064",
+        "#A94250",
+        "#CCD2D0",
+        "#DECBAD",
+        "#9F7954",
+        "#E7A258",
+        "#404354",
+        "#ADD17D",
+        "#89B875"
+      ],
+      "seeds": [
+        {
+          "x": 0.306,
+          "y": 0.619,
+          "color": "#FFF4DD",
+          "name": "Teapot"
+        },
+        {
+          "x": 0.479,
+          "y": 0.662,
+          "color": "#F4D875",
+          "name": "Cake"
+        },
+        {
+          "x": 0.699,
+          "y": 0.787,
+          "color": "#DECBAD",
+          "name": "Chair cushion"
+        },
+        {
+          "x": 0.578,
+          "y": 0.292,
+          "color": "#D8EAF2",
+          "name": "Door glass"
+        },
+        {
+          "x": 0.839,
+          "y": 0.427,
+          "color": "#719663",
+          "name": "Leaf"
+        },
+        {
+          "x": 0.788,
+          "y": 0.367,
+          "color": "#D8EAF2",
+          "name": "Window"
+        }
+      ],
+      "source": "assets/source/atelier-greenhouse-tea.png",
+      "colorGuide": "assets/source/atelier-greenhouse-tea-color-guide.png"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 ## The Atelier PNG collection
 
-The eleven `atelier-*.png` masters are original, individually generated 1024 × 1536
+The 31 `atelier-*.png` masters are original, individually generated 1024 × 1536
 line drawings. Each adjacent Markdown file records the exact generation prompt,
 visual review and any image-generation refinements. Separately generated
 `*-color-guide.png` edits supply palette hints; they are retained unchanged but

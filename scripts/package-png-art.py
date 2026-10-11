@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Package published native-resolution PNG pairs for direct download."""
 import hashlib
+from io import BytesIO
 import json
 from pathlib import Path
 import zipfile
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / 'assets/source/new-collection.json').read_text())
@@ -18,7 +20,18 @@ with zipfile.ZipFile(output, 'w', compression=zipfile.ZIP_DEFLATED, compressleve
             file = ROOT / f'public/art/{folder}/{art_id}.png'
             if not file.is_file():
                 raise FileNotFoundError(file)
-            archive.write(file, f'{folder}/{art_id}.png')
+            # Browser-produced references favor encoding speed. Recompress the
+            # download copy losslessly so the expanded archive fits in GitHub's
+            # 100 MiB file limit without changing published assets or pixels.
+            original = file.read_bytes()
+            optimized = BytesIO()
+            with Image.open(file) as image:
+                image.save(optimized, format='PNG', optimize=True, compress_level=9)
+                with Image.open(BytesIO(optimized.getvalue())) as check:
+                    if check.size != image.size or check.convert('RGBA').tobytes() != image.convert('RGBA').tobytes():
+                        raise ValueError(f'Lossless PNG verification failed: {file}')
+            data = min((original, optimized.getvalue()), key=len)
+            archive.writestr(f'{folder}/{art_id}.png', data)
         pages.append({key: page[key] for key in ('id', 'title', 'category', 'difficulty', 'width', 'height', 'palette', 'sourceSha256')})
     archive.writestr('catalog.json', json.dumps(pages, indent=2) + '\n')
     archive.writestr('README.txt', f'''Hoshii — The Atelier Collection

@@ -10,8 +10,8 @@ The app bundles all artwork and fonts. No account, advertising, payment, trackin
 
 ## What is included
 
-- **112 original, individually usable coloring pages**, across all ten requested categories, with genuinely different subjects, outfits, props and compositions. Easy, Medium and Hard reflect visible region counts and detail sizes.
-- **11 new individually image-generated PNG illustrations** in the Atelier collection: two Easy kawaii drawings, one spacious Medium anime portrait and eight intricate Hard portraits/scenes. Original 1024 × 1536 PNG masters, exact aligned PNG color references and lightweight previews are kept in the project.
+- **132 original, individually usable coloring pages**, across all ten categories, with different subjects, outfits, props and compositions. Easy, Medium and Hard reflect visible region counts and detail sizes.
+- **31 individually image-generated PNG illustrations** in the Atelier collection, including the **20-page New Horizons expansion**: two new compositions in each category. Original 1024 × 1536 PNG masters, aligned PNG color references and lightweight previews are kept in the project.
 - Stable closed fill regions, suggested palettes and full-resolution immutable PNG ink preserve detailed hair, eyelashes and clothing. Earlier vector pages retain their original assets, IDs, and optional aligned shading.
 - **Free Color**, **Color by Number**, and **Paint & Shade**. Numbered regions include remaining counts and hints.
 - Tap fill, smooth pressure-sensitive brush, soft airbrush, pencil, diagonal gradient fill, sparkle brush, eraser and eyedropper. Brush size/opacity, per-stroke region locking, and unrestricted painting are available in tool settings.
@@ -25,7 +25,9 @@ The main flow is **Discover → choose a drawing and mode → color → save/sha
 
 ## The Atelier PNG collection
 
-[Download all eleven line-art and aligned color-reference PNG pairs](delivery/hoshii-atelier-pngs.zip). The archive preserves the native 1024 × 1536 resolution. Image-generated color guides and exact prompts are retained separately in `assets/source/`. In the app, choose **Atelier collection** to find the new drawings.
+[Download all 31 line-art and aligned color-reference PNG pairs](delivery/hoshii-atelier-pngs.zip). The archive preserves the native 1024 × 1536 resolution. Image-generated color guides and exact prompts are retained separately in `assets/source/`. In the app, choose **Atelier collection**, or search **new horizons** to see just the 20 newest drawings. See [the expansion catalog and validation notes](docs/NEW_HORIZONS.md).
+
+The checked-in Android 1.1.0 APK predates New Horizons. Rebuild it with `npm run android:build` to include the expanded library; the source and web build include all 132 pages.
 
 ## Screenshots
 
@@ -103,4 +105,4 @@ React + TypeScript + Vite provide the interface. Canvas2D/Path2D render editable
 
 Ads and a currency/premium library are deliberately future work. Add an entitlement service keyed by immutable artwork IDs, with a separate wallet ledger and platform billing/rewarded-ad adapters. Keep painting and storage independent of those services. Do not gate existing offline projects or add tracking without a deliberate product/privacy decision. This version contains no payment or ad SDKs.
 
-The earlier 100-page collection uses stylized vector artwork, with one additional generated collectible. The new Atelier collection uses eleven original image-generated PNG drawings inspired by the supplied references. Native PNG detail is retained rather than replaced with simplified vector artwork. Generated color guides supply palette hints; published references use the exact same fill geometry and ink as the editor. Free brushes and gradients add your own lighting. See the artwork documentation for source resolution, review results and conversion details.
+The earlier 100-page collection uses stylized vector artwork, with one additional generated collectible. The Atelier collection combines its first eleven generated PNG drawings with 20 New Horizons illustrations. Native PNG detail is retained rather than replaced with simplified vector artwork. Generated color guides supply palette hints; published references use the exact same fill geometry and ink as the editor. Free brushes and gradients add your own lighting. See the artwork documentation for source resolution, review results and conversion details.

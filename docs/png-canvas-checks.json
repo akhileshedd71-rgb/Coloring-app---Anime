@@ -34,7 +34,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 27.4
+      "chromiumRedrawMs": 20.44
     },
     {
       "id": "atelier-city-dreamer",
@@ -69,7 +69,77 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 14.64
+      "chromiumRedrawMs": 15.74
+    },
+    {
+      "id": "atelier-bookshop-companions",
+      "regions": 1010,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-402f8cb15015e5",
+          "otherAnchorsUnchanged": 1009,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-402f8cb15015e5",
+          "otherAnchorsUnchanged": 1009,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-00e69545bc48c7",
+          "otherAnchorsUnchanged": 1009,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-00e69545bc48c7",
+          "otherAnchorsUnchanged": 1009,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 13.74
+    },
+    {
+      "id": "atelier-wildflower-picnic",
+      "regions": 1252,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-97a0b7fe07ef8f",
+          "otherAnchorsUnchanged": 1251,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-97a0b7fe07ef8f",
+          "otherAnchorsUnchanged": 1251,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-e56849ae2da956",
+          "otherAnchorsUnchanged": 1251,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-e56849ae2da956",
+          "otherAnchorsUnchanged": 1251,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 15.44
     },
     {
       "id": "atelier-lantern-promise",
@@ -104,7 +174,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 34.4
+      "chromiumRedrawMs": 49.78
     },
     {
       "id": "atelier-rainy-cafe",
@@ -139,7 +209,42 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 20.22
+      "chromiumRedrawMs": 19.76
+    },
+    {
+      "id": "atelier-cloud-guardian",
+      "regions": 360,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-618e7cbbc5a282",
+          "otherAnchorsUnchanged": 359,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-618e7cbbc5a282",
+          "otherAnchorsUnchanged": 359,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-3edc8c06771054",
+          "otherAnchorsUnchanged": 359,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-3edc8c06771054",
+          "otherAnchorsUnchanged": 359,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 9.5
     },
     {
       "id": "atelier-melody-chibi",
@@ -174,7 +279,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 18.88
+      "chromiumRedrawMs": 12.26
     },
     {
       "id": "atelier-boba-bunny",
@@ -209,7 +314,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 7.18
+      "chromiumRedrawMs": 4.78
     },
     {
       "id": "atelier-starlight-reader",
@@ -244,7 +349,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 15.64
+      "chromiumRedrawMs": 15.24
     },
     {
       "id": "atelier-butterfly-alchemist",
@@ -279,7 +384,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 31.22
+      "chromiumRedrawMs": 21.4
     },
     {
       "id": "atelier-rooftop-skater",
@@ -314,7 +419,217 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 12.66
+      "chromiumRedrawMs": 7.9
+    },
+    {
+      "id": "atelier-origami-afternoon",
+      "regions": 765,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-019d1d45299d82",
+          "otherAnchorsUnchanged": 764,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-019d1d45299d82",
+          "otherAnchorsUnchanged": 764,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-619c6c93bd3f21",
+          "otherAnchorsUnchanged": 764,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-619c6c93bd3f21",
+          "otherAnchorsUnchanged": 764,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 10.86
+    },
+    {
+      "id": "atelier-rainy-day-duet",
+      "regions": 975,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-600e4671b900f8",
+          "otherAnchorsUnchanged": 974,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-600e4671b900f8",
+          "otherAnchorsUnchanged": 974,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-ddcca02e09f94b",
+          "otherAnchorsUnchanged": 974,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-ddcca02e09f94b",
+          "otherAnchorsUnchanged": 974,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 11.62
+    },
+    {
+      "id": "atelier-koi-lantern-night",
+      "regions": 1458,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-497a9ac60462e6",
+          "otherAnchorsUnchanged": 1457,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-497a9ac60462e6",
+          "otherAnchorsUnchanged": 1457,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-076c01856f067b",
+          "otherAnchorsUnchanged": 1457,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-076c01856f067b",
+          "otherAnchorsUnchanged": 1457,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 12.6
+    },
+    {
+      "id": "atelier-cat-library",
+      "regions": 898,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-3a333406d157d4",
+          "otherAnchorsUnchanged": 897,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-3a333406d157d4",
+          "otherAnchorsUnchanged": 897,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-1d077001f745d6",
+          "otherAnchorsUnchanged": 897,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-1d077001f745d6",
+          "otherAnchorsUnchanged": 897,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 9.22
+    },
+    {
+      "id": "atelier-mecha-garden",
+      "regions": 793,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-04ca4df9433957",
+          "otherAnchorsUnchanged": 792,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-04ca4df9433957",
+          "otherAnchorsUnchanged": 792,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-780db847bd3e5b",
+          "otherAnchorsUnchanged": 792,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-780db847bd3e5b",
+          "otherAnchorsUnchanged": 792,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 9.38
+    },
+    {
+      "id": "atelier-little-star-witch",
+      "regions": 104,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-3fa321d9c7039a",
+          "otherAnchorsUnchanged": 103,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-3fa321d9c7039a",
+          "otherAnchorsUnchanged": 103,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-be8b2d5fae1b38",
+          "otherAnchorsUnchanged": 103,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-be8b2d5fae1b38",
+          "otherAnchorsUnchanged": 103,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 4.74
     },
     {
       "id": "atelier-moon-cat",
@@ -349,7 +664,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 4.78
+      "chromiumRedrawMs": 3.18
     },
     {
       "id": "atelier-daisy-beat",
@@ -384,7 +699,392 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 9.6
+      "chromiumRedrawMs": 5.56
+    },
+    {
+      "id": "atelier-celestial-violinist",
+      "regions": 1023,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-d3932999fdfe9c",
+          "otherAnchorsUnchanged": 1022,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-d3932999fdfe9c",
+          "otherAnchorsUnchanged": 1022,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-f309d358ce852e",
+          "otherAnchorsUnchanged": 1022,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-f309d358ce852e",
+          "otherAnchorsUnchanged": 1022,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 14.06
+    },
+    {
+      "id": "atelier-roller-bloom",
+      "regions": 618,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-8e2b050c4b3416",
+          "otherAnchorsUnchanged": 617,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-8e2b050c4b3416",
+          "otherAnchorsUnchanged": 617,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-dd0c9cca88858f",
+          "otherAnchorsUnchanged": 617,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-dd0c9cca88858f",
+          "otherAnchorsUnchanged": 617,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 9.2
+    },
+    {
+      "id": "atelier-ribbon-festival",
+      "regions": 1120,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-2737ec999333e0",
+          "otherAnchorsUnchanged": 1119,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-2737ec999333e0",
+          "otherAnchorsUnchanged": 1119,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-0f75dc57c60305",
+          "otherAnchorsUnchanged": 1119,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-0f75dc57c60305",
+          "otherAnchorsUnchanged": 1119,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 12.84
+    },
+    {
+      "id": "atelier-greenhouse-tea",
+      "regions": 1424,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-c689bf5eb8f541",
+          "otherAnchorsUnchanged": 1423,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-c689bf5eb8f541",
+          "otherAnchorsUnchanged": 1423,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-0c2c4afc43864b",
+          "otherAnchorsUnchanged": 1423,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-0c2c4afc43864b",
+          "otherAnchorsUnchanged": 1423,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 13.56
+    },
+    {
+      "id": "atelier-strawberry-knight",
+      "regions": 167,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-8042ec4f885cb7",
+          "otherAnchorsUnchanged": 166,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-8042ec4f885cb7",
+          "otherAnchorsUnchanged": 166,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-e6d1de75ffa2df",
+          "otherAnchorsUnchanged": 166,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-e6d1de75ffa2df",
+          "otherAnchorsUnchanged": 166,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 5.8
+    },
+    {
+      "id": "atelier-fox-teacup",
+      "regions": 190,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-0cb185aa68fd61",
+          "otherAnchorsUnchanged": 189,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-0cb185aa68fd61",
+          "otherAnchorsUnchanged": 189,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-1c7e62c68c96b4",
+          "otherAnchorsUnchanged": 189,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-1c7e62c68c96b4",
+          "otherAnchorsUnchanged": 189,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 5.44
+    },
+    {
+      "id": "atelier-camellia-muse",
+      "regions": 438,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-f137db6a038739",
+          "otherAnchorsUnchanged": 437,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-f137db6a038739",
+          "otherAnchorsUnchanged": 437,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-913eb1c098fecc",
+          "otherAnchorsUnchanged": 437,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-913eb1c098fecc",
+          "otherAnchorsUnchanged": 437,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 8.1
+    },
+    {
+      "id": "atelier-dragon-post",
+      "regions": 591,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-aa48fe7761c9f7",
+          "otherAnchorsUnchanged": 590,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-aa48fe7761c9f7",
+          "otherAnchorsUnchanged": 590,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-eb5e453e6d2580",
+          "otherAnchorsUnchanged": 590,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-eb5e453e6d2580",
+          "otherAnchorsUnchanged": 590,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 9.88
+    },
+    {
+      "id": "atelier-sunday-film-club",
+      "regions": 977,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-85c644393ef4b5",
+          "otherAnchorsUnchanged": 976,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-85c644393ef4b5",
+          "otherAnchorsUnchanged": 976,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-4b81fb8ee694cd",
+          "otherAnchorsUnchanged": 976,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-4b81fb8ee694cd",
+          "otherAnchorsUnchanged": 976,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 10.74
+    },
+    {
+      "id": "atelier-axolotl-garden",
+      "regions": 225,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-f3c56fff1e61d4",
+          "otherAnchorsUnchanged": 224,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-f3c56fff1e61d4",
+          "otherAnchorsUnchanged": 224,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-d262a9d4760d81",
+          "otherAnchorsUnchanged": 224,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-d262a9d4760d81",
+          "otherAnchorsUnchanged": 224,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 6.28
+    },
+    {
+      "id": "atelier-greenhouse-dreamer",
+      "regions": 647,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-21bdf2c1c59704",
+          "otherAnchorsUnchanged": 646,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-21bdf2c1c59704",
+          "otherAnchorsUnchanged": 646,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-1b35c007eb9801",
+          "otherAnchorsUnchanged": 646,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-1b35c007eb9801",
+          "otherAnchorsUnchanged": 646,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 10.22
     }
   ]
 }

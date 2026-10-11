@@ -364,10 +364,24 @@ test('standalone character exports a transparent PNG with preserved colored pixe
   expect(Math.abs(pixel[0]-230)+Math.abs(pixel[1]-91)+Math.abs(pixel[2]-131)).toBeLessThan(10);
 });
 
-test('generated PNG illustration fills, undo, restore and full-resolution export stay aligned', async ({ page }, testInfo) => {
+test('New Horizons exposes twenty new drawings across all ten categories', async ({ page }) => {
+  const catalog = await library(page);
+  const expansion = catalog.filter(item => item.tags.includes('new horizons'));
+  expect(expansion).toHaveLength(20);
+  expect(new Set(expansion.map(item => item.id)).size).toBe(20);
+  const categories = [...new Set(expansion.map(item => item.category))];
+  expect(categories).toHaveLength(10);
+  for (const category of categories) expect(expansion.filter(item => item.category === category)).toHaveLength(2);
+  await page.getByRole('searchbox', { name: 'Search artwork' }).fill('new horizons');
+  await expect(page.locator('.art-grid .art-card')).toHaveCount(20);
+  for (const meta of expansion) await expect(page.getByRole('button', { name: `Open ${meta.title}`, exact: true })).toBeVisible();
+});
+
+for (const artworkId of [undefined, 'atelier-celestial-violinist', 'atelier-little-star-witch', 'atelier-axolotl-garden']) {
+test(`generated PNG ${artworkId ?? 'illustration'} fills, undo, restore and full-resolution export stay aligned`, async ({ page }, testInfo) => {
   await page.setViewportSize({ width: 390, height: 844 });
   const catalog = await library(page);
-  const meta = catalog.find(item => item.lineart?.endsWith('.png'));
+  const meta = catalog.find(item => artworkId ? item.id === artworkId : item.lineart?.endsWith('.png'));
   expect(meta, 'the library includes individually generated PNG artwork').toBeTruthy();
   const art = await openArt(page, meta!);
   expect(art.rasterInk).toBeTruthy();
@@ -396,9 +410,24 @@ test('generated PNG illustration fills, undo, restore and full-resolution export
   const metadata = await sharp(file).metadata();
   expect(metadata.width).toBe(Math.round(art.width * scale)); expect(metadata.height).toBe(Math.round(art.height * scale));
   const pixel = await sharp(file).extract({ left: Math.round(target.label[0] * scale), top: Math.round(target.label[1] * scale), width: 1, height: 1 }).removeAlpha().raw().toBuffer();
-  expect(Math.abs(pixel[0] - 237) + Math.abs(pixel[1] - 84) + Math.abs(pixel[2] - 125)).toBeLessThan(9);
+  // Original PNG ink includes faint paper/antialias pixels even inside a region.
+  // Compare against the chosen fill composited with that immutable ink, rather
+  // than assuming every interior sample has perfectly transparent source ink.
+  const expected = await page.evaluate(async ({ art, scale, label }) => {
+    const ink = new Image(); ink.src = art.rasterInk!; await ink.decode();
+    const canvas = document.createElement('canvas');
+    canvas.width = Math.round(art.width * scale); canvas.height = Math.round(art.height * scale);
+    const ctx = canvas.getContext('2d')!;
+    ctx.fillStyle = '#ED547D'; ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.scale(scale, scale); ctx.imageSmoothingQuality = 'high';
+    ctx.drawImage(ink, 0, 0, art.width, art.height);
+    return Array.from(ctx.getImageData(Math.round(label[0] * scale), Math.round(label[1] * scale), 1, 1).data);
+  }, { art, scale, label: target.label });
+  expect(expected[0] - expected[1], 'the sampled region visibly contains the chosen pink fill').toBeGreaterThan(100);
+  expect(Math.abs(pixel[0] - expected[0]) + Math.abs(pixel[1] - expected[1]) + Math.abs(pixel[2] - expected[2])).toBeLessThan(9);
   await noOverflow(page);
 });
+}
 
 test('missing PNG ink blocks editing until a successful retry', async ({ page }) => {
   const catalog = await library(page);

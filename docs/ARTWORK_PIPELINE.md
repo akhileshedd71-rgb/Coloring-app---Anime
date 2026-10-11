@@ -1,6 +1,6 @@
 # Original artwork pipeline
 
-The new eleven-page Atelier collection preserves individually generated PNG
+The 31-page Atelier collection preserves individually generated PNG
 line art. Follow the [PNG collection pipeline](PNG_COLLECTION.md) to add future
 reference-inspired illustrations, retain original PNG masters, produce aligned
 references, and protect saved projects with stable region IDs. The sections

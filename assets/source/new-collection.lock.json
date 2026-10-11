@@ -77,6 +77,146 @@
       "width": 1024,
       "height": 1536,
       "visibleRegions": 687
+    },
+    "atelier-celestial-violinist": {
+      "sourceSha256": "248a197c17de80f5d5936381a6485b600be38ca8e3988a8bcc3a37478f42498c",
+      "geometrySha256": "733c43b24ea0ff80270808eeb728ca5b2fd91193a5724eeedd971fe1cd45669d",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 1023
+    },
+    "atelier-camellia-muse": {
+      "sourceSha256": "8cb713d581a6568d444fabd3025f97857b2607637a37e18dcfc0b796197af2b1",
+      "geometrySha256": "e286b5219b3528884f123a2ce7ab0ded0266bb5735a7ede8774a9e84835590f3",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 438
+    },
+    "atelier-greenhouse-dreamer": {
+      "sourceSha256": "6b86e38703bb5276575fece33ec06373d4df71e95670d09a770d29117ce0a835",
+      "geometrySha256": "12eec4ec61dadcd25793faa0ad626e3dc2640aa77f0ab92eda0913569ed47278",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 647
+    },
+    "atelier-bookshop-companions": {
+      "sourceSha256": "311a8f456bc76ac7078a13928b8f2b81ba225ae8b9db1268fa9b778f37b58cf4",
+      "geometrySha256": "e81a33fa12eed33a892c4b087f71d706670993c31bf373fbdc501c54c328fc4e",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 1010
+    },
+    "atelier-origami-afternoon": {
+      "sourceSha256": "e932ab5350acaf0b36fde5d54b9f2fbede40da8700e5a3797b346124e676b76d",
+      "geometrySha256": "59cbfa090965861d58c53f146f3b6bee00d7cfba545d33e09868d43c329d22f3",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 765
+    },
+    "atelier-wildflower-picnic": {
+      "sourceSha256": "b74871c12a99128add5511b21fe522a94d7972c92e62a9087a8e4aefa0703bce",
+      "geometrySha256": "c3a159ce279d08ec719a24b33068e859ce860626b5ed50eb512a86c9e85a3572",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 1252
+    },
+    "atelier-rainy-day-duet": {
+      "sourceSha256": "b2f17e5bd5c1a78898c5c413ff7b096a61a000994f39e37d8923a1458e270882",
+      "geometrySha256": "f58196a1ccd1b9aa357542203e078cacff3bdc1c76e27af00e8c5f741c9ab090",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 975
+    },
+    "atelier-koi-lantern-night": {
+      "sourceSha256": "f74244a750684f436b8baa114dfb1f9598b97598ffc918cc44bfd494cb2fe076",
+      "geometrySha256": "fc95a6c25312440daa195b197a7d36e94575715500f33088e5684e394a30493a",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 1458
+    },
+    "atelier-ribbon-festival": {
+      "sourceSha256": "f7955d5c914f55f568e36ddab901da9dbd67f9e9faaf0d4a5a021f0199ab4ce0",
+      "geometrySha256": "9951d6e813e23c9095cd7e4673d660d1406ce27424bdbcdae3d538e941e3682c",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 1120
+    },
+    "atelier-dragon-post": {
+      "sourceSha256": "0d3f4c09de49c16dd2d866c730db3c94b6baa552dc1de97efc6b946c53c348be",
+      "geometrySha256": "70edf825a4cde40de1c1b3d098834db4a540b403c0bf48e6a0e43607f06dc9f9",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 591
+    },
+    "atelier-roller-bloom": {
+      "sourceSha256": "1b78b273e30073c6de999ccc9fd74ef1b89d322a92baaea925012613949e2f23",
+      "geometrySha256": "1eddd21cb42d6b23bed42e82b43ac1223cbb07215404f5fb60edd545e9f069e4",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 618
+    },
+    "atelier-sunday-film-club": {
+      "sourceSha256": "21d1899506daa53180aa6b3d52d61d158d628856be845f18173be506a8378b2e",
+      "geometrySha256": "8af216639af09e405621a5c5433395f140b6219f702f02af9f6b08ec4123cb95",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 977
+    },
+    "atelier-cloud-guardian": {
+      "sourceSha256": "2ecc7e491ccdfa0a22dc6d0591627a5798ce796b1ff2fe51b390f936f0535f01",
+      "geometrySha256": "a5eb81d75d257128a09f0a7bcca3b2dd2f6a1ce9ad95c2536893c89dc09adc44",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 360
+    },
+    "atelier-mecha-garden": {
+      "sourceSha256": "5457091c145670b012305f5754fe34f621e734ffc6264013dae06f7175d9b169",
+      "geometrySha256": "230ed4f095be766a4c7c456ce08264581a4e594ecc35c4426d142a19ab7ffe58",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 793
+    },
+    "atelier-little-star-witch": {
+      "sourceSha256": "0540d134be86c970bf6efe648dde74fd371ce4d930149a26b3d8f118d55a20e1",
+      "geometrySha256": "99de3f3efe145018f5a3a9c81043b9879801b669d6cea05b131c453859959570",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 104
+    },
+    "atelier-strawberry-knight": {
+      "sourceSha256": "cc1e135456a28459a61f58430905329e86eb13a160400e766ebe1743b42916a2",
+      "geometrySha256": "4a968f1d95e2d84668eaa434d3f61bc2506bd266f928a722602cdb302fd83255",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 167
+    },
+    "atelier-fox-teacup": {
+      "sourceSha256": "e701ba6c740afe50bb3572309df550919f4cfbb9c7f61431e3d39d4973db137b",
+      "geometrySha256": "297f8e9919925dcb5f11498374bc8cd4d09658a25c4db5c62321f74853a28149",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 190
+    },
+    "atelier-axolotl-garden": {
+      "sourceSha256": "091fc21962092a07a4828ae5bee8c59d6e81a9c782cdbf1f386bcc21ef77cba0",
+      "geometrySha256": "86f2d285afe7ea248ca447003fc3c98faf367cd13fc0a91d1da04c442d6fb12c",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 225
+    },
+    "atelier-cat-library": {
+      "sourceSha256": "7bbf95d48cd87d0161bd0e0a738705c39b6a5302c9f35eed6c52e7d6b97b7942",
+      "geometrySha256": "734acc37967e32fdc32f3764dc9670e54dd4aef4f4b8430b81e5c5ed7e4921d9",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 898
+    },
+    "atelier-greenhouse-tea": {
+      "sourceSha256": "bf0be6449f213a03e6f444e3cf43a5afa4b03e22a44d2d870118b3035085c5a2",
+      "geometrySha256": "8daa47f6f24ced7195f66e20c655720b53e91d7ae1131fb79bc6849e9eb58e03",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 1424
     }
   }
 }

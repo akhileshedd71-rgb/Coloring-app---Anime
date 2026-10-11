@@ -1,6 +1,6 @@
 {
-  "pageCount": 112,
-  "totalRegions": 17072,
+  "pageCount": 132,
+  "totalRegions": 32107,
   "problems": [],
   "pages": [
     {
@@ -40,6 +40,42 @@
       }
     },
     {
+      "id": "atelier-bookshop-companions",
+      "regions": 1010,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-wildflower-picnic",
+      "regions": 1252,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
       "id": "atelier-lantern-promise",
       "regions": 1462,
       "labelsTappable": true,
@@ -60,6 +96,24 @@
     {
       "id": "atelier-rainy-cafe",
       "regions": 687,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-cloud-guardian",
+      "regions": 360,
       "labelsTappable": true,
       "completion": true,
       "alignedReference": true,
@@ -166,6 +220,114 @@
       }
     },
     {
+      "id": "atelier-origami-afternoon",
+      "regions": 765,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-rainy-day-duet",
+      "regions": 975,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-koi-lantern-night",
+      "regions": 1458,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-cat-library",
+      "regions": 898,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-mecha-garden",
+      "regions": 793,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-little-star-witch",
+      "regions": 104,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
       "id": "atelier-moon-cat",
       "regions": 16,
       "labelsTappable": true,
@@ -186,6 +348,204 @@
     {
       "id": "atelier-daisy-beat",
       "regions": 114,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-celestial-violinist",
+      "regions": 1023,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-roller-bloom",
+      "regions": 618,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-ribbon-festival",
+      "regions": 1120,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-greenhouse-tea",
+      "regions": 1424,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-strawberry-knight",
+      "regions": 167,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-fox-teacup",
+      "regions": 190,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-camellia-muse",
+      "regions": 438,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-dragon-post",
+      "regions": 591,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-sunday-film-club",
+      "regions": 977,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-axolotl-garden",
+      "regions": 225,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "atelier-greenhouse-dreamer",
+      "regions": 647,
       "labelsTappable": true,
       "completion": true,
       "alignedReference": true,
