@@ -15,6 +15,18 @@ lineart and aligned reference PNGs live in `public/art/`; source masters and
 guides are not bundled in the APK. See [the PNG pipeline](../../docs/PNG_COLLECTION.md)
 for commands, quality checks, boundary repairs and stable save compatibility.
 
+## Anime favorites
+
+The 20 `anime-*.png` masters are individually generated fan-art coloring pages of
+characters from Naruto, One Piece, Dragon Ball Z, Demon Slayer and Jujutsu Kaisen.
+Each has its own unchanged native 1024 × 1536 line-art master, generated color
+guide and adjacent Markdown prompt/review record. They share the existing PNG
+compiler, manifest and stable geometry lock while using separate collection and
+franchise tags. The supplied Luffy, Zoro and Zenitsu images informed the requested
+visual direction; those screenshots are not distributed as application assets.
+
+See [the full catalog and validation notes](../../docs/ANIME_FAVORITES.md).
+
 ## The original Lunar Botanist collectible
 
 `moon-botanist.png` was generated for Hoshii with the image-generation tool, then

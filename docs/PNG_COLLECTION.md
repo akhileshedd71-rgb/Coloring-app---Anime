@@ -1,6 +1,6 @@
-# Adding original PNG coloring pages
+# Adding PNG coloring pages
 
-The Atelier collection uses individually generated, native 1024 × 1536 PNG illustrations. These are genuine source-resolution PNGs; no upscaled pixels are presented as additional drawn detail. Each original line-art PNG is retained unchanged under `assets/source/`, alongside its generation prompt and visual review. The app displays the original fine ink through a transparent PNG overlay, with an independent mask partition underneath it for interactive coloring. Existing vector pages remain supported.
+The Atelier and Anime favorites collections use individually generated, native 1024 × 1536 PNG illustrations. These are genuine source-resolution PNGs; no upscaled pixels are presented as additional drawn detail. Each original line-art PNG is retained unchanged under `assets/source/`, alongside its generation prompt and visual review. The app displays the original fine ink through a transparent PNG overlay, with an independent mask partition underneath it for interactive coloring. Existing vector pages remain supported.
 
 ## Files for each illustration
 
@@ -16,7 +16,7 @@ The Atelier collection uses individually generated, native 1024 × 1536 PNG illu
 
 ## Generate and review
 
-Generate one composition per image at full resolution. Ask for original characters, expressive faces, anatomically coherent hands, crisp clean black outlines, white interiors and closed major material boundaries. Fine hair marks, eyelashes, fabric creases and similar open marks can be decorative ink inside a larger region. Avoid gray shaded areas intended to be recolored. Make easy pages truly simple with bold lines and large shapes; medium pages need controlled detail density, not just fewer characters.
+Generate one composition per image at full resolution. Original Atelier pages use original character designs; Anime favorites uses the explicitly requested named characters, with `anime favorites`, `fan art` and series-name tags. Specify the intended character, expressive faces, anatomically coherent hands, crisp clean black outlines, white interiors and closed major material boundaries. Fine hair marks, eyelashes, fabric creases and similar open marks can be decorative ink inside a larger region. Avoid gray shaded areas intended to be recolored. Make easy pages truly simple with bold lines and large shapes; medium pages need controlled detail density, not just fewer characters.
 
 Inspect every source at native resolution before conversion. Review faces and eye alignment, digits and hand poses, clothing joins, framing, background tangencies and closed skin/hair/outfit boundaries. If a generation needs visual changes, refine it with image generation before accepting it. Preserve the accepted individual PNG, not a grid/contact sheet crop.
 
@@ -95,3 +95,7 @@ The first Atelier release includes small, visible boundary repairs on six pages:
 The compiler grades up from the requested difficulty using visible region count and tiny-region density. Easy pages with more than 70 regions or 10 tiny regions become Medium; more than 180 regions or 45 tiny regions becomes Hard. Density counts are based on native-resolution areas, not image dimensions alone. Fine lines that do not enclose a region remain decorative details rather than artificial extra taps.
 
 The reference deliberately uses solid curated region colors over the source ink. It does not retain the color guide's unaligned painterly gradients. Users can develop gradients and brush shading in Paint & Shade while the source outlines remain fixed. This distinction preserves reliable fills and honest alignment without discarding the detailed illustration.
+
+## Download collections
+
+The packager creates separate archives for the 31 original Atelier pages and the 20 Anime favorites pages, keeping each below GitHub’s 100 MiB file limit. Run `python scripts/package-png-art.py --collection anime-favorites` for just the new collection, `--collection atelier` for the original PNG collection, or omit the option to package both. Each archive has its own catalog and SHA256 checksum. PNG recompression is lossless and decoded pixels are checked before packaging.

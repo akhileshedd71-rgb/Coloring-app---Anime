@@ -34,7 +34,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 20.44
+      "chromiumRedrawMs": 35.24
     },
     {
       "id": "atelier-city-dreamer",
@@ -69,7 +69,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 15.74
+      "chromiumRedrawMs": 19.02
     },
     {
       "id": "atelier-bookshop-companions",
@@ -104,7 +104,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 13.74
+      "chromiumRedrawMs": 63.8
     },
     {
       "id": "atelier-wildflower-picnic",
@@ -139,7 +139,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 15.44
+      "chromiumRedrawMs": 74.86
     },
     {
       "id": "atelier-lantern-promise",
@@ -174,7 +174,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 49.78
+      "chromiumRedrawMs": 56.98
     },
     {
       "id": "atelier-rainy-cafe",
@@ -209,7 +209,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 19.76
+      "chromiumRedrawMs": 21.4
     },
     {
       "id": "atelier-cloud-guardian",
@@ -244,7 +244,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 9.5
+      "chromiumRedrawMs": 8.9
     },
     {
       "id": "atelier-melody-chibi",
@@ -279,7 +279,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 12.26
+      "chromiumRedrawMs": 12.7
     },
     {
       "id": "atelier-boba-bunny",
@@ -314,7 +314,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 4.78
+      "chromiumRedrawMs": 10.98
     },
     {
       "id": "atelier-starlight-reader",
@@ -349,7 +349,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 15.24
+      "chromiumRedrawMs": 35.58
     },
     {
       "id": "atelier-butterfly-alchemist",
@@ -384,7 +384,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 21.4
+      "chromiumRedrawMs": 46.62
     },
     {
       "id": "atelier-rooftop-skater",
@@ -419,7 +419,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 7.9
+      "chromiumRedrawMs": 20.68
     },
     {
       "id": "atelier-origami-afternoon",
@@ -454,7 +454,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 10.86
+      "chromiumRedrawMs": 14.52
     },
     {
       "id": "atelier-rainy-day-duet",
@@ -489,7 +489,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 11.62
+      "chromiumRedrawMs": 28.74
     },
     {
       "id": "atelier-koi-lantern-night",
@@ -524,7 +524,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 12.6
+      "chromiumRedrawMs": 22.14
     },
     {
       "id": "atelier-cat-library",
@@ -559,7 +559,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 9.22
+      "chromiumRedrawMs": 18.34
     },
     {
       "id": "atelier-mecha-garden",
@@ -594,7 +594,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 9.38
+      "chromiumRedrawMs": 15.5
     },
     {
       "id": "atelier-little-star-witch",
@@ -629,7 +629,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 4.74
+      "chromiumRedrawMs": 7.46
     },
     {
       "id": "atelier-moon-cat",
@@ -664,7 +664,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 3.18
+      "chromiumRedrawMs": 3.64
     },
     {
       "id": "atelier-daisy-beat",
@@ -699,7 +699,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 5.56
+      "chromiumRedrawMs": 5.86
     },
     {
       "id": "atelier-celestial-violinist",
@@ -734,7 +734,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 14.06
+      "chromiumRedrawMs": 17.62
     },
     {
       "id": "atelier-roller-bloom",
@@ -769,7 +769,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 9.2
+      "chromiumRedrawMs": 12.18
     },
     {
       "id": "atelier-ribbon-festival",
@@ -804,7 +804,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 12.84
+      "chromiumRedrawMs": 16.1
     },
     {
       "id": "atelier-greenhouse-tea",
@@ -839,7 +839,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 13.56
+      "chromiumRedrawMs": 21.02
     },
     {
       "id": "atelier-strawberry-knight",
@@ -874,7 +874,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 5.8
+      "chromiumRedrawMs": 6.84
     },
     {
       "id": "atelier-fox-teacup",
@@ -909,7 +909,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 5.44
+      "chromiumRedrawMs": 6.56
     },
     {
       "id": "atelier-camellia-muse",
@@ -944,7 +944,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 8.1
+      "chromiumRedrawMs": 10.62
     },
     {
       "id": "atelier-dragon-post",
@@ -979,7 +979,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 9.88
+      "chromiumRedrawMs": 11.56
     },
     {
       "id": "atelier-sunday-film-club",
@@ -1014,7 +1014,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 10.74
+      "chromiumRedrawMs": 14.64
     },
     {
       "id": "atelier-axolotl-garden",
@@ -1049,7 +1049,7 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 6.28
+      "chromiumRedrawMs": 6.5
     },
     {
       "id": "atelier-greenhouse-dreamer",
@@ -1084,7 +1084,707 @@
           "leaks": []
         }
       ],
-      "chromiumRedrawMs": 10.22
+      "chromiumRedrawMs": 12.6
+    },
+    {
+      "id": "anime-goku",
+      "regions": 114,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-d6d61e1b25106d",
+          "otherAnchorsUnchanged": 113,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-d6d61e1b25106d",
+          "otherAnchorsUnchanged": 113,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-122fc0c5029281",
+          "otherAnchorsUnchanged": 113,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-122fc0c5029281",
+          "otherAnchorsUnchanged": 113,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 4.5
+    },
+    {
+      "id": "anime-nami",
+      "regions": 579,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-b8e11633db1c67",
+          "otherAnchorsUnchanged": 578,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-b8e11633db1c67",
+          "otherAnchorsUnchanged": 578,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-fbbf61d33aced2",
+          "otherAnchorsUnchanged": 578,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-fbbf61d33aced2",
+          "otherAnchorsUnchanged": 578,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 8.72
+    },
+    {
+      "id": "anime-vegeta",
+      "regions": 182,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-ee93553eb2d498",
+          "otherAnchorsUnchanged": 181,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-ee93553eb2d498",
+          "otherAnchorsUnchanged": 181,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-0d39858c10ee22",
+          "otherAnchorsUnchanged": 181,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-0d39858c10ee22",
+          "otherAnchorsUnchanged": 181,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 5.96
+    },
+    {
+      "id": "anime-zoro",
+      "regions": 324,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-44804116060ae0",
+          "otherAnchorsUnchanged": 323,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-44804116060ae0",
+          "otherAnchorsUnchanged": 323,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-cef85827ea0ed7",
+          "otherAnchorsUnchanged": 323,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-cef85827ea0ed7",
+          "otherAnchorsUnchanged": 323,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 6.54
+    },
+    {
+      "id": "anime-piccolo",
+      "regions": 251,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-58f46e5ddf9e4d",
+          "otherAnchorsUnchanged": 250,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-58f46e5ddf9e4d",
+          "otherAnchorsUnchanged": 250,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-4392b58ac2e1f3",
+          "otherAnchorsUnchanged": 250,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-4392b58ac2e1f3",
+          "otherAnchorsUnchanged": 250,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 6.84
+    },
+    {
+      "id": "anime-yuji",
+      "regions": 73,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-c211598c7aa612",
+          "otherAnchorsUnchanged": 72,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-c211598c7aa612",
+          "otherAnchorsUnchanged": 72,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-a5e34547321f26",
+          "otherAnchorsUnchanged": 72,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-a5e34547321f26",
+          "otherAnchorsUnchanged": 72,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 5.18
+    },
+    {
+      "id": "anime-gohan",
+      "regions": 165,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-891d93f0fb47a1",
+          "otherAnchorsUnchanged": 164,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-891d93f0fb47a1",
+          "otherAnchorsUnchanged": 164,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-e13a798a96c1dd",
+          "otherAnchorsUnchanged": 164,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-e13a798a96c1dd",
+          "otherAnchorsUnchanged": 164,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 8.14
+    },
+    {
+      "id": "anime-inosuke",
+      "regions": 140,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-82007909558e57",
+          "otherAnchorsUnchanged": 139,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-82007909558e57",
+          "otherAnchorsUnchanged": 139,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-db32788f9ba5b0",
+          "otherAnchorsUnchanged": 139,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-db32788f9ba5b0",
+          "otherAnchorsUnchanged": 139,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 5.9
+    },
+    {
+      "id": "anime-chopper",
+      "regions": 204,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-c300908422b7d2",
+          "otherAnchorsUnchanged": 203,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-c300908422b7d2",
+          "otherAnchorsUnchanged": 203,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-57700a241778a7",
+          "otherAnchorsUnchanged": 203,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-57700a241778a7",
+          "otherAnchorsUnchanged": 203,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 6.82
+    },
+    {
+      "id": "anime-naruto",
+      "regions": 145,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-2902525aa172f6",
+          "otherAnchorsUnchanged": 144,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-2902525aa172f6",
+          "otherAnchorsUnchanged": 144,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-b429591647957d",
+          "otherAnchorsUnchanged": 144,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-b429591647957d",
+          "otherAnchorsUnchanged": 144,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 7.22
+    },
+    {
+      "id": "anime-megumi",
+      "regions": 144,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-d0bcc2c7670455",
+          "otherAnchorsUnchanged": 143,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-d0bcc2c7670455",
+          "otherAnchorsUnchanged": 143,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-830bb82280d227",
+          "otherAnchorsUnchanged": 143,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-830bb82280d227",
+          "otherAnchorsUnchanged": 143,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 7.9
+    },
+    {
+      "id": "anime-nobara",
+      "regions": 593,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-440a4278ad14eb",
+          "otherAnchorsUnchanged": 592,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-440a4278ad14eb",
+          "otherAnchorsUnchanged": 592,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-86748adcd62da2",
+          "otherAnchorsUnchanged": 592,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-86748adcd62da2",
+          "otherAnchorsUnchanged": 592,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 10.74
+    },
+    {
+      "id": "anime-tanjiro",
+      "regions": 369,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-084de8f14e9577",
+          "otherAnchorsUnchanged": 368,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-084de8f14e9577",
+          "otherAnchorsUnchanged": 368,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-7430a52307307e",
+          "otherAnchorsUnchanged": 368,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-7430a52307307e",
+          "otherAnchorsUnchanged": 368,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 12.34
+    },
+    {
+      "id": "anime-sasuke",
+      "regions": 142,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-52eeb8fb4b2357",
+          "otherAnchorsUnchanged": 141,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-52eeb8fb4b2357",
+          "otherAnchorsUnchanged": 141,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-cb2a73f517e06a",
+          "otherAnchorsUnchanged": 141,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-cb2a73f517e06a",
+          "otherAnchorsUnchanged": 141,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 7.5
+    },
+    {
+      "id": "anime-sakura",
+      "regions": 221,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-f361d062b5bc5d",
+          "otherAnchorsUnchanged": 220,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-f361d062b5bc5d",
+          "otherAnchorsUnchanged": 220,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-70ceb97524de57",
+          "otherAnchorsUnchanged": 220,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-70ceb97524de57",
+          "otherAnchorsUnchanged": 220,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 8.62
+    },
+    {
+      "id": "anime-kakashi",
+      "regions": 298,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-5e12171d045b99",
+          "otherAnchorsUnchanged": 297,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-5e12171d045b99",
+          "otherAnchorsUnchanged": 297,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-6968fa65944b6f",
+          "otherAnchorsUnchanged": 297,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-6968fa65944b6f",
+          "otherAnchorsUnchanged": 297,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 6.98
+    },
+    {
+      "id": "anime-luffy",
+      "regions": 177,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-485551fcec78e4",
+          "otherAnchorsUnchanged": 176,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-485551fcec78e4",
+          "otherAnchorsUnchanged": 176,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-083678312dd693",
+          "otherAnchorsUnchanged": 176,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-083678312dd693",
+          "otherAnchorsUnchanged": 176,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 7.24
+    },
+    {
+      "id": "anime-nezuko",
+      "regions": 319,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-26102db39fb2e9",
+          "otherAnchorsUnchanged": 318,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-26102db39fb2e9",
+          "otherAnchorsUnchanged": 318,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-5244507d9bc786",
+          "otherAnchorsUnchanged": 318,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-5244507d9bc786",
+          "otherAnchorsUnchanged": 318,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 22.9
+    },
+    {
+      "id": "anime-zenitsu",
+      "regions": 160,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-0a4d101c2ac4ee",
+          "otherAnchorsUnchanged": 159,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-0a4d101c2ac4ee",
+          "otherAnchorsUnchanged": 159,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-f0b0cf781ba931",
+          "otherAnchorsUnchanged": 159,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-f0b0cf781ba931",
+          "otherAnchorsUnchanged": 159,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 14.56
+    },
+    {
+      "id": "anime-gojo",
+      "regions": 132,
+      "checks": [
+        {
+          "mode": "gradient",
+          "region": "r-55bde612435eb8",
+          "otherAnchorsUnchanged": 131,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-55bde612435eb8",
+          "otherAnchorsUnchanged": 131,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "gradient",
+          "region": "r-cfd0af18c4a3eb",
+          "otherAnchorsUnchanged": 131,
+          "targetChanged": true,
+          "leaks": []
+        },
+        {
+          "mode": "guidedBrush",
+          "region": "r-cfd0af18c4a3eb",
+          "otherAnchorsUnchanged": 131,
+          "targetChanged": true,
+          "leaks": []
+        }
+      ],
+      "chromiumRedrawMs": 15.4
     }
   ]
 }

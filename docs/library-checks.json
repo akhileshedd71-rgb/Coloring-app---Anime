@@ -1,6 +1,6 @@
 {
-  "pageCount": 132,
-  "totalRegions": 32107,
+  "pageCount": 152,
+  "totalRegions": 36839,
   "problems": [],
   "pages": [
     {
@@ -1267,6 +1267,366 @@
       "labelsTappable": true,
       "completion": true,
       "alignedReference": true
+    },
+    {
+      "id": "anime-goku",
+      "regions": 114,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-nami",
+      "regions": 579,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-vegeta",
+      "regions": 182,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-zoro",
+      "regions": 324,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-piccolo",
+      "regions": 251,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-yuji",
+      "regions": 73,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-gohan",
+      "regions": 165,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-inosuke",
+      "regions": 140,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-chopper",
+      "regions": 204,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-naruto",
+      "regions": 145,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-megumi",
+      "regions": 144,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-nobara",
+      "regions": 593,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-tanjiro",
+      "regions": 369,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-sasuke",
+      "regions": 142,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-sakura",
+      "regions": 221,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-kakashi",
+      "regions": 298,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-luffy",
+      "regions": 177,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-nezuko",
+      "regions": 319,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-zenitsu",
+      "regions": 160,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
+    },
+    {
+      "id": "anime-gojo",
+      "regions": 132,
+      "labelsTappable": true,
+      "completion": true,
+      "alignedReference": true,
+      "pngReference": {
+        "width": 1024,
+        "height": 1536,
+        "meanChannelError": 0,
+        "largePixelFraction": 0
+      },
+      "pngLineart": {
+        "width": 1024,
+        "height": 1536,
+        "differingChannels": 0
+      }
     }
   ]
 }

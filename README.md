@@ -10,24 +10,29 @@ The app bundles all artwork and fonts. No account, advertising, payment, trackin
 
 ## What is included
 
-- **132 original, individually usable coloring pages**, across all ten categories, with different subjects, outfits, props and compositions. Easy, Medium and Hard reflect visible region counts and detail sizes.
+- **152 individually usable coloring pages**, across all ten categories, with different subjects, outfits, props and compositions. Easy, Medium and Hard reflect visible region counts and detail sizes.
 - **31 individually image-generated PNG illustrations** in the Atelier collection, including the **20-page New Horizons expansion**: two new compositions in each category. Original 1024 × 1536 PNG masters, aligned PNG color references and lightweight previews are kept in the project.
+- **20 Anime favorites fan-art pages**: four characters each from Naruto, One Piece, Dragon Ball Z, Demon Slayer and Jujutsu Kaisen. Choose **Anime favorites** in Discover, or search by character or series. [See all twenty](docs/ANIME_FAVORITES.md).
 - Stable closed fill regions, suggested palettes and full-resolution immutable PNG ink preserve detailed hair, eyelashes and clothing. Earlier vector pages retain their original assets, IDs, and optional aligned shading.
 - **Free Color**, **Color by Number**, and **Paint & Shade**. Numbered regions include remaining counts and hints.
 - Tap fill, smooth pressure-sensitive brush, soft airbrush, pencil, diagonal gradient fill, sparkle brush, eraser and eyedropper. Brush size/opacity, per-stroke region locking, and unrestricted painting are available in tool settings.
 - Undo/redo; pinch zoom up to 20×; two-finger panning; fit and full-screen controls; collapsible palette; phone portrait/landscape and tablet layouts.
 - Coordinated skin, hair, eyes, pastel, festival, sunset, neon, comic and manga palettes; native full color picker; HEX input; recent shades; saved swatches and named custom palettes.
 - Autosave after every completed fill or stroke. Editable projects and thumbnails use separate IndexedDB stores. Restore, rename, duplicate, favorite, start fresh, and confirmed deletion.
-- **High-resolution PNG/JPEG export** (3000 × 3900 for vector pages; 2731 × 4096 for Atelier pages) through Android’s share sheet. Transparent PNG for standalone character pages. Exports use final model state independently of fill animation.
+- **High-resolution PNG/JPEG export** (3000 × 3900 for vector pages; 2731 × 4096 for PNG pages) through Android’s share sheet. Transparent PNG for standalone character pages. Exports use final model state independently of fill animation.
 - Light, dark and system themes; reduced-motion support; bundled fonts; original launcher icon and splash.
 
 The main flow is **Discover → choose a drawing and mode → color → save/share**. My gallery keeps unfinished pieces alongside completed ones.
 
 ## The Atelier PNG collection
 
-[Download all 31 line-art and aligned color-reference PNG pairs](delivery/hoshii-atelier-pngs.zip). The archive preserves the native 1024 × 1536 resolution. Image-generated color guides and exact prompts are retained separately in `assets/source/`. In the app, choose **Atelier collection**, or search **new horizons** to see just the 20 newest drawings. See [the expansion catalog and validation notes](docs/NEW_HORIZONS.md).
+[Download all 31 line-art and aligned color-reference PNG pairs](delivery/hoshii-atelier-pngs.zip). The archive preserves the native 1024 × 1536 resolution. Image-generated color guides and exact prompts are retained separately in `assets/source/`. In the app, choose **Atelier collection**, or search **new horizons** to see the 20 New Horizons drawings. See [the expansion catalog and validation notes](docs/NEW_HORIZONS.md).
 
-The checked-in Android 1.1.0 APK predates New Horizons. Rebuild it with `npm run android:build` to include the expanded library; the source and web build include all 132 pages.
+## Anime favorites
+
+[Download all 20 anime character line-art and aligned color-reference PNG pairs](delivery/hoshii-anime-favorites-pngs.zip). Naruto, Sasuke, Sakura, Kakashi; Luffy, Zoro, Nami, Chopper; Goku, Vegeta, Gohan, Piccolo; Tanjiro, Nezuko, Zenitsu, Inosuke; and Yuji, Gojo, Megumi, Nobara each have their own native 1024 × 1536 drawing. The app includes a dedicated **Anime favorites** collection filter and searchable franchise tags. These are newly generated fan-art compositions of the named characters. [Art catalog and review notes](docs/ANIME_FAVORITES.md).
+
+The checked-in Android 1.1.0 APK predates New Horizons and Anime favorites. Rebuild it with `npm run android:build` to include the expanded library; the source and web build include all 152 pages.
 
 ## Screenshots
 
@@ -105,4 +110,4 @@ React + TypeScript + Vite provide the interface. Canvas2D/Path2D render editable
 
 Ads and a currency/premium library are deliberately future work. Add an entitlement service keyed by immutable artwork IDs, with a separate wallet ledger and platform billing/rewarded-ad adapters. Keep painting and storage independent of those services. Do not gate existing offline projects or add tracking without a deliberate product/privacy decision. This version contains no payment or ad SDKs.
 
-The earlier 100-page collection uses stylized vector artwork, with one additional generated collectible. The Atelier collection combines its first eleven generated PNG drawings with 20 New Horizons illustrations. Native PNG detail is retained rather than replaced with simplified vector artwork. Generated color guides supply palette hints; published references use the exact same fill geometry and ink as the editor. Free brushes and gradients add your own lighting. See the artwork documentation for source resolution, review results and conversion details.
+The earlier 100-page collection uses stylized vector artwork, with one additional generated collectible. The Atelier collection combines its first eleven generated PNG drawings with 20 New Horizons illustrations. Anime favorites adds 20 separate character fan-art PNG pages. Native PNG detail is retained rather than replaced with simplified vector artwork. Generated color guides supply palette hints; published references use the exact same fill geometry and ink as the editor. Free brushes and gradients add your own lighting. See the artwork documentation for source resolution, review results and conversion details.

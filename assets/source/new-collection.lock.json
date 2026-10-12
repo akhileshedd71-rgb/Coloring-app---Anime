@@ -217,6 +217,146 @@
       "width": 1024,
       "height": 1536,
       "visibleRegions": 1424
+    },
+    "anime-naruto": {
+      "sourceSha256": "8f069c98e5d734b3192776c1671dd2c465465b0edc6dc417da10d80148db21dd",
+      "geometrySha256": "90632855380501cf8c4f3a011ef8a4cff2b3c9fdd8fb06f14a05de60ff787a90",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 145
+    },
+    "anime-sasuke": {
+      "sourceSha256": "a4d30c3aaa5137f904fd9cbb3258d76847a4e7fe713d68426016a9c02d907309",
+      "geometrySha256": "77e659e84d8994e53bd5e6fa614d73df7fcccbb0149a6fa0ff4d39e24ba2a05d",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 142
+    },
+    "anime-sakura": {
+      "sourceSha256": "52411289695b6f29976171df2764a55ff9b3f7cca09fc1b44eebf69e4ad45467",
+      "geometrySha256": "b3ad552c1ad5744168c45689af4dc6f38740dab1bd600372e14cf0cff286f8b0",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 221
+    },
+    "anime-kakashi": {
+      "sourceSha256": "4244eb9eb9a883b672a2e6366e8036ab126efc77a1ce355e6199654b6d6dd75c",
+      "geometrySha256": "ac38c4e9ab7373083d572fbd8145dafd5ba1940a550de4994af825031969e5c1",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 298
+    },
+    "anime-luffy": {
+      "sourceSha256": "8bde5559e0363f10bffc2d452fc84ef1f505ff62f3770624373048c796eaea14",
+      "geometrySha256": "846751e6c0d7b2f4ce519c10b9f1b87fe2c6b1d31b933cc245d7de6ecc2a4ded",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 177
+    },
+    "anime-zoro": {
+      "sourceSha256": "a55284530955d6ff5ab7a4a7717718e45f22cd88c0c0b47cdc0d3c3d512a0808",
+      "geometrySha256": "a3aefbdbb24df1c3a254f0a81144c20a695c548fea70966605f244e708d8caea",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 324
+    },
+    "anime-nami": {
+      "sourceSha256": "93fa7a24446c5dba4c2d69269b169f3eb6583f471a37ef69001de9e5694aac39",
+      "geometrySha256": "3cfc909ba94f128318dbc2f8d0976205be24ff85e10bd8e29d08428aaeb5076b",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 579
+    },
+    "anime-chopper": {
+      "sourceSha256": "769272821dffc0c33907b7527502f490319eb4b26faf9c92a352de0ebf402d71",
+      "geometrySha256": "02e3a47d1a9ef434b3477b9bbbb9db9fce238a47ba160a090438ceefa70332fb",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 204
+    },
+    "anime-goku": {
+      "sourceSha256": "c8daae9d038ccbdd9ebd29e4a45353dfe05fb6f4363fb81efa0bd10a7699ffde",
+      "geometrySha256": "e0052d5cc3c48963b900c3ffa50d61695e2dbe4ef59d9a4bc6d861663bb0440e",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 114
+    },
+    "anime-vegeta": {
+      "sourceSha256": "368cb7a660a29f4261ce27ce8e6e6e9291afeedef0bbc1220efc7426fef0ea35",
+      "geometrySha256": "6e2199b39f5c7254b1f2f3364ae917ff907b7bacbf589cf32a1c0a7a0b8cdaa0",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 182
+    },
+    "anime-gohan": {
+      "sourceSha256": "f593d49d5db18417d0db52040226e6f216dc63eab3492f694cbf0054fb99d62a",
+      "geometrySha256": "c60649eefad93b869013ff34542cd359650d94312b5182ace8878fd3f44c2bca",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 165
+    },
+    "anime-piccolo": {
+      "sourceSha256": "eb8c6e43b5a1e131dbdac2efdfa232ccfdd635454d2d243f0ab13cdbd1ee8da8",
+      "geometrySha256": "c16a2509ce2ff42fd9449965e73e4b8a838f72556b04ac67de4e4a5c0fc1a77b",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 251
+    },
+    "anime-tanjiro": {
+      "sourceSha256": "3630a77844d51ec7e6b0e47332c0e38f484c3ffabffd2831d2fa73ec1293860c",
+      "geometrySha256": "32b1fb1004f96a8bfb9de37dc3cbe6c39d3e5974b7f564d3973e393061c2ae65",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 369
+    },
+    "anime-nezuko": {
+      "sourceSha256": "5fa1122a06a5d357668fc9e84f942be045f69af53eddc481237b21a7fcf19308",
+      "geometrySha256": "0ecb9d7bd196fabf9d63f5acd9003002c7a8faecc8524a9c62cf1c5bbc444730",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 319
+    },
+    "anime-zenitsu": {
+      "sourceSha256": "fb05a119da95d43ee886df77d280292db8cc00a9126c966be4f79028c428e48c",
+      "geometrySha256": "0f1573ba5061e56f81b5a1d7d7891e936c15153575e320fc1f744381cd3d1b3f",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 160
+    },
+    "anime-inosuke": {
+      "sourceSha256": "d8d8e9c738ddfd6dece9b2f997afa6d149f3bb61d0b34dd9f3924a1f7117915a",
+      "geometrySha256": "d9b67b12dcc44b41a2c586248adc508a2bc3d5cbb37e84eac105a0fdb387dcdc",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 140
+    },
+    "anime-yuji": {
+      "sourceSha256": "49ba4420897f564050030ba24baad1bda506e052deae78a79cdf6be16dfe5fde",
+      "geometrySha256": "fb9d3773a9ef0842dac0e5c027c51bf71109c3a9b1c3b61ce15d42f5e7849b2f",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 73
+    },
+    "anime-gojo": {
+      "sourceSha256": "92b8e8c74aeb4e6301c066ce683ebdb870c08d7f38b254d75db4b0bce10d2454",
+      "geometrySha256": "37ed1d15b31af1466d8b5fecd2a4ef1a9dcf99eb0c0bd36441ad4918ee84bd80",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 132
+    },
+    "anime-megumi": {
+      "sourceSha256": "2ed8bb46bff44c09bd1e72e85b5df2e9b3d3dd94841ba1644e9699be2344a17a",
+      "geometrySha256": "94d8850c74fcd3badbacdd1324243f595ea9118512d6c45fa0713e447a2653f0",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 144
+    },
+    "anime-nobara": {
+      "sourceSha256": "4b0c31dc5a1bde0019b0c14902c7a2e0f1dfb7d2f65ccbf9def7532bdba7c582",
+      "geometrySha256": "b36f3aef81bc230d28f84305171a4d80c95f21ba46f08d765c675731e8568986",
+      "width": 1024,
+      "height": 1536,
+      "visibleRegions": 593
     }
   }
 }

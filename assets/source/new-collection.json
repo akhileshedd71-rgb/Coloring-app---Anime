@@ -3,7 +3,7 @@
   "collection": {
     "id": "atelier",
     "title": "The Atelier Collection",
-    "description": "Thirty-one individually generated original PNG coloring illustrations, including the twenty-page New Horizons expansion."
+    "description": "Individually generated PNG coloring illustrations: 31 original Atelier pages and 20 Anime favorites character fan-art pages."
   },
   "pages": [
     {
@@ -3570,6 +3570,1593 @@
       ],
       "source": "assets/source/atelier-greenhouse-tea.png",
       "colorGuide": "assets/source/atelier-greenhouse-tea-color-guide.png"
+    },
+    {
+      "id": "anime-naruto",
+      "title": "Naruto \u2014 Leaf Village Breeze",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "Naruto greets a leaf-filled breeze with a grin and a peace sign. Naruto fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "naruto",
+        "naruto",
+        "naruto uzumaki",
+        "naruto shippuden"
+      ],
+      "source": "assets/source/anime-naruto.png",
+      "colorGuide": "assets/source/anime-naruto-color-guide.png",
+      "palette": [
+        "#FFDC45",
+        "#F58128",
+        "#343B49",
+        "#51B9EF",
+        "#203B65",
+        "#BEC6D4",
+        "#83A858",
+        "#B8E7F7",
+        "#C18B64",
+        "#F8C9A6",
+        "#FFFFFF"
+      ],
+      "seeds": [
+        {
+          "x": 0.46920821114369504,
+          "y": 0.3322475570032573,
+          "color": "#F8C9A6",
+          "name": "Face"
+        },
+        {
+          "x": 0.46920821114369504,
+          "y": 0.11726384364820847,
+          "color": "#FFDC45",
+          "name": "Blond hair"
+        },
+        {
+          "x": 0.5474095796676441,
+          "y": 0.7947882736156352,
+          "color": "#F58128",
+          "name": "Orange jacket"
+        },
+        {
+          "x": 0.8015640273704789,
+          "y": 0.6384364820846905,
+          "color": "#343B49",
+          "name": "Jacket shoulder"
+        },
+        {
+          "x": 0.9286412512218963,
+          "y": 0.10423452768729642,
+          "color": "#51B9EF",
+          "name": "Blue sky"
+        },
+        {
+          "x": 0.5982404692082112,
+          "y": 0.23778501628664495,
+          "color": "#203B65",
+          "name": "Headband cloth"
+        },
+        {
+          "x": 0.4789833822091887,
+          "y": 0.3791530944625407,
+          "color": "#FFFFFF",
+          "name": "Smile"
+        }
+      ]
+    },
+    {
+      "id": "anime-sasuke",
+      "title": "Sasuke \u2014 Quiet Lightning",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "Sasuke stands quietly amid lightning ribbons and distant mountains. Naruto fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "naruto",
+        "sasuke",
+        "sasuke uchiha",
+        "naruto shippuden"
+      ],
+      "source": "assets/source/anime-sasuke.png",
+      "colorGuide": "assets/source/anime-sasuke-color-guide.png",
+      "palette": [
+        "#1D2C42",
+        "#4D5B7C",
+        "#ECECF1",
+        "#C0C3D3",
+        "#A991CA",
+        "#C5BAE2",
+        "#A7DFF3",
+        "#F8D7B8",
+        "#FFFFFF",
+        "#343B49"
+      ],
+      "seeds": [
+        {
+          "x": 0.47409579667644186,
+          "y": 0.11400651465798045,
+          "color": "#1D2C42",
+          "name": "Blue-black hair"
+        },
+        {
+          "x": 0.5718475073313783,
+          "y": 0.2736156351791531,
+          "color": "#F8D7B8",
+          "name": "Face"
+        },
+        {
+          "x": 0.39100684261974583,
+          "y": 0.5504885993485342,
+          "color": "#ECECF1",
+          "name": "Ivory shirt"
+        },
+        {
+          "x": 0.1466275659824047,
+          "y": 0.6579804560260586,
+          "color": "#F8D7B8",
+          "name": "Upper arm"
+        },
+        {
+          "x": 0.7331378299120235,
+          "y": 0.8338762214983714,
+          "color": "#A991CA",
+          "name": "Purple rope belt"
+        },
+        {
+          "x": 0.02932551319648094,
+          "y": 0.11726384364820847,
+          "color": "#FFFFFF",
+          "name": "Paper sky"
+        }
+      ]
+    },
+    {
+      "id": "anime-sakura",
+      "title": "Sakura \u2014 Spring Resolve",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "Sakura pauses beside spring blossoms in her familiar crimson tunic. Naruto fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "naruto",
+        "sakura",
+        "sakura haruno",
+        "naruto shippuden"
+      ],
+      "source": "assets/source/anime-sakura.png",
+      "colorGuide": "assets/source/anime-sakura-color-guide.png",
+      "palette": [
+        "#F5A2B0",
+        "#F9C5D7",
+        "#A8203B",
+        "#F8D7B8",
+        "#59A97A",
+        "#879B61",
+        "#203B65",
+        "#343B49",
+        "#BEC6D4",
+        "#8C624C",
+        "#A991CA",
+        "#FFFFFF",
+        "#D6CABA",
+        "#EAC56A"
+      ],
+      "seeds": [
+        {
+          "x": 0.7135874877810362,
+          "y": 0.19218241042345277,
+          "color": "#F5A2B0",
+          "name": "Pink hair"
+        },
+        {
+          "x": 0.552297165200391,
+          "y": 0.28013029315960913,
+          "color": "#F8D7B8",
+          "name": "Face"
+        },
+        {
+          "x": 0.635386119257087,
+          "y": 0.5993485342019544,
+          "color": "#A8203B",
+          "name": "Crimson tunic"
+        },
+        {
+          "x": 0.2932551319648094,
+          "y": 0.6319218241042345,
+          "color": "#F8D7B8",
+          "name": "Upper arm"
+        },
+        {
+          "x": 0.43010752688172044,
+          "y": 0.8990228013029316,
+          "color": "#343B49",
+          "name": "Fingerless glove"
+        },
+        {
+          "x": 0.15151515151515152,
+          "y": 0.23778501628664495,
+          "color": "#F9C5D7",
+          "name": "Cherry blossom"
+        },
+        {
+          "x": 0.9579667644183774,
+          "y": 0.19543973941368079,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        },
+        {
+          "x": 0.37438905180840665,
+          "y": 0.5973941368078176,
+          "color": "#A8203B",
+          "name": "Left tunic panel"
+        }
+      ]
+    },
+    {
+      "id": "anime-kakashi",
+      "title": "Kakashi \u2014 Rooftop Pause",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "Kakashi takes a reading break above the rooftops of the Leaf Village. Naruto fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "naruto",
+        "kakashi",
+        "kakashi hatake",
+        "naruto shippuden"
+      ],
+      "source": "assets/source/anime-kakashi.png",
+      "colorGuide": "assets/source/anime-kakashi-color-guide.png",
+      "palette": [
+        "#DCE0EB",
+        "#FFFFFF",
+        "#28334C",
+        "#82906E",
+        "#687B55",
+        "#F8C9A6",
+        "#F08A4D",
+        "#BEC6D4",
+        "#51B9EF",
+        "#D7F1FA",
+        "#8C9DB3",
+        "#EBDBBE",
+        "#719860",
+        "#C4494B"
+      ],
+      "seeds": [
+        {
+          "x": 0.552297165200391,
+          "y": 0.07166123778501629,
+          "color": "#DCE0EB",
+          "name": "Silver hair"
+        },
+        {
+          "x": 0.46920821114369504,
+          "y": 0.19543973941368079,
+          "color": "#F8C9A6",
+          "name": "Visible face"
+        },
+        {
+          "x": 0.5083088954056696,
+          "y": 0.24104234527687296,
+          "color": "#28334C",
+          "name": "Cloth mask"
+        },
+        {
+          "x": 0.5327468230694037,
+          "y": 0.48859934853420195,
+          "color": "#82906E",
+          "name": "Flak vest"
+        },
+        {
+          "x": 0.1466275659824047,
+          "y": 0.5732899022801303,
+          "color": "#28334C",
+          "name": "Uniform sleeve"
+        },
+        {
+          "x": 0.8797653958944281,
+          "y": 0.10097719869706841,
+          "color": "#51B9EF",
+          "name": "Blue sky"
+        },
+        {
+          "x": 0.7478005865102639,
+          "y": 0.8469055374592834,
+          "color": "#F08A4D",
+          "name": "Book cover"
+        },
+        {
+          "x": 0.9188660801564027,
+          "y": 0.28338762214983715,
+          "color": "#D7F1FA",
+          "name": "Right cloud"
+        }
+      ],
+      "closeGaps": 1
+    },
+    {
+      "id": "anime-luffy",
+      "title": "Luffy \u2014 Ocean Daydream",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "A joyful Luffy enjoys the sea breeze beneath his iconic straw hat. One Piece fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "one piece",
+        "luffy",
+        "monkey d luffy",
+        "straw hat"
+      ],
+      "source": "assets/source/anime-luffy.png",
+      "colorGuide": "assets/source/anime-luffy-color-guide.png",
+      "palette": [
+        "#ED272B",
+        "#F6C64C",
+        "#FFD842",
+        "#F8C9A6",
+        "#171F2C",
+        "#2873C7",
+        "#28ABEE",
+        "#04BFCE",
+        "#92D8F5",
+        "#C98175",
+        "#FFFFFF",
+        "#A3633A"
+      ],
+      "seeds": [
+        {
+          "x": 0.49853372434017595,
+          "y": 0.19543973941368079,
+          "color": "#171F2C",
+          "name": "Black hair"
+        },
+        {
+          "x": 0.6011730205278593,
+          "y": 0.2280130293159609,
+          "color": "#F8C9A6",
+          "name": "Face"
+        },
+        {
+          "x": 0.7966764418377321,
+          "y": 0.11074918566775244,
+          "color": "#F6C64C",
+          "name": "Straw hat"
+        },
+        {
+          "x": 0.4447702834799609,
+          "y": 0.4755700325732899,
+          "color": "#ED272B",
+          "name": "Red shirt"
+        },
+        {
+          "x": 0.41055718475073316,
+          "y": 0.755700325732899,
+          "color": "#F8C9A6",
+          "name": "Forearm"
+        },
+        {
+          "x": 0.8699902248289345,
+          "y": 0.19543973941368079,
+          "color": "#28ABEE",
+          "name": "Blue sky"
+        },
+        {
+          "x": 0.1466275659824047,
+          "y": 0.2671009771986971,
+          "color": "#FFFFFF",
+          "name": "Cloud"
+        },
+        {
+          "x": 0.5669599217986315,
+          "y": 0.9250814332247557,
+          "color": "#2873C7",
+          "name": "Blue shorts"
+        },
+        {
+          "x": 0.8797653958944281,
+          "y": 0.4234527687296417,
+          "color": "#FFFFFF",
+          "name": "Right cloud"
+        }
+      ]
+    },
+    {
+      "id": "anime-zoro",
+      "title": "Zoro \u2014 Street Samurai",
+      "category": "Chibi",
+      "difficulty": "Medium",
+      "description": "Chibi Zoro pairs a streetwear jacket and sneakers with his three sheathed swords. One Piece fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "one piece",
+        "zoro",
+        "roronoa zoro",
+        "straw hat"
+      ],
+      "source": "assets/source/anime-zoro.png",
+      "colorGuide": "assets/source/anime-zoro-color-guide.png",
+      "palette": [
+        "#77BE43",
+        "#1D6341",
+        "#B4DE4F",
+        "#F8C9A6",
+        "#383B42",
+        "#FFFFFF",
+        "#FFF7E3",
+        "#E8C34D",
+        "#9A9F9B",
+        "#8BB746"
+      ],
+      "seeds": [
+        {
+          "x": 0.5180840664711632,
+          "y": 0.05863192182410423,
+          "color": "#77BE43",
+          "name": "Green hair"
+        },
+        {
+          "x": 0.4398826979472141,
+          "y": 0.15960912052117263,
+          "color": "#F8C9A6",
+          "name": "Face"
+        },
+        {
+          "x": 0.4447702834799609,
+          "y": 0.40716612377850164,
+          "color": "#1D6341",
+          "name": "Green jacket"
+        },
+        {
+          "x": 0.2932551319648094,
+          "y": 0.44299674267100975,
+          "color": "#B4DE4F",
+          "name": "Lime sleeve"
+        },
+        {
+          "x": 0.43010752688172044,
+          "y": 0.6775244299674267,
+          "color": "#383B42",
+          "name": "Trousers"
+        },
+        {
+          "x": 0.6060606060606061,
+          "y": 0.4234527687296417,
+          "color": "#FFF7E3",
+          "name": "Ivory tee"
+        },
+        {
+          "x": 0.9286412512218963,
+          "y": 0.08469055374592833,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        }
+      ]
+    },
+    {
+      "id": "anime-nami",
+      "title": "Nami \u2014 Tangerine Voyage",
+      "category": "Cozy scenes",
+      "difficulty": "Medium",
+      "description": "Nami charts a sunny voyage beside tangerines and the ship rail. One Piece fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "one piece",
+        "nami",
+        "navigator",
+        "straw hat"
+      ],
+      "source": "assets/source/anime-nami.png",
+      "colorGuide": "assets/source/anime-nami-color-guide.png",
+      "palette": [
+        "#FF8D23",
+        "#F8C9A6",
+        "#85C6EE",
+        "#1B467B",
+        "#FFFFFF",
+        "#EBC885",
+        "#B8BD84",
+        "#AC733A",
+        "#4BBCED",
+        "#21ABC4",
+        "#E9AC52",
+        "#6CAF4F",
+        "#397944",
+        "#F5AB17",
+        "#F3898B",
+        "#674123",
+        "#E3E8EF"
+      ],
+      "seeds": [
+        {
+          "x": 0.4887585532746823,
+          "y": 0.05537459283387622,
+          "color": "#FF8D23",
+          "name": "Orange hair"
+        },
+        {
+          "x": 0.4789833822091887,
+          "y": 0.22149837133550487,
+          "color": "#F8C9A6",
+          "name": "Face"
+        },
+        {
+          "x": 0.7575757575757576,
+          "y": 0.6254071661237784,
+          "color": "#F8C9A6",
+          "name": "Forearm"
+        },
+        {
+          "x": 0.7135874877810362,
+          "y": 0.39087947882736157,
+          "color": "#85C6EE",
+          "name": "Blue overshirt"
+        },
+        {
+          "x": 0.1466275659824047,
+          "y": 0.3257328990228013,
+          "color": "#EBC885",
+          "name": "Nautical map"
+        },
+        {
+          "x": 0.8015640273704789,
+          "y": 0.31921824104234525,
+          "color": "#4BBCED",
+          "name": "Blue sky"
+        },
+        {
+          "x": 0.8993157380254154,
+          "y": 0.4514657980456026,
+          "color": "#F5AB17",
+          "name": "Tangerine"
+        }
+      ],
+      "closeGaps": 1
+    },
+    {
+      "id": "anime-chopper",
+      "title": "Chopper \u2014 Little Ship Doctor",
+      "category": "Kawaii",
+      "difficulty": "Easy",
+      "description": "The little reindeer doctor waves from a coil of rope beside his medical bag. One Piece fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "one piece",
+        "chopper",
+        "tony tony chopper",
+        "straw hat"
+      ],
+      "source": "assets/source/anime-chopper.png",
+      "colorGuide": "assets/source/anime-chopper-color-guide.png",
+      "palette": [
+        "#E9AF60",
+        "#FFF2D0",
+        "#F6819B",
+        "#16AFDB",
+        "#945D30",
+        "#0A99A9",
+        "#FF891F",
+        "#F0C57C",
+        "#FFFFFF",
+        "#FBF7E8",
+        "#A77849",
+        "#4A4C4D",
+        "#F4D541",
+        "#C5EAF5",
+        "#2873C7",
+        "#E9454F"
+      ],
+      "seeds": [
+        {
+          "x": 0.4398826979472141,
+          "y": 0.41368078175895767,
+          "color": "#E9AF60",
+          "name": "Reindeer face"
+        },
+        {
+          "x": 0.30791788856304986,
+          "y": 0.23452768729641693,
+          "color": "#16AFDB",
+          "name": "Blue hat"
+        },
+        {
+          "x": 0.4496578690127077,
+          "y": 0.3517915309446254,
+          "color": "#F6819B",
+          "name": "Pink hat brim"
+        },
+        {
+          "x": 0.8357771260997068,
+          "y": 0.6416938110749185,
+          "color": "#FBF7E8",
+          "name": "Medical bag"
+        },
+        {
+          "x": 0.10068426197458455,
+          "y": 0.28273615635179156,
+          "color": "#945D30",
+          "name": "Antler"
+        },
+        {
+          "x": 0.40078201368523947,
+          "y": 0.7035830618892508,
+          "color": "#FF891F",
+          "name": "Orange shorts"
+        },
+        {
+          "x": 0.5865102639296188,
+          "y": 0.8794788273615635,
+          "color": "#F0C57C",
+          "name": "Ship rope"
+        },
+        {
+          "x": 0.9188660801564027,
+          "y": 0.05211726384364821,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        },
+        {
+          "x": 0.375366568914956,
+          "y": 0.44104234527687297,
+          "color": "#FFFFFF",
+          "name": "Left eye white"
+        },
+        {
+          "x": 0.5992179863147605,
+          "y": 0.4742671009771987,
+          "color": "#FFFFFF",
+          "name": "Right eye white"
+        }
+      ]
+    },
+    {
+      "id": "anime-goku",
+      "title": "Goku \u2014 Ready for Adventure",
+      "category": "Comic heroes",
+      "difficulty": "Medium",
+      "description": "Goku prepares for adventure beneath clouds and three Dragon Balls. Dragon Ball Z fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "dragon ball z",
+        "goku",
+        "son goku",
+        "dbz"
+      ],
+      "source": "assets/source/anime-goku.png",
+      "colorGuide": "assets/source/anime-goku-color-guide.png",
+      "palette": [
+        "#FF791B",
+        "#164CAE",
+        "#202125",
+        "#F8C9A6",
+        "#FFD039",
+        "#EFA625",
+        "#E53935",
+        "#7DCDF0",
+        "#FFFFFF",
+        "#FFFAE4",
+        "#D9B66A"
+      ],
+      "seeds": [
+        {
+          "x": 0.4887585532746823,
+          "y": 0.09771986970684039,
+          "color": "#202125",
+          "name": "Black hair"
+        },
+        {
+          "x": 0.4789833822091887,
+          "y": 0.19543973941368079,
+          "color": "#F8C9A6",
+          "name": "Face"
+        },
+        {
+          "x": 0.46432062561094817,
+          "y": 0.3257328990228013,
+          "color": "#FF791B",
+          "name": "Orange gi"
+        },
+        {
+          "x": 0.5718475073313783,
+          "y": 0.30749185667752443,
+          "color": "#164CAE",
+          "name": "Blue undershirt"
+        },
+        {
+          "x": 0.2883675464320626,
+          "y": 0.3289902280130293,
+          "color": "#F8C9A6",
+          "name": "Upper arm"
+        },
+        {
+          "x": 0.8944281524926686,
+          "y": 0.12052117263843648,
+          "color": "#7DCDF0",
+          "name": "Sky"
+        },
+        {
+          "x": 0.718475073313783,
+          "y": 0.26319218241042347,
+          "color": "#FFFAE4",
+          "name": "Cloud"
+        }
+      ],
+      "repairs": [
+        {
+          "points": [
+            [
+              0.6422287390029325,
+              0.26319218241042347
+            ],
+            [
+              0.6490713587487781,
+              0.25993485342019546
+            ]
+          ],
+          "width": 3
+        }
+      ],
+      "closeGaps": 1
+    },
+    {
+      "id": "anime-vegeta",
+      "title": "Vegeta \u2014 Saiyan Pride",
+      "category": "Comic heroes",
+      "difficulty": "Medium",
+      "description": "Vegeta stands proudly in Saiyan armor, surrounded by curling energy. Dragon Ball Z fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "dragon ball z",
+        "vegeta",
+        "saiyan",
+        "dbz"
+      ],
+      "source": "assets/source/anime-vegeta.png",
+      "colorGuide": "assets/source/anime-vegeta-color-guide.png",
+      "palette": [
+        "#164CAE",
+        "#202125",
+        "#F8C9A6",
+        "#FFFFFF",
+        "#ECD072",
+        "#BEA6EE",
+        "#E9BD7E",
+        "#AC8054",
+        "#DBDFF0"
+      ],
+      "seeds": [
+        {
+          "x": 0.4398826979472141,
+          "y": 0.09902280130293159,
+          "color": "#202125",
+          "name": "Black hair"
+        },
+        {
+          "x": 0.4887585532746823,
+          "y": 0.20846905537459284,
+          "color": "#F8C9A6",
+          "name": "Face"
+        },
+        {
+          "x": 0.39589442815249265,
+          "y": 0.5700325732899023,
+          "color": "#164CAE",
+          "name": "Blue bodysuit"
+        },
+        {
+          "x": 0.4887585532746823,
+          "y": 0.31140065146579804,
+          "color": "#FFFFFF",
+          "name": "Armor chest"
+        },
+        {
+          "x": 0.5513196480938416,
+          "y": 0.4273615635179153,
+          "color": "#ECD072",
+          "name": "Gold armor abdomen"
+        },
+        {
+          "x": 0.2854349951124145,
+          "y": 0.8013029315960912,
+          "color": "#FFFFFF",
+          "name": "White boot"
+        },
+        {
+          "x": 0.04887585532746823,
+          "y": 0.03257328990228013,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        }
+      ],
+      "closeGaps": 1
+    },
+    {
+      "id": "anime-gohan",
+      "title": "Gohan \u2014 Rising Courage",
+      "category": "Comic heroes",
+      "difficulty": "Medium",
+      "description": "Super Saiyan Gohan gathers his courage inside a golden aura. Dragon Ball Z fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "dragon ball z",
+        "gohan",
+        "teen gohan",
+        "super saiyan",
+        "dbz"
+      ],
+      "source": "assets/source/anime-gohan.png",
+      "colorGuide": "assets/source/anime-gohan-color-guide.png",
+      "palette": [
+        "#FFDC35",
+        "#FFF9AB",
+        "#F8C9A6",
+        "#69369A",
+        "#5399DD",
+        "#B67A28",
+        "#BFDFF6",
+        "#C6A36B",
+        "#43ABAF",
+        "#FFFFFF"
+      ],
+      "seeds": [
+        {
+          "x": 0.52297165200391,
+          "y": 0.14397394136807817,
+          "color": "#FFDC35",
+          "name": "Golden hair"
+        },
+        {
+          "x": 0.4838709677419355,
+          "y": 0.27947882736156354,
+          "color": "#F8C9A6",
+          "name": "Face"
+        },
+        {
+          "x": 0.5669599217986315,
+          "y": 0.3778501628664495,
+          "color": "#69369A",
+          "name": "Purple gi"
+        },
+        {
+          "x": 0.4965786901270772,
+          "y": 0.4638436482084691,
+          "color": "#5399DD",
+          "name": "Blue sash"
+        },
+        {
+          "x": 0.6725317693059628,
+          "y": 0.41628664495114004,
+          "color": "#F8C9A6",
+          "name": "Upper arm"
+        },
+        {
+          "x": 0.20430107526881722,
+          "y": 0.4527687296416938,
+          "color": "#FFF9AB",
+          "name": "Golden aura"
+        },
+        {
+          "x": 0.04887585532746823,
+          "y": 0.03257328990228013,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        }
+      ]
+    },
+    {
+      "id": "anime-piccolo",
+      "title": "Piccolo \u2014 Guardian of the Sky",
+      "category": "Fantasy",
+      "difficulty": "Medium",
+      "description": "Piccolo watches over the horizon with his cape flowing in the breeze. Dragon Ball Z fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "dragon ball z",
+        "piccolo",
+        "namekian",
+        "dbz"
+      ],
+      "source": "assets/source/anime-piccolo.png",
+      "colorGuide": "assets/source/anime-piccolo-color-guide.png",
+      "palette": [
+        "#7DC52D",
+        "#F1A0A1",
+        "#60378A",
+        "#1A64B8",
+        "#FFFFFF",
+        "#C3C2ED",
+        "#65BFEA",
+        "#E7BE7A",
+        "#559F52",
+        "#DBBD48"
+      ],
+      "seeds": [
+        {
+          "x": 0.48191593352883677,
+          "y": 0.15960912052117263,
+          "color": "#7DC52D",
+          "name": "Namekian face"
+        },
+        {
+          "x": 0.4887585532746823,
+          "y": 0.06514657980456026,
+          "color": "#FFFFFF",
+          "name": "White turban"
+        },
+        {
+          "x": 0.4496578690127077,
+          "y": 0.2820846905537459,
+          "color": "#FFFFFF",
+          "name": "White cape"
+        },
+        {
+          "x": 0.4887585532746823,
+          "y": 0.6775244299674267,
+          "color": "#60378A",
+          "name": "Purple gi"
+        },
+        {
+          "x": 0.5317693059628543,
+          "y": 0.5107491856677524,
+          "color": "#1A64B8",
+          "name": "Blue sash"
+        },
+        {
+          "x": 0.386119257086999,
+          "y": 0.3674267100977199,
+          "color": "#F1A0A1",
+          "name": "Arm patch"
+        },
+        {
+          "x": 0.9237536656891495,
+          "y": 0.046905537459283386,
+          "color": "#65BFEA",
+          "name": "Sky"
+        }
+      ]
+    },
+    {
+      "id": "anime-tanjiro",
+      "title": "Tanjiro \u2014 Water Breathing",
+      "category": "Comic heroes",
+      "difficulty": "Medium",
+      "description": "Tanjiro draws his blade as a broad water-breathing wave curls around him. Demon Slayer fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "demon slayer",
+        "tanjiro",
+        "tanjiro kamado",
+        "kimetsu no yaiba"
+      ],
+      "source": "assets/source/anime-tanjiro.png",
+      "colorGuide": "assets/source/anime-tanjiro-color-guide.png",
+      "palette": [
+        "#70253C",
+        "#F8D0AB",
+        "#23AD8D",
+        "#292C32",
+        "#382F35",
+        "#FFFFFF",
+        "#BDDFF0",
+        "#19B6E6",
+        "#1166C9",
+        "#BEC6D4",
+        "#C55564",
+        "#9E364F"
+      ],
+      "seeds": [
+        {
+          "x": 0.6451612903225806,
+          "y": 0.06514657980456026,
+          "color": "#70253C",
+          "name": "Burgundy hair"
+        },
+        {
+          "x": 0.6520039100684262,
+          "y": 0.22149837133550487,
+          "color": "#F8D0AB",
+          "name": "Face"
+        },
+        {
+          "x": 0.7409579667644184,
+          "y": 0.1498371335504886,
+          "color": "#9E364F",
+          "name": "Forehead scar"
+        },
+        {
+          "x": 0.5884652981427175,
+          "y": 0.33876221498371334,
+          "color": "#382F35",
+          "name": "Uniform jacket"
+        },
+        {
+          "x": 0.7243401759530792,
+          "y": 0.5869706840390879,
+          "color": "#F8D0AB",
+          "name": "Sword hand"
+        },
+        {
+          "x": 0.07331378299120235,
+          "y": 0.2710097719869707,
+          "color": "#1166C9",
+          "name": "Wave"
+        },
+        {
+          "x": 0.04887585532746823,
+          "y": 0.03257328990228013,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        }
+      ]
+    },
+    {
+      "id": "anime-nezuko",
+      "title": "Nezuko \u2014 Wisteria Moon",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "Nezuko rests beneath a crescent moon and hanging wisteria. Demon Slayer fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "demon slayer",
+        "nezuko",
+        "nezuko kamado",
+        "kimetsu no yaiba"
+      ],
+      "source": "assets/source/anime-nezuko.png",
+      "colorGuide": "assets/source/anime-nezuko-color-guide.png",
+      "palette": [
+        "#29272B",
+        "#FBE0C7",
+        "#F5AEC5",
+        "#493438",
+        "#84A149",
+        "#D65486",
+        "#A98BC9",
+        "#819347",
+        "#F3DB89",
+        "#FFFFFF",
+        "#F4EEEE",
+        "#8B2F45",
+        "#ED8D40"
+      ],
+      "seeds": [
+        {
+          "x": 0.4398826979472141,
+          "y": 0.11726384364820847,
+          "color": "#29272B",
+          "name": "Dark hair"
+        },
+        {
+          "x": 0.5474095796676441,
+          "y": 0.2280130293159609,
+          "color": "#FBE0C7",
+          "name": "Face"
+        },
+        {
+          "x": 0.49853372434017595,
+          "y": 0.5504885993485342,
+          "color": "#F5AEC5",
+          "name": "Pink kimono"
+        },
+        {
+          "x": 0.7038123167155426,
+          "y": 0.5504885993485342,
+          "color": "#493438",
+          "name": "Brown haori"
+        },
+        {
+          "x": 0.5474095796676441,
+          "y": 0.3550488599348534,
+          "color": "#84A149",
+          "name": "Bamboo muzzle"
+        },
+        {
+          "x": 0.20527859237536658,
+          "y": 0.1465798045602606,
+          "color": "#F3DB89",
+          "name": "Crescent moon"
+        },
+        {
+          "x": 0.4398826979472141,
+          "y": 0.019543973941368076,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        }
+      ]
+    },
+    {
+      "id": "anime-zenitsu",
+      "title": "Zenitsu \u2014 Thunder Focus",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "A focused Zenitsu wears his triangle-patterned haori among lightning bolts. Demon Slayer fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "demon slayer",
+        "zenitsu",
+        "zenitsu agatsuma",
+        "kimetsu no yaiba"
+      ],
+      "source": "assets/source/anime-zenitsu.png",
+      "colorGuide": "assets/source/anime-zenitsu-color-guide.png",
+      "palette": [
+        "#FFDC45",
+        "#FFB926",
+        "#F59128",
+        "#FBE0C7",
+        "#3D3839",
+        "#FFFFFF",
+        "#EBEEF3",
+        "#BDBDC7",
+        "#FFF6A5",
+        "#D6AC46"
+      ],
+      "seeds": [
+        {
+          "x": 0.5376344086021505,
+          "y": 0.11726384364820847,
+          "color": "#FFDC45",
+          "name": "Golden hair"
+        },
+        {
+          "x": 0.5474095796676441,
+          "y": 0.33876221498371334,
+          "color": "#FBE0C7",
+          "name": "Face"
+        },
+        {
+          "x": 0.24437927663734116,
+          "y": 0.44299674267100975,
+          "color": "#FFB926",
+          "name": "Yellow haori"
+        },
+        {
+          "x": 0.635386119257087,
+          "y": 0.6254071661237784,
+          "color": "#3D3839",
+          "name": "Dark uniform"
+        },
+        {
+          "x": 0.6940371456500489,
+          "y": 0.755700325732899,
+          "color": "#FBE0C7",
+          "name": "Hand"
+        },
+        {
+          "x": 0.16129032258064516,
+          "y": 0.49250814332247556,
+          "color": "#FFFFFF",
+          "name": "White triangle"
+        },
+        {
+          "x": 0.09775171065493646,
+          "y": 0.23452768729641693,
+          "color": "#FFF6A5",
+          "name": "Lightning"
+        },
+        {
+          "x": 0.9286412512218963,
+          "y": 0.03908794788273615,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        }
+      ]
+    },
+    {
+      "id": "anime-inosuke",
+      "title": "Inosuke \u2014 Mountain Spirit",
+      "category": "Chibi",
+      "difficulty": "Easy",
+      "description": "Chibi Inosuke stands ready in his boar mask among mountain leaves. Demon Slayer fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "demon slayer",
+        "inosuke",
+        "inosuke hashibira",
+        "kimetsu no yaiba"
+      ],
+      "source": "assets/source/anime-inosuke.png",
+      "colorGuide": "assets/source/anime-inosuke-color-guide.png",
+      "palette": [
+        "#B3A691",
+        "#F5C8A1",
+        "#E993A1",
+        "#29415F",
+        "#AB7F52",
+        "#99D5F3",
+        "#EDE4C9",
+        "#789353",
+        "#BEC8D3",
+        "#62636A",
+        "#735C48",
+        "#FFFFFF"
+      ],
+      "seeds": [
+        {
+          "x": 0.4887585532746823,
+          "y": 0.16286644951140064,
+          "color": "#B3A691",
+          "name": "Boar mask"
+        },
+        {
+          "x": 0.4887585532746823,
+          "y": 0.46905537459283386,
+          "color": "#F5C8A1",
+          "name": "Torso"
+        },
+        {
+          "x": 0.5083088954056696,
+          "y": 0.31921824104234525,
+          "color": "#E993A1",
+          "name": "Pink snout"
+        },
+        {
+          "x": 0.3812316715542522,
+          "y": 0.7166123778501629,
+          "color": "#29415F",
+          "name": "Navy trousers"
+        },
+        {
+          "x": 0.4789833822091887,
+          "y": 0.5850162866449511,
+          "color": "#AB7F52",
+          "name": "Fur belt"
+        },
+        {
+          "x": 0.3890518084066471,
+          "y": 0.26058631921824105,
+          "color": "#99D5F3",
+          "name": "Blue mask eye"
+        },
+        {
+          "x": 0.386119257086999,
+          "y": 0.33876221498371334,
+          "color": "#EDE4C9",
+          "name": "Ivory tusk"
+        },
+        {
+          "x": 0.06842619745845552,
+          "y": 0.04560260586319218,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        }
+      ]
+    },
+    {
+      "id": "anime-yuji",
+      "title": "Yuji \u2014 Unbreakable Spirit",
+      "category": "Streetwear",
+      "difficulty": "Medium",
+      "description": "Yuji raises a confident fist amid bright ribbons of energy. Jujutsu Kaisen fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "jujutsu kaisen",
+        "yuji",
+        "yuji itadori",
+        "jjk"
+      ],
+      "source": "assets/source/anime-yuji.png",
+      "colorGuide": "assets/source/anime-yuji-color-guide.png",
+      "palette": [
+        "#F39384",
+        "#F8C9A6",
+        "#D92E38",
+        "#243350",
+        "#FFFFFF",
+        "#2ACED6",
+        "#F4D74E",
+        "#564236",
+        "#A3633A"
+      ],
+      "seeds": [
+        {
+          "x": 0.4887585532746823,
+          "y": 0.09120521172638436,
+          "color": "#F39384",
+          "name": "Pink hair"
+        },
+        {
+          "x": 0.5083088954056696,
+          "y": 0.2280130293159609,
+          "color": "#F8C9A6",
+          "name": "Face"
+        },
+        {
+          "x": 0.6256109481915934,
+          "y": 0.34527687296416937,
+          "color": "#D92E38",
+          "name": "Red hood"
+        },
+        {
+          "x": 0.4887585532746823,
+          "y": 0.4755700325732899,
+          "color": "#243350",
+          "name": "Navy uniform"
+        },
+        {
+          "x": 0.21505376344086022,
+          "y": 0.31921824104234525,
+          "color": "#F8C9A6",
+          "name": "Raised fist"
+        },
+        {
+          "x": 0.04887585532746823,
+          "y": 0.019543973941368076,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        }
+      ]
+    },
+    {
+      "id": "anime-gojo",
+      "title": "Gojo \u2014 Infinity Sky",
+      "category": "Anime portraits",
+      "difficulty": "Medium",
+      "description": "Gojo lowers his sunglasses beneath sweeping infinity arcs. Jujutsu Kaisen fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "jujutsu kaisen",
+        "gojo",
+        "satoru gojo",
+        "jjk"
+      ],
+      "source": "assets/source/anime-gojo.png",
+      "colorGuide": "assets/source/anime-gojo-color-guide.png",
+      "palette": [
+        "#FFFFFF",
+        "#FBE0C7",
+        "#302C63",
+        "#152854",
+        "#93D3F1",
+        "#C7B9EF",
+        "#DFE4F3",
+        "#B7BBC6",
+        "#49B8E2"
+      ],
+      "seeds": [
+        {
+          "x": 0.4887585532746823,
+          "y": 0.11726384364820847,
+          "color": "#FFFFFF",
+          "name": "Silver-white hair"
+        },
+        {
+          "x": 0.5083088954056696,
+          "y": 0.30618892508143325,
+          "color": "#FBE0C7",
+          "name": "Face"
+        },
+        {
+          "x": 0.5865102639296188,
+          "y": 0.5863192182410424,
+          "color": "#302C63",
+          "name": "Indigo uniform"
+        },
+        {
+          "x": 0.49364613880742914,
+          "y": 0.26058631921824105,
+          "color": "#152854",
+          "name": "Sunglasses lens"
+        },
+        {
+          "x": 0.2072336265884653,
+          "y": 0.33876221498371334,
+          "color": "#FBE0C7",
+          "name": "Hand"
+        },
+        {
+          "x": 0.8797653958944281,
+          "y": 0.09771986970684039,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        },
+        {
+          "x": 0.39100684261974583,
+          "y": 0.28794788273615635,
+          "color": "#152854",
+          "name": "Left sunglasses lens"
+        }
+      ]
+    },
+    {
+      "id": "anime-megumi",
+      "title": "Megumi \u2014 Divine Dogs",
+      "category": "Fantasy",
+      "difficulty": "Medium",
+      "description": "Megumi pauses with his two divine dogs in a quiet curl of shadows. Jujutsu Kaisen fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "jujutsu kaisen",
+        "megumi",
+        "megumi fushiguro",
+        "jjk"
+      ],
+      "source": "assets/source/anime-megumi.png",
+      "colorGuide": "assets/source/anime-megumi-color-guide.png",
+      "palette": [
+        "#172336",
+        "#F8D0B5",
+        "#202C4F",
+        "#FFF9E8",
+        "#50525F",
+        "#BE3F45",
+        "#EBD176",
+        "#BDB8D9",
+        "#24282F",
+        "#FFFFFF",
+        "#516C7A"
+      ],
+      "seeds": [
+        {
+          "x": 0.5376344086021505,
+          "y": 0.10423452768729642,
+          "color": "#172336",
+          "name": "Black hair"
+        },
+        {
+          "x": 0.5131964809384164,
+          "y": 0.22149837133550487,
+          "color": "#F8D0B5",
+          "name": "Face"
+        },
+        {
+          "x": 0.4887585532746823,
+          "y": 0.3778501628664495,
+          "color": "#202C4F",
+          "name": "Navy uniform"
+        },
+        {
+          "x": 0.5474095796676441,
+          "y": 0.5342019543973942,
+          "color": "#F8D0B5",
+          "name": "Hand"
+        },
+        {
+          "x": 0.23460410557184752,
+          "y": 0.4169381107491857,
+          "color": "#FFF9E8",
+          "name": "Ivory divine dog"
+        },
+        {
+          "x": 0.844574780058651,
+          "y": 0.38436482084690554,
+          "color": "#50525F",
+          "name": "Charcoal divine dog"
+        },
+        {
+          "x": 0.07820136852394917,
+          "y": 0.03257328990228013,
+          "color": "#FFFFFF",
+          "name": "Paper background"
+        }
+      ]
+    },
+    {
+      "id": "anime-nobara",
+      "title": "Nobara \u2014 City Confidence",
+      "category": "Streetwear",
+      "difficulty": "Medium",
+      "description": "Nobara strikes a confident city pose with her signature hammer. Jujutsu Kaisen fan art.",
+      "tags": [
+        "anime favorites",
+        "fan art",
+        "png illustration",
+        "jujutsu kaisen",
+        "nobara",
+        "nobara kugisaki",
+        "jjk"
+      ],
+      "source": "assets/source/anime-nobara.png",
+      "colorGuide": "assets/source/anime-nobara-color-guide.png",
+      "palette": [
+        "#C2804F",
+        "#FBE0C7",
+        "#2B3857",
+        "#413D44",
+        "#F2A58B",
+        "#54938D",
+        "#8FC5E4",
+        "#69BDF0",
+        "#D9D5CE",
+        "#84543A",
+        "#DCC269",
+        "#BBC0C3",
+        "#FFFFFF"
+      ],
+      "seeds": [
+        {
+          "x": 0.4398826979472141,
+          "y": 0.06384364820846905,
+          "color": "#C2804F",
+          "name": "Auburn hair"
+        },
+        {
+          "x": 0.4838709677419355,
+          "y": 0.1237785016286645,
+          "color": "#FBE0C7",
+          "name": "Face"
+        },
+        {
+          "x": 0.5376344086021505,
+          "y": 0.26384364820846906,
+          "color": "#2B3857",
+          "name": "Uniform jacket"
+        },
+        {
+          "x": 0.33528836754643204,
+          "y": 0.21172638436482086,
+          "color": "#FBE0C7",
+          "name": "Hammer hand"
+        },
+        {
+          "x": 0.5083088954056696,
+          "y": 0.50814332247557,
+          "color": "#2B3857",
+          "name": "Pleated skirt"
+        },
+        {
+          "x": 0.43206256109481916,
+          "y": 0.7231270358306189,
+          "color": "#413D44",
+          "name": "Stockings"
+        },
+        {
+          "x": 0.22482893450635386,
+          "y": 0.7296416938110749,
+          "color": "#F2A58B",
+          "name": "Rose"
+        },
+        {
+          "x": 0.3128054740957967,
+          "y": 0.09771986970684039,
+          "color": "#69BDF0",
+          "name": "City sky"
+        },
+        {
+          "x": 0.2072336265884653,
+          "y": 0.0781758957654723,
+          "color": "#D9D5CE",
+          "name": "Window frame"
+        }
+      ]
     }
   ]
 }

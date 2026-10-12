@@ -1,7 +1,8 @@
 # Original artwork pipeline
 
-The 31-page Atelier collection preserves individually generated PNG
-line art. Follow the [PNG collection pipeline](PNG_COLLECTION.md) to add future
+The 31-page original Atelier collection and 20-page Anime favorites collection
+preserve individually generated PNG line art. Anime favorites features named
+franchise characters; its prompt and provenance records identify each as fan art. Follow the [PNG collection pipeline](PNG_COLLECTION.md) to add future
 reference-inspired illustrations, retain original PNG masters, produce aligned
 references, and protect saved projects with stable region IDs. The sections
 below describe the earlier 101 vector pages, which remain unchanged.

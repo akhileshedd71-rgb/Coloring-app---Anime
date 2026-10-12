@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "pageCount": 132,
+  "pageCount": 152,
   "categories": [
     {
       "name": "Anime portraits",
-      "count": 15
+      "count": 23
     },
     {
       "name": "Fantasy",
-      "count": 14
+      "count": 16
     },
     {
       "name": "Streetwear",
-      "count": 14
+      "count": 16
     },
     {
       "name": "Manga & duos",
@@ -28,19 +28,19 @@
     },
     {
       "name": "Cozy scenes",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Comic heroes",
-      "count": 12
+      "count": 16
     },
     {
       "name": "Chibi",
-      "count": 13
+      "count": 15
     },
     {
       "name": "Kawaii",
-      "count": 14
+      "count": 15
     }
   ],
   "difficulty": [
@@ -50,11 +50,11 @@
     },
     {
       "name": "Medium",
-      "count": 26
+      "count": 30
     },
     {
       "name": "Hard",
-      "count": 84
+      "count": 100
     }
   ],
   "pages": [
@@ -1664,6 +1664,326 @@
       "height": 1536,
       "sourceSha256": "bf0be6449f213a03e6f444e3cf43a5afa4b03e22a44d2d870118b3035085c5a2",
       "excludedDecorativeRegions": 2273
+    },
+    {
+      "id": "anime-naruto",
+      "difficulty": "Hard",
+      "sourceRegions": 145,
+      "visibleRegions": 145,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 30,
+      "tinyRegions": 63,
+      "labelsValidated": true,
+      "geometryHash": "b5c3f39f869e786fc89668f15ed7155f191f4c521873e64d508220a8999e8195",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "8f069c98e5d734b3192776c1671dd2c465465b0edc6dc417da10d80148db21dd",
+      "excludedDecorativeRegions": 168
+    },
+    {
+      "id": "anime-sasuke",
+      "difficulty": "Medium",
+      "sourceRegions": 142,
+      "visibleRegions": 142,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 32,
+      "labelsValidated": true,
+      "geometryHash": "5aae17ba22dadc2b3c548566f0eafaf804fb72f1e22e84a87a916661bf549865",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "a4d30c3aaa5137f904fd9cbb3258d76847a4e7fe713d68426016a9c02d907309",
+      "excludedDecorativeRegions": 111
+    },
+    {
+      "id": "anime-sakura",
+      "difficulty": "Hard",
+      "sourceRegions": 221,
+      "visibleRegions": 221,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 93,
+      "labelsValidated": true,
+      "geometryHash": "fe15b1a6e5b37fa0244c9930c721cd48fe60e3eb8143832d8d9e453996f32925",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "52411289695b6f29976171df2764a55ff9b3f7cca09fc1b44eebf69e4ad45467",
+      "excludedDecorativeRegions": 521
+    },
+    {
+      "id": "anime-kakashi",
+      "difficulty": "Hard",
+      "sourceRegions": 298,
+      "visibleRegions": 298,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 78,
+      "labelsValidated": true,
+      "geometryHash": "167b8bab9b99e0719f5009f0b287195aed2ebb8c3a6d15ed952dfa318761a337",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "4244eb9eb9a883b672a2e6366e8036ab126efc77a1ce355e6199654b6d6dd75c",
+      "excludedDecorativeRegions": 118
+    },
+    {
+      "id": "anime-luffy",
+      "difficulty": "Hard",
+      "sourceRegions": 177,
+      "visibleRegions": 177,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 29,
+      "tinyRegions": 48,
+      "labelsValidated": true,
+      "geometryHash": "de59b2dd344140ac657a73189d3761a90472fed61f6ae44d543888c9f6ce56ae",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "8bde5559e0363f10bffc2d452fc84ef1f505ff62f3770624373048c796eaea14",
+      "excludedDecorativeRegions": 194
+    },
+    {
+      "id": "anime-zoro",
+      "difficulty": "Hard",
+      "sourceRegions": 324,
+      "visibleRegions": 324,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 188,
+      "labelsValidated": true,
+      "geometryHash": "1d099280dd896057958a9ffce881abad2e06ea2c308463b70564035ec3b2dfce",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "a55284530955d6ff5ab7a4a7717718e45f22cd88c0c0b47cdc0d3c3d512a0808",
+      "excludedDecorativeRegions": 286
+    },
+    {
+      "id": "anime-nami",
+      "difficulty": "Hard",
+      "sourceRegions": 579,
+      "visibleRegions": 579,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 221,
+      "labelsValidated": true,
+      "geometryHash": "e9daeef1a4f82916b06a94f75d33b64d555320753f0c03f8747d0ff3a23fa2f8",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "93fa7a24446c5dba4c2d69269b169f3eb6583f471a37ef69001de9e5694aac39",
+      "excludedDecorativeRegions": 108
+    },
+    {
+      "id": "anime-chopper",
+      "difficulty": "Hard",
+      "sourceRegions": 204,
+      "visibleRegions": 204,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 31,
+      "tinyRegions": 44,
+      "labelsValidated": true,
+      "geometryHash": "03e31df0cfcc4fbf90a4ea752a4eb1e8ee0842849c65f35c48fc6c631a277c36",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "769272821dffc0c33907b7527502f490319eb4b26faf9c92a352de0ebf402d71",
+      "excludedDecorativeRegions": 91
+    },
+    {
+      "id": "anime-goku",
+      "difficulty": "Medium",
+      "sourceRegions": 114,
+      "visibleRegions": 114,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 32,
+      "tinyRegions": 42,
+      "labelsValidated": true,
+      "geometryHash": "020e4cdd4077a3eaa3aa5878b235755ebaa4e45b4e842c871b125258b3dca8cc",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "c8daae9d038ccbdd9ebd29e4a45353dfe05fb6f4363fb81efa0bd10a7699ffde",
+      "excludedDecorativeRegions": 15
+    },
+    {
+      "id": "anime-vegeta",
+      "difficulty": "Hard",
+      "sourceRegions": 182,
+      "visibleRegions": 182,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 75,
+      "labelsValidated": true,
+      "geometryHash": "3ce00c0a4256f8f6a2fdff745a2804fd81eb8405b0a02386a24eaac2686671f3",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "368cb7a660a29f4261ce27ce8e6e6e9291afeedef0bbc1220efc7426fef0ea35",
+      "excludedDecorativeRegions": 39
+    },
+    {
+      "id": "anime-gohan",
+      "difficulty": "Hard",
+      "sourceRegions": 165,
+      "visibleRegions": 165,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 29,
+      "tinyRegions": 54,
+      "labelsValidated": true,
+      "geometryHash": "8927e7eb60ebf3b47ebc4f3de785bdf3282f577964d3e1a3468159f41a841716",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "f593d49d5db18417d0db52040226e6f216dc63eab3492f694cbf0054fb99d62a",
+      "excludedDecorativeRegions": 322
+    },
+    {
+      "id": "anime-piccolo",
+      "difficulty": "Hard",
+      "sourceRegions": 251,
+      "visibleRegions": 251,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 80,
+      "labelsValidated": true,
+      "geometryHash": "00f15d05e51738d6cb691ca49d21cdd6e568f16e64d201032921e45cc83a1f79",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "eb8c6e43b5a1e131dbdac2efdfa232ccfdd635454d2d243f0ab13cdbd1ee8da8",
+      "excludedDecorativeRegions": 250
+    },
+    {
+      "id": "anime-tanjiro",
+      "difficulty": "Hard",
+      "sourceRegions": 369,
+      "visibleRegions": 369,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 113,
+      "labelsValidated": true,
+      "geometryHash": "34a225a904c91f5638e080038cd1805bc49251d5b7ff52dae28e7cca9fd20081",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "3630a77844d51ec7e6b0e47332c0e38f484c3ffabffd2831d2fa73ec1293860c",
+      "excludedDecorativeRegions": 286
+    },
+    {
+      "id": "anime-nezuko",
+      "difficulty": "Hard",
+      "sourceRegions": 319,
+      "visibleRegions": 319,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 57,
+      "labelsValidated": true,
+      "geometryHash": "3878bf94f901f797e856373c2f8796545959e2987ddde6f4cc7ac6ad4475420d",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "5fa1122a06a5d357668fc9e84f942be045f69af53eddc481237b21a7fcf19308",
+      "excludedDecorativeRegions": 294
+    },
+    {
+      "id": "anime-zenitsu",
+      "difficulty": "Medium",
+      "sourceRegions": 160,
+      "visibleRegions": 160,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 29,
+      "tinyRegions": 31,
+      "labelsValidated": true,
+      "geometryHash": "63c4a08db8411537891da21b50361bdd1488719b6d557d041b663a4bf7daecbe",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "fb05a119da95d43ee886df77d280292db8cc00a9126c966be4f79028c428e48c",
+      "excludedDecorativeRegions": 128
+    },
+    {
+      "id": "anime-inosuke",
+      "difficulty": "Hard",
+      "sourceRegions": 140,
+      "visibleRegions": 140,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 64,
+      "labelsValidated": true,
+      "geometryHash": "7fb4dab7d52f75677be552051a9845c6d2e7a143342bed70dc5893f544870e5e",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "d8d8e9c738ddfd6dece9b2f997afa6d149f3bb61d0b34dd9f3924a1f7117915a",
+      "excludedDecorativeRegions": 253
+    },
+    {
+      "id": "anime-yuji",
+      "difficulty": "Medium",
+      "sourceRegions": 73,
+      "visibleRegions": 73,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 30,
+      "tinyRegions": 16,
+      "labelsValidated": true,
+      "geometryHash": "0dd22f102f019097782ce1b43bef8003deac228fe25b7c5ca33a04f3fea6c56c",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "49ba4420897f564050030ba24baad1bda506e052deae78a79cdf6be16dfe5fde",
+      "excludedDecorativeRegions": 175
+    },
+    {
+      "id": "anime-gojo",
+      "difficulty": "Hard",
+      "sourceRegions": 132,
+      "visibleRegions": 132,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 30,
+      "tinyRegions": 46,
+      "labelsValidated": true,
+      "geometryHash": "ff55b17d27c4cf034ba8b07db52ec22e5b17a6643673f30a88f3b8da27a8a478",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "92b8e8c74aeb4e6301c066ce683ebdb870c08d7f38b254d75db4b0bce10d2454",
+      "excludedDecorativeRegions": 152
+    },
+    {
+      "id": "anime-megumi",
+      "difficulty": "Hard",
+      "sourceRegions": 144,
+      "visibleRegions": 144,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 30,
+      "tinyRegions": 56,
+      "labelsValidated": true,
+      "geometryHash": "8ff28b69a27c9b2a21ef762f31eefd5df7f84a0b92689d92e1ee7a590f64bc41",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "2ed8bb46bff44c09bd1e72e85b5df2e9b3d3dd94841ba1644e9699be2344a17a",
+      "excludedDecorativeRegions": 333
+    },
+    {
+      "id": "anime-nobara",
+      "difficulty": "Hard",
+      "sourceRegions": 593,
+      "visibleRegions": 593,
+      "occludedRemoved": 0,
+      "smallestRegionPixels": 28,
+      "tinyRegions": 246,
+      "labelsValidated": true,
+      "geometryHash": "9aca5dce5cb2a5cce163c8ab6608906a1ec2e794da4390832bfd3fe0c1845cf0",
+      "format": "png",
+      "width": 1024,
+      "height": 1536,
+      "sourceSha256": "4b0c31dc5a1bde0019b0c14902c7a2e0f1dfb7d2f65ccbf9def7532bdba7c582",
+      "excludedDecorativeRegions": 647
     }
   ]
 }

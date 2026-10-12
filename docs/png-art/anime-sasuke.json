@@ -1,0 +1,4435 @@
+{
+  "id": "anime-sasuke",
+  "source": "assets/source/anime-sasuke.png",
+  "sourceSha256": "a4d30c3aaa5137f904fd9cbb3258d76847a4e7fe713d68426016a9c02d907309",
+  "colorGuide": "assets/source/anime-sasuke-color-guide.png",
+  "colorGuideUse": "Palette hints only; final reference uses source mask and ink",
+  "width": 1024,
+  "height": 1536,
+  "nativeResolution": true,
+  "difficulty": "Medium",
+  "requestedDifficulty": "Medium",
+  "visibleRegions": 142,
+  "smallestRegionPixels": 28,
+  "tinyRegions": 32,
+  "minimumRegionPixels": 28,
+  "excludedDecorativeRegions": 111,
+  "excludedDecorativePixels": 285,
+  "inkThreshold": 200,
+  "repairCount": 0,
+  "gapClosingRadius": 0,
+  "gapClosingPixels": 0,
+  "seedConflicts": [],
+  "rejectedSeeds": [],
+  "seedAssignments": [
+    {
+      "name": "Blue-black hair",
+      "component": 10,
+      "color": "#1D2C42",
+      "pixel": [
+        485,
+        175
+      ],
+      "movedOffInk": false
+    },
+    {
+      "name": "Face",
+      "component": 18,
+      "color": "#F8D7B8",
+      "pixel": [
+        585,
+        420
+      ],
+      "movedOffInk": false
+    },
+    {
+      "name": "Ivory shirt",
+      "component": 96,
+      "color": "#ECECF1",
+      "pixel": [
+        400,
+        845
+      ],
+      "movedOffInk": false
+    },
+    {
+      "name": "Upper arm",
+      "component": 133,
+      "color": "#F8D7B8",
+      "pixel": [
+        150,
+        1010
+      ],
+      "movedOffInk": false
+    },
+    {
+      "name": "Purple rope belt",
+      "component": 195,
+      "color": "#A991CA",
+      "pixel": [
+        750,
+        1280
+      ],
+      "movedOffInk": false
+    },
+    {
+      "name": "Paper sky",
+      "component": 2,
+      "color": "#FFFFFF",
+      "pixel": [
+        30,
+        180
+      ],
+      "movedOffInk": false
+    }
+  ],
+  "borderRegions": [
+    {
+      "id": "r-5f561c1b36141c",
+      "areaFraction": 0.01649
+    },
+    {
+      "id": "r-3e58a41784a15d",
+      "areaFraction": 0.01658
+    },
+    {
+      "id": "r-23013eef8d13f0",
+      "areaFraction": 0.00016
+    },
+    {
+      "id": "r-52eeb8fb4b2357",
+      "areaFraction": 0.11873
+    },
+    {
+      "id": "r-8bf8553abc2518",
+      "areaFraction": 0.02616
+    },
+    {
+      "id": "r-d6547579071591",
+      "areaFraction": 0.03557
+    },
+    {
+      "id": "r-3939dfafdc1bdc",
+      "areaFraction": 0.01795
+    },
+    {
+      "id": "r-3ae49b716dad8a",
+      "areaFraction": 0.01381
+    },
+    {
+      "id": "r-c870e98158681d",
+      "areaFraction": 0.00507
+    },
+    {
+      "id": "r-44e19ce27d1cfa",
+      "areaFraction": 0.0079
+    },
+    {
+      "id": "r-20fb3e4ae62116",
+      "areaFraction": 0.00421
+    },
+    {
+      "id": "r-55f2fd984b446e",
+      "areaFraction": 0.00219
+    },
+    {
+      "id": "r-f88026a9db9a6d",
+      "areaFraction": 0.01468
+    },
+    {
+      "id": "r-2b3a714fb2c866",
+      "areaFraction": 0.02032
+    },
+    {
+      "id": "r-0f3f1e240f856e",
+      "areaFraction": 0.01748
+    },
+    {
+      "id": "r-1b5ebded118efd",
+      "areaFraction": 0.00478
+    },
+    {
+      "id": "r-c1429ce3cff01d",
+      "areaFraction": 0.02356
+    },
+    {
+      "id": "r-821052f08b1299",
+      "areaFraction": 0.01461
+    },
+    {
+      "id": "r-feb78a5f85c9c8",
+      "areaFraction": 0.01535
+    },
+    {
+      "id": "r-b5a81cbacc3224",
+      "areaFraction": 0.00881
+    },
+    {
+      "id": "r-77a77e7efc2da6",
+      "areaFraction": 0.01505
+    },
+    {
+      "id": "r-fb5647adfd40e2",
+      "areaFraction": 0.01562
+    },
+    {
+      "id": "r-320bb97f249544",
+      "areaFraction": 0.00426
+    },
+    {
+      "id": "r-0749d4b3b3abd5",
+      "areaFraction": 0.00217
+    },
+    {
+      "id": "r-05ca932547682e",
+      "areaFraction": 0.00346
+    },
+    {
+      "id": "r-10fbcd8442a01b",
+      "areaFraction": 0.00305
+    },
+    {
+      "id": "r-3d7656180e77a3",
+      "areaFraction": 0.00139
+    },
+    {
+      "id": "r-ac07bae54ff549",
+      "areaFraction": 0.00103
+    },
+    {
+      "id": "r-56c374309364e1",
+      "areaFraction": 0.00199
+    },
+    {
+      "id": "r-2d25ba03a6a9ae",
+      "areaFraction": 0.0013
+    },
+    {
+      "id": "r-f1c71a59794ec7",
+      "areaFraction": 0.00125
+    },
+    {
+      "id": "r-2aec9baefff504",
+      "areaFraction": 0.00137
+    },
+    {
+      "id": "r-43b11aca223c87",
+      "areaFraction": 0.00016
+    }
+  ],
+  "regions": [
+    {
+      "index": 1,
+      "id": "r-5f561c1b36141c",
+      "component": 1,
+      "area": 25942,
+      "radius": 63.73,
+      "label": [
+        96.5,
+        64.5
+      ],
+      "bounds": [
+        0,
+        0,
+        210,
+        174
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 2,
+      "id": "r-3e58a41784a15d",
+      "component": 2,
+      "area": 26077,
+      "radius": 28.0,
+      "label": [
+        31.5,
+        188.5
+      ],
+      "bounds": [
+        0,
+        0,
+        295,
+        443
+      ],
+      "holes": 1,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Paper sky",
+      "colorSource": "seed"
+    },
+    {
+      "index": 3,
+      "id": "r-23013eef8d13f0",
+      "component": 3,
+      "area": 247,
+      "radius": 4.39,
+      "label": [
+        275.5,
+        5.5
+      ],
+      "bounds": [
+        256,
+        0,
+        37,
+        24
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          250.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 5.0
+      }
+    },
+    {
+      "index": 4,
+      "id": "r-52eeb8fb4b2357",
+      "component": 4,
+      "area": 186749,
+      "radius": 86.2,
+      "label": [
+        785.5,
+        116.5
+      ],
+      "bounds": [
+        0,
+        0,
+        934,
+        813
+      ],
+      "holes": 5,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 5,
+      "id": "r-8bf8553abc2518",
+      "component": 5,
+      "area": 41149,
+      "radius": 27.98,
+      "label": [
+        962.5,
+        159.5
+      ],
+      "bounds": [
+        735,
+        0,
+        260,
+        820
+      ],
+      "holes": 1,
+      "touchesBorder": true,
+      "color": "#A7DFF3",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          215.0,
+          115.0,
+          105.0
+        ],
+        "paletteDistance": 8.06
+      }
+    },
+    {
+      "index": 6,
+      "id": "r-d6547579071591",
+      "component": 6,
+      "area": 55941,
+      "radius": 65.52,
+      "label": [
+        957.5,
+        334.5
+      ],
+      "bounds": [
+        763,
+        0,
+        261,
+        529
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 7,
+      "id": "r-20375ab89bfccd",
+      "component": 8,
+      "area": 53,
+      "radius": 2.2,
+      "label": [
+        252.5,
+        19.5
+      ],
+      "bounds": [
+        243,
+        13,
+        16,
+        13
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          249.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 6.0
+      }
+    },
+    {
+      "index": 8,
+      "id": "r-cb2a73f517e06a",
+      "component": 10,
+      "area": 111291,
+      "radius": 69.35,
+      "label": [
+        466.5,
+        184.5
+      ],
+      "bounds": [
+        257,
+        33,
+        492,
+        590
+      ],
+      "holes": 9,
+      "touchesBorder": false,
+      "color": "#1D2C42",
+      "name": "Blue-black hair",
+      "colorSource": "seed"
+    },
+    {
+      "index": 9,
+      "id": "r-9ad08ef4385ed7",
+      "component": 12,
+      "area": 148,
+      "radius": 4.39,
+      "label": [
+        64.5,
+        155.5
+      ],
+      "bounds": [
+        50,
+        151,
+        28,
+        12
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          249.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 6.0
+      }
+    },
+    {
+      "index": 10,
+      "id": "r-12207fb3e1ec80",
+      "component": 15,
+      "area": 330,
+      "radius": 7.39,
+      "label": [
+        642.5,
+        222.5
+      ],
+      "bounds": [
+        633,
+        201,
+        20,
+        37
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#1D2C42",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          16.0,
+          130.0,
+          121.0
+        ],
+        "paletteDistance": 30.38
+      }
+    },
+    {
+      "index": 11,
+      "id": "r-09135b36cffd63",
+      "component": 16,
+      "area": 1154,
+      "radius": 12.0,
+      "label": [
+        575.5,
+        275.5
+      ],
+      "bounds": [
+        560,
+        217,
+        31,
+        80
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          229.0,
+          136.0,
+          146.0
+        ],
+        "paletteDistance": 4.58
+      }
+    },
+    {
+      "index": 12,
+      "id": "r-ad2399980eb80b",
+      "component": 17,
+      "area": 396,
+      "radius": 8.0,
+      "label": [
+        681.5,
+        241.5
+      ],
+      "bounds": [
+        661,
+        227,
+        30,
+        29
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#1D2C42",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          17.0,
+          130.0,
+          120.0
+        ],
+        "paletteDistance": 29.14
+      }
+    },
+    {
+      "index": 13,
+      "id": "r-44681c5b53bc64",
+      "component": 18,
+      "area": 33398,
+      "radius": 49.2,
+      "label": [
+        583.5,
+        416.5
+      ],
+      "bounds": [
+        487,
+        229,
+        201,
+        304
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Face",
+      "colorSource": "seed"
+    },
+    {
+      "index": 14,
+      "id": "r-039e0e71fe796b",
+      "component": 21,
+      "area": 45,
+      "radius": 2.0,
+      "label": [
+        540.5,
+        269.5
+      ],
+      "bounds": [
+        538,
+        257,
+        5,
+        17
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          219.0,
+          134.0,
+          149.0
+        ],
+        "paletteDistance": 6.16
+      }
+    },
+    {
+      "index": 15,
+      "id": "r-32a2d09c06308a",
+      "component": 23,
+      "area": 2470,
+      "radius": 11.39,
+      "label": [
+        399.5,
+        291.5
+      ],
+      "bounds": [
+        367,
+        268,
+        56,
+        111
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          228.0,
+          136.0,
+          146.0
+        ],
+        "paletteDistance": 3.74
+      }
+    },
+    {
+      "index": 16,
+      "id": "r-68a105f650a30c",
+      "component": 25,
+      "area": 189,
+      "radius": 5.0,
+      "label": [
+        537.5,
+        290.5
+      ],
+      "bounds": [
+        531,
+        275,
+        11,
+        25
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          226.0,
+          136.0,
+          146.0
+        ],
+        "paletteDistance": 2.45
+      }
+    },
+    {
+      "index": 17,
+      "id": "r-d29e7b3bbc5c2e",
+      "component": 27,
+      "area": 193,
+      "radius": 5.0,
+      "label": [
+        549.5,
+        285.5
+      ],
+      "bounds": [
+        545,
+        278,
+        10,
+        36
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#1D2C42",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          48.0,
+          129.0,
+          112.0
+        ],
+        "paletteDistance": 3.0
+      }
+    },
+    {
+      "index": 18,
+      "id": "r-2bffe80782d784",
+      "component": 30,
+      "area": 310,
+      "radius": 5.79,
+      "label": [
+        561.5,
+        292.5
+      ],
+      "bounds": [
+        554,
+        285,
+        35,
+        27
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          230.0,
+          134.0,
+          144.0
+        ],
+        "paletteDistance": 6.48
+      }
+    },
+    {
+      "index": 19,
+      "id": "r-c845aa5554533d",
+      "component": 37,
+      "area": 162,
+      "radius": 2.2,
+      "label": [
+        582.5,
+        314.5
+      ],
+      "bounds": [
+        553,
+        299,
+        36,
+        22
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          228.0,
+          132.0,
+          145.0
+        ],
+        "paletteDistance": 5.2
+      }
+    },
+    {
+      "index": 20,
+      "id": "r-1a6619ecc79c9f",
+      "component": 43,
+      "area": 37,
+      "radius": 2.2,
+      "label": [
+        534.5,
+        306.5
+      ],
+      "bounds": [
+        532,
+        304,
+        5,
+        12
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#ECECF1",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          238.0,
+          129.0,
+          128.0
+        ],
+        "paletteDistance": 2.24
+      }
+    },
+    {
+      "index": 21,
+      "id": "r-cb82be6b21702b",
+      "component": 48,
+      "area": 593,
+      "radius": 9.0,
+      "label": [
+        397.5,
+        333.5
+      ],
+      "bounds": [
+        388,
+        310,
+        26,
+        39
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          230.0,
+          135.0,
+          146.0
+        ],
+        "paletteDistance": 5.39
+      }
+    },
+    {
+      "index": 22,
+      "id": "r-10c980c0cf5250",
+      "component": 49,
+      "area": 115,
+      "radius": 3.6,
+      "label": [
+        595.5,
+        316.5
+      ],
+      "bounds": [
+        592,
+        310,
+        7,
+        29
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#1D2C42",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          50.0,
+          128.0,
+          112.0
+        ],
+        "paletteDistance": 5.1
+      }
+    },
+    {
+      "index": 23,
+      "id": "r-3939dfafdc1bdc",
+      "component": 51,
+      "area": 28229,
+      "radius": 28.19,
+      "label": [
+        112.5,
+        426.5
+      ],
+      "bounds": [
+        0,
+        320,
+        283,
+        224
+      ],
+      "holes": 2,
+      "touchesBorder": true,
+      "color": "#C5BAE2",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          198.0,
+          139.0,
+          109.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 24,
+      "id": "r-eaa717ddf6c56b",
+      "component": 57,
+      "area": 874,
+      "radius": 11.0,
+      "label": [
+        414.5,
+        371.5
+      ],
+      "bounds": [
+        395,
+        324,
+        33,
+        74
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          228.0,
+          136.0,
+          147.0
+        ],
+        "paletteDistance": 3.32
+      }
+    },
+    {
+      "index": 25,
+      "id": "r-67796b75c2f190",
+      "component": 62,
+      "area": 132,
+      "radius": 4.0,
+      "label": [
+        673.5,
+        348.5
+      ],
+      "bounds": [
+        649,
+        345,
+        30,
+        11
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          228.0,
+          134.0,
+          146.0
+        ],
+        "paletteDistance": 3.74
+      }
+    },
+    {
+      "index": 26,
+      "id": "r-455c604aeb09ae",
+      "component": 63,
+      "area": 45,
+      "radius": 2.0,
+      "label": [
+        683.5,
+        349.5
+      ],
+      "bounds": [
+        679,
+        346,
+        7,
+        16
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#1D2C42",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          47.0,
+          128.0,
+          113.0
+        ],
+        "paletteDistance": 2.45
+      }
+    },
+    {
+      "index": 27,
+      "id": "r-dcf7a57ef271e9",
+      "component": 67,
+      "area": 89,
+      "radius": 2.0,
+      "label": [
+        647.5,
+        353.5
+      ],
+      "bounds": [
+        643,
+        351,
+        33,
+        9
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          234.0,
+          130.0,
+          145.0
+        ],
+        "paletteDistance": 10.72
+      }
+    },
+    {
+      "index": 28,
+      "id": "r-2a8191b39908af",
+      "component": 70,
+      "area": 180,
+      "radius": 5.2,
+      "label": [
+        667.5,
+        367.5
+      ],
+      "bounds": [
+        655,
+        360,
+        19,
+        19
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          250.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 5.0
+      }
+    },
+    {
+      "index": 29,
+      "id": "r-cb155b18b24f3d",
+      "component": 83,
+      "area": 2780,
+      "radius": 21.38,
+      "label": [
+        406.5,
+        440.5
+      ],
+      "bounds": [
+        379,
+        386,
+        51,
+        78
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          228.0,
+          136.0,
+          146.0
+        ],
+        "paletteDistance": 3.74
+      }
+    },
+    {
+      "index": 30,
+      "id": "r-3ae49b716dad8a",
+      "component": 85,
+      "area": 21714,
+      "radius": 27.76,
+      "label": [
+        946.5,
+        504.5
+      ],
+      "bounds": [
+        806,
+        398,
+        218,
+        204
+      ],
+      "holes": 1,
+      "touchesBorder": true,
+      "color": "#C5BAE2",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          199.0,
+          139.0,
+          109.0
+        ],
+        "paletteDistance": 1.41
+      }
+    },
+    {
+      "index": 31,
+      "id": "r-03e0800b945dff",
+      "component": 88,
+      "area": 91,
+      "radius": 2.8,
+      "label": [
+        444.5,
+        446.5
+      ],
+      "bounds": [
+        441,
+        430,
+        8,
+        27
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          200.0,
+          143.0,
+          154.0
+        ],
+        "paletteDistance": 26.93
+      }
+    },
+    {
+      "index": 32,
+      "id": "r-98b6a883a808d0",
+      "component": 92,
+      "area": 75,
+      "radius": 3.6,
+      "label": [
+        372.5,
+        457.5
+      ],
+      "bounds": [
+        367,
+        446,
+        9,
+        15
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          247.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 8.0
+      }
+    },
+    {
+      "index": 33,
+      "id": "r-21c96ea037d4c8",
+      "component": 93,
+      "area": 41,
+      "radius": 2.2,
+      "label": [
+        333.5,
+        460.5
+      ],
+      "bounds": [
+        329,
+        452,
+        9,
+        12
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#ECECF1",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          245.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 6.4
+      }
+    },
+    {
+      "index": 34,
+      "id": "r-65b2ea4a1f23c5",
+      "component": 94,
+      "area": 87,
+      "radius": 4.0,
+      "label": [
+        443.5,
+        462.5
+      ],
+      "bounds": [
+        439,
+        452,
+        11,
+        15
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          200.0,
+          143.0,
+          153.5
+        ],
+        "paletteDistance": 26.82
+      }
+    },
+    {
+      "index": 35,
+      "id": "r-c870e98158681d",
+      "component": 95,
+      "area": 7978,
+      "radius": 31.0,
+      "label": [
+        33.5,
+        499.5
+      ],
+      "bounds": [
+        0,
+        458,
+        115,
+        133
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 36,
+      "id": "r-de14ea1ab88690",
+      "component": 96,
+      "area": 219971,
+      "radius": 80.89,
+      "label": [
+        344.5,
+        748.5
+      ],
+      "bounds": [
+        20,
+        465,
+        699,
+        637
+      ],
+      "holes": 9,
+      "touchesBorder": false,
+      "color": "#ECECF1",
+      "name": "Ivory shirt",
+      "colorSource": "seed"
+    },
+    {
+      "index": 37,
+      "id": "r-c1bfc5f5086903",
+      "component": 97,
+      "area": 1489,
+      "radius": 2.0,
+      "label": [
+        467.5,
+        478.5
+      ],
+      "bounds": [
+        465,
+        474,
+        200,
+        454
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#ECECF1",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          246.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 7.35
+      }
+    },
+    {
+      "index": 38,
+      "id": "r-d32c41d8d149cd",
+      "component": 98,
+      "area": 3636,
+      "radius": 20.18,
+      "label": [
+        618.5,
+        535.5
+      ],
+      "bounds": [
+        552,
+        478,
+        104,
+        81
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 39,
+      "id": "r-d59fe741cd44c4",
+      "component": 99,
+      "area": 692,
+      "radius": 12.59,
+      "label": [
+        135.5,
+        503.5
+      ],
+      "bounds": [
+        120,
+        490,
+        34,
+        27
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#343B49",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          75.0,
+          129.5,
+          118.0
+        ],
+        "paletteDistance": 12.01
+      }
+    },
+    {
+      "index": 40,
+      "id": "r-929f63367156a8",
+      "component": 100,
+      "area": 22816,
+      "radius": 31.0,
+      "label": [
+        584.5,
+        721.5
+      ],
+      "bounds": [
+        477,
+        490,
+        185,
+        421
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          229.0,
+          136.0,
+          146.0
+        ],
+        "paletteDistance": 4.58
+      }
+    },
+    {
+      "index": 41,
+      "id": "r-3eb7e11a6cabfd",
+      "component": 101,
+      "area": 568,
+      "radius": 11.39,
+      "label": [
+        110.5,
+        512.5
+      ],
+      "bounds": [
+        98,
+        495,
+        25,
+        37
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#343B49",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          77.0,
+          129.0,
+          118.0
+        ],
+        "paletteDistance": 14.0
+      }
+    },
+    {
+      "index": 42,
+      "id": "r-fe2d2609d29e60",
+      "component": 103,
+      "area": 3786,
+      "radius": 14.18,
+      "label": [
+        146.5,
+        534.5
+      ],
+      "bounds": [
+        128,
+        516,
+        61,
+        145
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#343B49",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          74.0,
+          129.0,
+          118.0
+        ],
+        "paletteDistance": 11.0
+      }
+    },
+    {
+      "index": 43,
+      "id": "r-44e19ce27d1cfa",
+      "component": 104,
+      "area": 12421,
+      "radius": 21.79,
+      "label": [
+        77.5,
+        642.5
+      ],
+      "bounds": [
+        0,
+        517,
+        119,
+        317
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#A7DFF3",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          214.0,
+          115.0,
+          104.0
+        ],
+        "paletteDistance": 9.43
+      }
+    },
+    {
+      "index": 44,
+      "id": "r-d0bc925ddf3663",
+      "component": 105,
+      "area": 3704,
+      "radius": 12.38,
+      "label": [
+        130.5,
+        585.5
+      ],
+      "bounds": [
+        104,
+        522,
+        61,
+        171
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#343B49",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          75.0,
+          130.0,
+          118.0
+        ],
+        "paletteDistance": 12.04
+      }
+    },
+    {
+      "index": 45,
+      "id": "r-9395fb4b482ebb",
+      "component": 106,
+      "area": 7094,
+      "radius": 22.79,
+      "label": [
+        218.5,
+        572.5
+      ],
+      "bounds": [
+        166,
+        522,
+        112,
+        110
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 46,
+      "id": "r-cfe754ad8c67f4",
+      "component": 107,
+      "area": 28,
+      "radius": 1.4,
+      "label": [
+        549.5,
+        530.5
+      ],
+      "bounds": [
+        541,
+        525,
+        12,
+        9
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#1D2C42",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          2.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 45.89
+      }
+    },
+    {
+      "index": 47,
+      "id": "r-20fb3e4ae62116",
+      "component": 108,
+      "area": 6623,
+      "radius": 29.77,
+      "label": [
+        970.5,
+        610.5
+      ],
+      "bounds": [
+        913,
+        544,
+        111,
+        108
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 48,
+      "id": "r-78a6a5f50119ac",
+      "component": 109,
+      "area": 22849,
+      "radius": 42.76,
+      "label": [
+        608.5,
+        609.5
+      ],
+      "bounds": [
+        541,
+        559,
+        206,
+        290
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#ECECF1",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          236.0,
+          129.0,
+          125.0
+        ],
+        "paletteDistance": 3.16
+      }
+    },
+    {
+      "index": 49,
+      "id": "r-85d0a1290e430b",
+      "component": 110,
+      "area": 1751,
+      "radius": 2.2,
+      "label": [
+        668.5,
+        807.5
+      ],
+      "bounds": [
+        665,
+        576,
+        88,
+        507
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#ECECF1",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          246.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 7.35
+      }
+    },
+    {
+      "index": 50,
+      "id": "r-55f2fd984b446e",
+      "component": 111,
+      "area": 3437,
+      "radius": 24.18,
+      "label": [
+        24.5,
+        635.5
+      ],
+      "bounds": [
+        0,
+        580,
+        54,
+        116
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 51,
+      "id": "r-7c8bcf2604ac84",
+      "component": 112,
+      "area": 1376,
+      "radius": 16.58,
+      "label": [
+        102.5,
+        608.5
+      ],
+      "bounds": [
+        76,
+        581,
+        47,
+        48
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 52,
+      "id": "r-c01c1e2e1b42a5",
+      "component": 114,
+      "area": 175,
+      "radius": 5.39,
+      "label": [
+        120.5,
+        627.5
+      ],
+      "bounds": [
+        107,
+        618,
+        20,
+        16
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A7DFF3",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          222.0,
+          114.0,
+          111.0
+        ],
+        "paletteDistance": 3.32
+      }
+    },
+    {
+      "index": 53,
+      "id": "r-f88026a9db9a6d",
+      "component": 115,
+      "area": 23088,
+      "radius": 56.73,
+      "label": [
+        966.5,
+        766.5
+      ],
+      "bounds": [
+        812,
+        620,
+        212,
+        306
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 54,
+      "id": "r-b41ce8a234ac45",
+      "component": 116,
+      "area": 10460,
+      "radius": 41.78,
+      "label": [
+        90.5,
+        728.5
+      ],
+      "bounds": [
+        34,
+        634,
+        112,
+        177
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 55,
+      "id": "r-9c8dd156530f82",
+      "component": 119,
+      "area": 146,
+      "radius": 4.2,
+      "label": [
+        952.5,
+        683.5
+      ],
+      "bounds": [
+        944,
+        662,
+        15,
+        27
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          248.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 7.0
+      }
+    },
+    {
+      "index": 56,
+      "id": "r-110d8e38f4fbf7",
+      "component": 124,
+      "area": 42311,
+      "radius": 39.0,
+      "label": [
+        759.5,
+        978.5
+      ],
+      "bounds": [
+        670,
+        723,
+        209,
+        433
+      ],
+      "holes": 3,
+      "touchesBorder": false,
+      "color": "#ECECF1",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          236.0,
+          129.0,
+          125.0
+        ],
+        "paletteDistance": 3.16
+      }
+    },
+    {
+      "index": 57,
+      "id": "r-2b3a714fb2c866",
+      "component": 125,
+      "area": 31958,
+      "radius": 40.0,
+      "label": [
+        40.5,
+        841.5
+      ],
+      "bounds": [
+        0,
+        751,
+        233,
+        548
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 58,
+      "id": "r-0f3f1e240f856e",
+      "component": 127,
+      "area": 27500,
+      "radius": 22.97,
+      "label": [
+        980.5,
+        872.5
+      ],
+      "bounds": [
+        768,
+        802,
+        256,
+        489
+      ],
+      "holes": 2,
+      "touchesBorder": true,
+      "color": "#A7DFF3",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          214.0,
+          115.0,
+          104.0
+        ],
+        "paletteDistance": 9.43
+      }
+    },
+    {
+      "index": 59,
+      "id": "r-23285f1bbfaac3",
+      "component": 130,
+      "area": 22255,
+      "radius": 70.8,
+      "label": [
+        882.5,
+        934.5
+      ],
+      "bounds": [
+        778,
+        847,
+        197,
+        184
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 60,
+      "id": "r-1b5ebded118efd",
+      "component": 132,
+      "area": 7523,
+      "radius": 36.0,
+      "label": [
+        987.5,
+        1019.5
+      ],
+      "bounds": [
+        940,
+        933,
+        84,
+        181
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 61,
+      "id": "r-c5371fb438c539",
+      "component": 133,
+      "area": 24571,
+      "radius": 55.73,
+      "label": [
+        144.5,
+        1013.5
+      ],
+      "bounds": [
+        47,
+        947,
+        193,
+        227
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Upper arm",
+      "colorSource": "seed"
+    },
+    {
+      "index": 62,
+      "id": "r-347da7bcf70c99",
+      "component": 136,
+      "area": 2989,
+      "radius": 25.17,
+      "label": [
+        53.5,
+        985.5
+      ],
+      "bounds": [
+        19,
+        953,
+        70,
+        74
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#C0C3D3",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          182.0,
+          130.0,
+          118.0
+        ],
+        "paletteDistance": 20.1
+      }
+    },
+    {
+      "index": 63,
+      "id": "r-515a3aa7b00fa7",
+      "component": 137,
+      "area": 3934,
+      "radius": 28.36,
+      "label": [
+        259.5,
+        1024.5
+      ],
+      "bounds": [
+        220,
+        985,
+        93,
+        71
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#C0C3D3",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          180.0,
+          130.0,
+          118.0
+        ],
+        "paletteDistance": 22.09
+      }
+    },
+    {
+      "index": 64,
+      "id": "r-bf5be3a01b9439",
+      "component": 140,
+      "area": 13135,
+      "radius": 42.34,
+      "label": [
+        916.5,
+        1142.5
+      ],
+      "bounds": [
+        839,
+        1016,
+        141,
+        227
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 65,
+      "id": "r-78fdb6b7487058",
+      "component": 141,
+      "area": 30297,
+      "radius": 45.34,
+      "label": [
+        593.5,
+        1082.5
+      ],
+      "bounds": [
+        326,
+        1025,
+        407,
+        149
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          102.0,
+          132.0,
+          105.0
+        ],
+        "paletteDistance": 4.24
+      }
+    },
+    {
+      "index": 66,
+      "id": "r-ec25d43d772b4f",
+      "component": 143,
+      "area": 26068,
+      "radius": 74.5,
+      "label": [
+        226.5,
+        1134.5
+      ],
+      "bounds": [
+        141,
+        1048,
+        243,
+        202
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#343B49",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          58.0,
+          130.0,
+          111.0
+        ],
+        "paletteDistance": 8.66
+      }
+    },
+    {
+      "index": 67,
+      "id": "r-f6418701f150ed",
+      "component": 144,
+      "area": 789,
+      "radius": 10.98,
+      "label": [
+        283.5,
+        1065.5
+      ],
+      "bounds": [
+        258,
+        1052,
+        45,
+        37
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 68,
+      "id": "r-d3a2df679682d6",
+      "component": 147,
+      "area": 48,
+      "radius": 3.0,
+      "label": [
+        684.5,
+        1087.5
+      ],
+      "bounds": [
+        680,
+        1085,
+        9,
+        11
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#C0C3D3",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          198.0,
+          129.0,
+          121.0
+        ],
+        "paletteDistance": 4.24
+      }
+    },
+    {
+      "index": 69,
+      "id": "r-8718fd3b4b922c",
+      "component": 148,
+      "area": 55,
+      "radius": 2.0,
+      "label": [
+        692.5,
+        1088.5
+      ],
+      "bounds": [
+        690,
+        1086,
+        7,
+        19
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          247.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 8.0
+      }
+    },
+    {
+      "index": 70,
+      "id": "r-58afaa791237f9",
+      "component": 150,
+      "area": 958,
+      "radius": 14.19,
+      "label": [
+        861.5,
+        1116.5
+      ],
+      "bounds": [
+        834,
+        1102,
+        47,
+        34
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#C5BAE2",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          176.0,
+          130.0,
+          117.0
+        ],
+        "paletteDistance": 25.46
+      }
+    },
+    {
+      "index": 71,
+      "id": "r-17d540f1d0e78a",
+      "component": 153,
+      "area": 12737,
+      "radius": 41.0,
+      "label": [
+        809.5,
+        1176.5
+      ],
+      "bounds": [
+        711,
+        1112,
+        158,
+        140
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          102.0,
+          132.0,
+          104.0
+        ],
+        "paletteDistance": 5.0
+      }
+    },
+    {
+      "index": 72,
+      "id": "r-373954851eff47",
+      "component": 154,
+      "area": 2780,
+      "radius": 16.38,
+      "label": [
+        457.5,
+        1140.5
+      ],
+      "bounds": [
+        403,
+        1124,
+        131,
+        37
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          153.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 11.18
+      }
+    },
+    {
+      "index": 73,
+      "id": "r-c1429ce3cff01d",
+      "component": 155,
+      "area": 37053,
+      "radius": 54.73,
+      "label": [
+        133.5,
+        1400.5
+      ],
+      "bounds": [
+        0,
+        1136,
+        254,
+        379
+      ],
+      "holes": 4,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 74,
+      "id": "r-84413284fc57c1",
+      "component": 156,
+      "area": 10807,
+      "radius": 43.36,
+      "label": [
+        362.5,
+        1198.5
+      ],
+      "bounds": [
+        310,
+        1138,
+        159,
+        146
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#343B49",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          58.0,
+          131.0,
+          111.0
+        ],
+        "paletteDistance": 8.83
+      }
+    },
+    {
+      "index": 75,
+      "id": "r-8792c3b9797fda",
+      "component": 157,
+      "area": 1362,
+      "radius": 14.98,
+      "label": [
+        603.5,
+        1159.5
+      ],
+      "bounds": [
+        582,
+        1139,
+        51,
+        52
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 76,
+      "id": "r-9b270407abb50c",
+      "component": 159,
+      "area": 1913,
+      "radius": 18.98,
+      "label": [
+        561.5,
+        1173.5
+      ],
+      "bounds": [
+        535,
+        1141,
+        57,
+        53
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          153.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 11.18
+      }
+    },
+    {
+      "index": 77,
+      "id": "r-9a45d74c6967cd",
+      "component": 160,
+      "area": 2019,
+      "radius": 18.98,
+      "label": [
+        517.5,
+        1176.5
+      ],
+      "bounds": [
+        489,
+        1146,
+        63,
+        54
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 78,
+      "id": "r-d11e85240fa0f7",
+      "component": 161,
+      "area": 1454,
+      "radius": 18.2,
+      "label": [
+        641.5,
+        1165.5
+      ],
+      "bounds": [
+        620,
+        1146,
+        51,
+        52
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 79,
+      "id": "r-565f6d7b5ecd1a",
+      "component": 163,
+      "area": 1031,
+      "radius": 13.78,
+      "label": [
+        480.5,
+        1169.5
+      ],
+      "bounds": [
+        459,
+        1152,
+        50,
+        42
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 80,
+      "id": "r-821052f08b1299",
+      "component": 164,
+      "area": 22981,
+      "radius": 51.0,
+      "label": [
+        972.5,
+        1306.5
+      ],
+      "bounds": [
+        915,
+        1154,
+        109,
+        382
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 81,
+      "id": "r-f4717d67b6e23e",
+      "component": 165,
+      "area": 150,
+      "radius": 4.39,
+      "label": [
+        454.5,
+        1164.5
+      ],
+      "bounds": [
+        438,
+        1160,
+        27,
+        10
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          159.0,
+          148.0,
+          103.0
+        ],
+        "paletteDistance": 5.1
+      }
+    },
+    {
+      "index": 82,
+      "id": "r-b5de3f91e37cf5",
+      "component": 166,
+      "area": 2333,
+      "radius": 19.38,
+      "label": [
+        683.5,
+        1183.5
+      ],
+      "bounds": [
+        644,
+        1164,
+        68,
+        61
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 83,
+      "id": "r-f1017310431195",
+      "component": 167,
+      "area": 2324,
+      "radius": 20.4,
+      "label": [
+        615.5,
+        1199.5
+      ],
+      "bounds": [
+        594,
+        1175,
+        49,
+        86
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 84,
+      "id": "r-feb78a5f85c9c8",
+      "component": 169,
+      "area": 24142,
+      "radius": 47.0,
+      "label": [
+        47.5,
+        1488.5
+      ],
+      "bounds": [
+        0,
+        1181,
+        148,
+        355
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          254.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 1.0
+      }
+    },
+    {
+      "index": 85,
+      "id": "r-7d3f70eda6811e",
+      "component": 170,
+      "area": 32982,
+      "radius": 47.56,
+      "label": [
+        468.5,
+        1265.5
+      ],
+      "bounds": [
+        386,
+        1183,
+        235,
+        247
+      ],
+      "holes": 8,
+      "touchesBorder": false,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          229.0,
+          136.0,
+          146.0
+        ],
+        "paletteDistance": 4.58
+      }
+    },
+    {
+      "index": 86,
+      "id": "r-ecff8219090aa0",
+      "component": 171,
+      "area": 976,
+      "radius": 12.19,
+      "label": [
+        561.5,
+        1212.5
+      ],
+      "bounds": [
+        542,
+        1193,
+        50,
+        37
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 87,
+      "id": "r-0900d7634e6513",
+      "component": 172,
+      "area": 6336,
+      "radius": 27.4,
+      "label": [
+        887.5,
+        1309.5
+      ],
+      "bounds": [
+        842,
+        1195,
+        83,
+        162
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#343B49",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          57.0,
+          130.0,
+          111.0
+        ],
+        "paletteDistance": 9.27
+      }
+    },
+    {
+      "index": 88,
+      "id": "r-76746331fda5f1",
+      "component": 173,
+      "area": 628,
+      "radius": 10.79,
+      "label": [
+        534.5,
+        1206.5
+      ],
+      "bounds": [
+        508,
+        1196,
+        48,
+        24
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 89,
+      "id": "r-ad38672d137058",
+      "component": 174,
+      "area": 134,
+      "radius": 3.0,
+      "label": [
+        570.5,
+        1230.5
+      ],
+      "bounds": [
+        567,
+        1202,
+        23,
+        32
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          161.5,
+          145.0,
+          107.0
+        ],
+        "paletteDistance": 6.34
+      }
+    },
+    {
+      "index": 90,
+      "id": "r-2c3267962a76ce",
+      "component": 176,
+      "area": 3347,
+      "radius": 22.57,
+      "label": [
+        689.5,
+        1228.5
+      ],
+      "bounds": [
+        634,
+        1203,
+        80,
+        71
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          156.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 8.25
+      }
+    },
+    {
+      "index": 91,
+      "id": "r-f41f2398b1f1bf",
+      "component": 177,
+      "area": 1289,
+      "radius": 14.58,
+      "label": [
+        731.5,
+        1221.5
+      ],
+      "bounds": [
+        706,
+        1204,
+        43,
+        54
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          156.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 8.25
+      }
+    },
+    {
+      "index": 92,
+      "id": "r-c4f97c8486895f",
+      "component": 178,
+      "area": 2496,
+      "radius": 17.58,
+      "label": [
+        602.5,
+        1251.5
+      ],
+      "bounds": [
+        576,
+        1209,
+        53,
+        88
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 93,
+      "id": "r-be4b888791cd7f",
+      "component": 179,
+      "area": 2419,
+      "radius": 20.77,
+      "label": [
+        764.5,
+        1240.5
+      ],
+      "bounds": [
+        717,
+        1217,
+        72,
+        57
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 94,
+      "id": "r-580c72017f01e2",
+      "component": 180,
+      "area": 208,
+      "radius": 6.39,
+      "label": [
+        235.5,
+        1227.5
+      ],
+      "bounds": [
+        230,
+        1220,
+        16,
+        24
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          159.0,
+          146.0,
+          105.0
+        ],
+        "paletteDistance": 6.16
+      }
+    },
+    {
+      "index": 95,
+      "id": "r-aae58d04f21283",
+      "component": 183,
+      "area": 1123,
+      "radius": 14.2,
+      "label": [
+        249.5,
+        1254.5
+      ],
+      "bounds": [
+        235,
+        1226,
+        32,
+        57
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 96,
+      "id": "r-f4873ca74052c6",
+      "component": 184,
+      "area": 246,
+      "radius": 7.19,
+      "label": [
+        271.5,
+        1242.5
+      ],
+      "bounds": [
+        264,
+        1232,
+        23,
+        21
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          151.0,
+          149.0,
+          102.0
+        ],
+        "paletteDistance": 13.04
+      }
+    },
+    {
+      "index": 97,
+      "id": "r-b2ad4710d8bd83",
+      "component": 185,
+      "area": 1931,
+      "radius": 18.78,
+      "label": [
+        801.5,
+        1260.5
+      ],
+      "bounds": [
+        760,
+        1233,
+        63,
+        55
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          156.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 8.25
+      }
+    },
+    {
+      "index": 98,
+      "id": "r-862446e543edae",
+      "component": 186,
+      "area": 2041,
+      "radius": 15.0,
+      "label": [
+        270.5,
+        1284.5
+      ],
+      "bounds": [
+        246,
+        1244,
+        55,
+        75
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          156.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 8.25
+      }
+    },
+    {
+      "index": 99,
+      "id": "r-fe9fb536836dc7",
+      "component": 187,
+      "area": 1304,
+      "radius": 17.0,
+      "label": [
+        311.5,
+        1272.5
+      ],
+      "bounds": [
+        291,
+        1250,
+        42,
+        44
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 100,
+      "id": "r-3f1ca5a1be7c1c",
+      "component": 188,
+      "area": 3744,
+      "radius": 19.58,
+      "label": [
+        652.5,
+        1298.5
+      ],
+      "bounds": [
+        625,
+        1251,
+        80,
+        79
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          156.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 8.25
+      }
+    },
+    {
+      "index": 101,
+      "id": "r-d6315828963f74",
+      "component": 189,
+      "area": 1397,
+      "radius": 16.58,
+      "label": [
+        830.5,
+        1283.5
+      ],
+      "bounds": [
+        798,
+        1251,
+        51,
+        52
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 102,
+      "id": "r-2331bf4e1cff9a",
+      "component": 190,
+      "area": 592,
+      "radius": 10.19,
+      "label": [
+        342.5,
+        1271.5
+      ],
+      "bounds": [
+        331,
+        1257,
+        37,
+        24
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 103,
+      "id": "r-0dd3232983ddcf",
+      "component": 191,
+      "area": 90,
+      "radius": 4.0,
+      "label": [
+        712.5,
+        1265.5
+      ],
+      "bounds": [
+        708,
+        1261,
+        16,
+        10
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          161.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 3.61
+      }
+    },
+    {
+      "index": 104,
+      "id": "r-0fa64af883c275",
+      "component": 193,
+      "area": 1338,
+      "radius": 15.98,
+      "label": [
+        726.5,
+        1289.5
+      ],
+      "bounds": [
+        702,
+        1272,
+        56,
+        38
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          156.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 8.25
+      }
+    },
+    {
+      "index": 105,
+      "id": "r-78a0c2eaa4601c",
+      "component": 195,
+      "area": 1108,
+      "radius": 10.79,
+      "label": [
+        783.5,
+        1299.5
+      ],
+      "bounds": [
+        742,
+        1276,
+        62,
+        52
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Purple rope belt",
+      "colorSource": "seed"
+    },
+    {
+      "index": 106,
+      "id": "r-3fa768fd8ac32f",
+      "component": 196,
+      "area": 440,
+      "radius": 8.4,
+      "label": [
+        848.5,
+        1304.5
+      ],
+      "bounds": [
+        833,
+        1276,
+        25,
+        39
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 107,
+      "id": "r-459c43912ca0ba",
+      "component": 197,
+      "area": 2065,
+      "radius": 18.18,
+      "label": [
+        359.5,
+        1318.5
+      ],
+      "bounds": [
+        333,
+        1278,
+        58,
+        63
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 108,
+      "id": "r-a4e0200366bd21",
+      "component": 200,
+      "area": 2792,
+      "radius": 20.58,
+      "label": [
+        311.5,
+        1328.5
+      ],
+      "bounds": [
+        281,
+        1284,
+        75,
+        73
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 109,
+      "id": "r-98d48309b15d5c",
+      "component": 201,
+      "area": 113,
+      "radius": 2.8,
+      "label": [
+        619.5,
+        1302.5
+      ],
+      "bounds": [
+        604,
+        1284,
+        20,
+        29
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          146.0,
+          105.0
+        ],
+        "paletteDistance": 10.63
+      }
+    },
+    {
+      "index": 110,
+      "id": "r-05e9ab5693b764",
+      "component": 202,
+      "area": 973,
+      "radius": 13.98,
+      "label": [
+        396.5,
+        1315.5
+      ],
+      "bounds": [
+        378,
+        1289,
+        44,
+        41
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 111,
+      "id": "r-7d8154117a40c1",
+      "component": 203,
+      "area": 4754,
+      "radius": 27.36,
+      "label": [
+        698.5,
+        1333.5
+      ],
+      "bounds": [
+        656,
+        1292,
+        70,
+        121
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          156.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 8.25
+      }
+    },
+    {
+      "index": 112,
+      "id": "r-8a4fbb30a95492",
+      "component": 205,
+      "area": 1490,
+      "radius": 16.0,
+      "label": [
+        822.5,
+        1321.5
+      ],
+      "bounds": [
+        796,
+        1294,
+        48,
+        59
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 113,
+      "id": "r-585405d322e4e6",
+      "component": 206,
+      "area": 1919,
+      "radius": 15.38,
+      "label": [
+        263.5,
+        1345.5
+      ],
+      "bounds": [
+        248,
+        1296,
+        59,
+        74
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 114,
+      "id": "r-b5a81cbacc3224",
+      "component": 207,
+      "area": 13855,
+      "radius": 27.4,
+      "label": [
+        884.5,
+        1469.5
+      ],
+      "bounds": [
+        757,
+        1297,
+        188,
+        239
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          102.0,
+          132.0,
+          104.0
+        ],
+        "paletteDistance": 5.0
+      }
+    },
+    {
+      "index": 115,
+      "id": "r-950ed8b071e1da",
+      "component": 208,
+      "area": 381,
+      "radius": 6.39,
+      "label": [
+        135.5,
+        1308.5
+      ],
+      "bounds": [
+        109,
+        1298,
+        45,
+        21
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#FFFFFF",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          251.0,
+          128.0,
+          128.0
+        ],
+        "paletteDistance": 4.0
+      }
+    },
+    {
+      "index": 116,
+      "id": "r-5e22a3482baeee",
+      "component": 209,
+      "area": 2434,
+      "radius": 23.0,
+      "label": [
+        752.5,
+        1336.5
+      ],
+      "bounds": [
+        723,
+        1309,
+        65,
+        57
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 117,
+      "id": "r-98fb7f5aa8c0c9",
+      "component": 211,
+      "area": 1168,
+      "radius": 14.18,
+      "label": [
+        858.5,
+        1350.5
+      ],
+      "bounds": [
+        840,
+        1314,
+        33,
+        60
+      ],
+      "holes": 1,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          147.0,
+          104.0
+        ],
+        "paletteDistance": 9.27
+      }
+    },
+    {
+      "index": 118,
+      "id": "r-74e2c5ecf348db",
+      "component": 214,
+      "area": 764,
+      "radius": 11.98,
+      "label": [
+        646.5,
+        1344.5
+      ],
+      "bounds": [
+        634,
+        1321,
+        37,
+        46
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 119,
+      "id": "r-77a77e7efc2da6",
+      "component": 215,
+      "area": 23670,
+      "radius": 39.56,
+      "label": [
+        313.5,
+        1410.5
+      ],
+      "bounds": [
+        212,
+        1326,
+        242,
+        210
+      ],
+      "holes": 1,
+      "touchesBorder": true,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          102.0,
+          132.0,
+          104.0
+        ],
+        "paletteDistance": 5.0
+      }
+    },
+    {
+      "index": 120,
+      "id": "r-5c57268e19eb37",
+      "component": 217,
+      "area": 125,
+      "radius": 5.0,
+      "label": [
+        625.5,
+        1335.5
+      ],
+      "bounds": [
+        620,
+        1326,
+        11,
+        20
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          159.0,
+          147.0,
+          104.0
+        ],
+        "paletteDistance": 5.48
+      }
+    },
+    {
+      "index": 121,
+      "id": "r-dee369ccddffa8",
+      "component": 219,
+      "area": 1229,
+      "radius": 14.98,
+      "label": [
+        626.5,
+        1370.5
+      ],
+      "bounds": [
+        605,
+        1341,
+        39,
+        62
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 122,
+      "id": "r-0c6d756a1f95e7",
+      "component": 220,
+      "area": 8015,
+      "radius": 30.2,
+      "label": [
+        913.5,
+        1375.5
+      ],
+      "bounds": [
+        874,
+        1343,
+        112,
+        154
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#343B49",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          57.0,
+          131.0,
+          110.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 123,
+      "id": "r-fd9b6820e05ef2",
+      "component": 228,
+      "area": 5072,
+      "radius": 27.98,
+      "label": [
+        719.5,
+        1399.5
+      ],
+      "bounds": [
+        673,
+        1351,
+        74,
+        123
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 124,
+      "id": "r-41788d7e4e212f",
+      "component": 229,
+      "area": 90,
+      "radius": 2.0,
+      "label": [
+        506.5,
+        1365.5
+      ],
+      "bounds": [
+        501,
+        1353,
+        7,
+        43
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          87.0,
+          131.0,
+          108.0
+        ],
+        "paletteDistance": 12.04
+      }
+    },
+    {
+      "index": 125,
+      "id": "r-fb5647adfd40e2",
+      "component": 230,
+      "area": 24566,
+      "radius": 44.54,
+      "label": [
+        431.5,
+        1469.5
+      ],
+      "bounds": [
+        271,
+        1356,
+        268,
+        180
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          101.0,
+          132.0,
+          104.0
+        ],
+        "paletteDistance": 4.47
+      }
+    },
+    {
+      "index": 126,
+      "id": "r-cf1222e1a98e71",
+      "component": 231,
+      "area": 46,
+      "radius": 2.2,
+      "label": [
+        871.5,
+        1373.5
+      ],
+      "bounds": [
+        868,
+        1360,
+        6,
+        18
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          156.0,
+          148.0,
+          102.0
+        ],
+        "paletteDistance": 8.0
+      }
+    },
+    {
+      "index": 127,
+      "id": "r-44c99216a47a0b",
+      "component": 232,
+      "area": 2961,
+      "radius": 24.17,
+      "label": [
+        776.5,
+        1390.5
+      ],
+      "bounds": [
+        741,
+        1361,
+        79,
+        64
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 128,
+      "id": "r-320bb97f249544",
+      "component": 234,
+      "area": 6699,
+      "radius": 27.2,
+      "label": [
+        188.5,
+        1507.5
+      ],
+      "bounds": [
+        144,
+        1365,
+        135,
+        171
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          102.0,
+          132.0,
+          105.0
+        ],
+        "paletteDistance": 4.24
+      }
+    },
+    {
+      "index": 129,
+      "id": "r-0749d4b3b3abd5",
+      "component": 235,
+      "area": 3410,
+      "radius": 14.98,
+      "label": [
+        674.5,
+        1519.5
+      ],
+      "bounds": [
+        644,
+        1366,
+        55,
+        170
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          102.0,
+          132.0,
+          104.0
+        ],
+        "paletteDistance": 5.0
+      }
+    },
+    {
+      "index": 130,
+      "id": "r-adf230b9ff0731",
+      "component": 236,
+      "area": 3069,
+      "radius": 22.38,
+      "label": [
+        608.5,
+        1407.5
+      ],
+      "bounds": [
+        584,
+        1378,
+        68,
+        84
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 131,
+      "id": "r-05ca932547682e",
+      "component": 238,
+      "area": 5435,
+      "radius": 24.0,
+      "label": [
+        564.5,
+        1510.5
+      ],
+      "bounds": [
+        536,
+        1395,
+        59,
+        141
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          102.0,
+          132.0,
+          104.0
+        ],
+        "paletteDistance": 5.0
+      }
+    },
+    {
+      "index": 132,
+      "id": "r-1104070bc49a73",
+      "component": 239,
+      "area": 125,
+      "radius": 4.2,
+      "label": [
+        752.5,
+        1415.5
+      ],
+      "bounds": [
+        747,
+        1407,
+        13,
+        26
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          107.0,
+          133.0,
+          102.0
+        ],
+        "paletteDistance": 10.05
+      }
+    },
+    {
+      "index": 133,
+      "id": "r-331fc5ef72b97e",
+      "component": 240,
+      "area": 3281,
+      "radius": 22.97,
+      "label": [
+        805.5,
+        1447.5
+      ],
+      "bounds": [
+        761,
+        1414,
+        85,
+        69
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 134,
+      "id": "r-10fbcd8442a01b",
+      "component": 241,
+      "area": 4792,
+      "radius": 26.6,
+      "label": [
+        735.5,
+        1465.5
+      ],
+      "bounds": [
+        689,
+        1419,
+        73,
+        117
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          156.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 8.25
+      }
+    },
+    {
+      "index": 135,
+      "id": "r-3d7656180e77a3",
+      "component": 242,
+      "area": 2187,
+      "radius": 13.18,
+      "label": [
+        523.5,
+        1519.5
+      ],
+      "bounds": [
+        504,
+        1421,
+        47,
+        115
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          100.0,
+          132.0,
+          104.0
+        ],
+        "paletteDistance": 4.12
+      }
+    },
+    {
+      "index": 136,
+      "id": "r-2e5b3b3cd58abd",
+      "component": 243,
+      "area": 3450,
+      "radius": 21.97,
+      "label": [
+        613.5,
+        1466.5
+      ],
+      "bounds": [
+        588,
+        1427,
+        71,
+        94
+      ],
+      "holes": 0,
+      "touchesBorder": false,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 137,
+      "id": "r-ac07bae54ff549",
+      "component": 247,
+      "area": 1616,
+      "radius": 12.0,
+      "label": [
+        791.5,
+        1522.5
+      ],
+      "bounds": [
+        762,
+        1441,
+        45,
+        95
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#4D5B7C",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          103.0,
+          132.0,
+          104.0
+        ],
+        "paletteDistance": 5.66
+      }
+    },
+    {
+      "index": 138,
+      "id": "r-56c374309364e1",
+      "component": 248,
+      "area": 3131,
+      "radius": 21.97,
+      "label": [
+        826.5,
+        1502.5
+      ],
+      "bounds": [
+        787,
+        1468,
+        82,
+        68
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          154.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 10.2
+      }
+    },
+    {
+      "index": 139,
+      "id": "r-2d25ba03a6a9ae",
+      "component": 250,
+      "area": 2042,
+      "radius": 19.0,
+      "label": [
+        611.5,
+        1516.5
+      ],
+      "bounds": [
+        592,
+        1485,
+        68,
+        51
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 140,
+      "id": "r-f1c71a59794ec7",
+      "component": 251,
+      "area": 1967,
+      "radius": 19.77,
+      "label": [
+        755.5,
+        1515.5
+      ],
+      "bounds": [
+        711,
+        1485,
+        65,
+        51
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          155.0,
+          148.0,
+          104.0
+        ],
+        "paletteDistance": 9.22
+      }
+    },
+    {
+      "index": 141,
+      "id": "r-2aec9baefff504",
+      "component": 252,
+      "area": 2153,
+      "radius": 22.57,
+      "label": [
+        965.5,
+        1512.5
+      ],
+      "bounds": [
+        938,
+        1489,
+        65,
+        47
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#F8D7B8",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          228.0,
+          136.0,
+          146.0
+        ],
+        "paletteDistance": 3.74
+      }
+    },
+    {
+      "index": 142,
+      "id": "r-43b11aca223c87",
+      "component": 253,
+      "area": 257,
+      "radius": 5.39,
+      "label": [
+        814.5,
+        1529.5
+      ],
+      "bounds": [
+        810,
+        1523,
+        40,
+        13
+      ],
+      "holes": 0,
+      "touchesBorder": true,
+      "color": "#A991CA",
+      "name": "Detail",
+      "colorSource": "color-guide",
+      "guideSample": {
+        "medianLab": [
+          153.0,
+          147.0,
+          105.0
+        ],
+        "paletteDistance": 11.45
+      }
+    }
+  ],
+  "geometrySha256": "77e659e84d8994e53bd5e6fa614d73df7fcccbb0149a6fa0ff4d39e24ba2a05d"
+}

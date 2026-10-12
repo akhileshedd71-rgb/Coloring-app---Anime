@@ -377,7 +377,30 @@ test('New Horizons exposes twenty new drawings across all ten categories', async
   for (const meta of expansion) await expect(page.getByRole('button', { name: `Open ${meta.title}`, exact: true })).toBeVisible();
 });
 
-for (const artworkId of [undefined, 'atelier-celestial-violinist', 'atelier-little-star-witch', 'atelier-axolotl-garden']) {
+test('Anime favorites finds twenty characters by collection, series and name', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  const catalog = await library(page);
+  const expansion = catalog.filter(item => item.tags.includes('anime favorites'));
+  expect(expansion).toHaveLength(20);
+  expect(new Set(expansion.map(item => item.id)).size).toBe(20);
+  await page.getByRole('group', { name: 'Artwork categories' }).getByRole('button', { name: 'Anime favorites', exact: true }).click();
+  await expect(page.locator('.art-grid .art-card')).toHaveCount(20);
+  for (const series of ['naruto', 'one piece', 'dragon ball z', 'demon slayer', 'jujutsu kaisen']) {
+    const expected = expansion.filter(item => item.tags.includes(series));
+    expect(expected).toHaveLength(4);
+    await page.getByRole('searchbox', { name: 'Search artwork' }).fill(series);
+    await expect(page.locator('.art-grid .art-card')).toHaveCount(4);
+    for (const meta of expected) await expect(page.getByRole('button', { name: `Open ${meta.title}`, exact: true })).toBeVisible();
+  }
+  await page.getByRole('searchbox', { name: 'Search artwork' }).fill('zenitsu');
+  await expect(page.locator('.art-grid .art-card')).toHaveCount(1);
+  const zenitsu = expansion.find(item => item.id === 'anime-zenitsu')!;
+  await page.getByLabel('Filter by difficulty').selectOption(zenitsu.difficulty);
+  await expect(page.getByRole('button', { name: `Open ${zenitsu.title}`, exact: true })).toBeVisible();
+  await noOverflow(page);
+});
+
+for (const artworkId of [undefined, 'atelier-celestial-violinist', 'atelier-little-star-witch', 'atelier-axolotl-garden', 'anime-naruto', 'anime-luffy', 'anime-goku', 'anime-zenitsu', 'anime-gojo']) {
 test(`generated PNG ${artworkId ?? 'illustration'} fills, undo, restore and full-resolution export stay aligned`, async ({ page }, testInfo) => {
   await page.setViewportSize({ width: 390, height: 844 });
   const catalog = await library(page);
